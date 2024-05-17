@@ -3,7 +3,7 @@ title: "Trucos: Webs (y otros formatos) con Quaro"
 date: 2024-02-21
 categories: [Quarto]
 image: "./thumbnails/thumbnail_generico.png"
-toc-location: left
+#toc-location: left
 #subtitle: | 
 #  Practicando con Quarto
 description: |

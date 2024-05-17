@@ -3,7 +3,7 @@ title: "Trucos: Rmarkdown"
 date: 2024-02-26
 categories: [Quarto]
 image: "./thumbnails/thumbnail_generico.png"
-toc-location: left
+#toc-location: left
 #subtitle: | 
 #  Practicando con Quarto
 description: |

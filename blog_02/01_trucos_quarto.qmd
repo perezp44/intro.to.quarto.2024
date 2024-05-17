@@ -3,7 +3,7 @@ title: "Trucos: Quarto"
 date: 2024-02-19
 categories: [Quarto]
 image: "./thumbnails/thumbnail_generico.png"
-toc-location: left
+#toc-location: left
 #subtitle: | 
 #  Practicando con Quarto
 description: |
