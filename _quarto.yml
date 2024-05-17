@@ -21,7 +21,7 @@ website:
   site-url: https://perezp44.github.io/intro.to.quarto.2024/
   repo-url: https://github.com/perezp44/intro.to.quarto.2024
   #google-analytics: "G-XLVN8SCPEF"
-  repo-actions: [source, edit, issue]
+  repo-actions: [source, issue]
   repo-branch: master  #- edit page in Github https://github.com/quarto-dev/quarto-cli/discussions/4826
   #open-graph: true #-https://quarto.org/docs/websites/website-tools.html#twitter-cards
   #twitter-card:

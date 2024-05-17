@@ -1,7 +1,8 @@
 ---
 title: "Slides con Quarto"
 date: 2024-05-20  #- ISO8601 YYYY-MM-DD format 
-subtitle: "(Web del curso [aquí](https://perezp44.github.io/intro.to.quarto/){target='blank'})"
+subtitle: | 
+  {{< var my_subtitle2 >}}
 date-format: long
 lang: es
 format: 

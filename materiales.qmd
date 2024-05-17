@@ -47,7 +47,7 @@ En clase también usaremos (seguramente) varios Qproject's:
 
   - El Qproject que usaremos en las primeras sesiones puedes descargarlo [aquí](./materiales/Qproject_pjp.zip){target="_blank"}.
 
-      (Al pinchar, se te descargará una archivo comprimido llamado `Qproject_pjp.zip`. Descomprime el archivo y así tendrás en tu ordenador el Rproject con los materiales (scripts, ejemplos, datos ...) que utilizaremos en clase.)
+      (Al pinchar, se te descargará una archivo comprimido llamado `Qproject_pjp.zip`. Descomprime el archivo y así tendrás en tu ordenador el Qproject con los materiales (scripts, ejemplos, datos ...) que utilizaremos en clase.)
 
   - El Qproject llamado "parametrised_reports" que puedes descargar [aquí](/cuestionario/parametrised_reports.zip){target="_blank"}, también comprimido en formato .zip
 
@@ -56,7 +56,9 @@ En clase también usaremos (seguramente) varios Qproject's:
 
 ## Blog
 
-En los artículos del [blog](blog.qmd){target="_blank"} se desarrollan algunos de los tópicos que iremos viendo durante el curso.
+En los artículos del [Blog](blog.qmd){target="_blank"} se desarrollan algunos de los tópicos que iremos viendo durante el curso.
+
+La sección [Truquillos](blog_02.qmd){target="_blank"} es en realidad otro blog con una recopilación de pequeños consejos y trucos que te pueden ser útiles en tu día a día con Quarto.
 
 <br>
 

@@ -5,7 +5,7 @@ title: "Referencias bibliográficas"
 description: |
   ¿Cómo incluir referencias bibliográficas en documentos `.qmd`? Una buena opción es a través de ficheros `.bib` creados en [Zotero](https://www.zotero.org/).
 date: 2023-01-20
-categories: [Quarto, bibliografía]
+categories: [quarto, bibliografía]
 image: "./thumbnails/thumbnail_20_ref-biblio.png"
 title-block-banner: true #- {true, false }
 draft: false

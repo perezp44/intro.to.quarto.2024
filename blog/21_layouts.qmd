@@ -5,7 +5,7 @@ title: "Layout's"
 description: |
   Viendo las posibilidades de Layout que tenemos en Quarto
 date: 2023-01-21
-categories: [Quarto, layout]
+categories: [quarto, layout]
 image: "./thumbnails/thumbnail_21_layouts.png"
 title-block-banner: true #- {true, false }
 draft: false
