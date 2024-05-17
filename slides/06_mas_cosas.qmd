@@ -411,7 +411,7 @@ glossary::glossary_style("purple", "underline")
 
 - Vamos a probar a hacer estos botones con la extensión [downloadthis](https://github.com/shafayetShafee/downloadthis). 
 
-- Para ello vamos a usar la documentación de la extensión y [este post](../blog/70_botoncitos_web.qmd){target="_blank"} del blog del curso.
+- Para ello vamos a usar la documentación de la extensión y [este post](../blog/70_botoncitos-web.qmd){target="_blank"} del blog del curso.
 
 
 
@@ -524,7 +524,7 @@ Desde Quarto se pueden hacer curriculums. Por ejemplo:
 
 <br>
 
-- Lo haríamos con [este post](../blog/74_trucos-css.qmd){target="_blank"} del blog
+- Lo haríamos con [este post](../blog_02/04_trucos_css.qmd){target="_blank"} del blog de "truqillos" del curso
 
 
 
