@@ -1,0 +1,238 @@
+---
+title: "Trucos: Reveal.js"
+date: 2024-02-20
+categories: [Quarto]
+image: "./thumbnails/thumbnail_generico.png"
+toc-location: left
+#subtitle: | 
+#  Practicando con Quarto
+description: |
+  Recopilando **trucos sobre Reveal.js slides**.
+filters:
+  - collapse-social-embeds
+---
+
+
+## Biblio/ejemplos/trucos
+
+- Charla de Emil Hvitfeldt [aquí](https://fosstodon.org/@emilhvitfeldt/110889474433747611) en NY. Tiene una slide que va fluyendo, está justo [aquí](https://emilhvitfeldt.github.io/talk-nyr-slidecraft/#/quarto-revealjs-basics)
+
+- Puedes usar `preview-links: true` para que los links no se abran en el navegador sino encima de las slides. Documentación [aquí](https://quarto.org/docs/presentations/revealjs/presenting.html#preview-links)
+
+
+- Un buen post con algunos truquillos de Revealjs [aquí](https://emilhvitfeldt.com/post/slidecraft-layout/). Prácticamente ya he incorporado los trucos abajo. Usa r-fit, strech las imágenes, poner un cuadro de texto encima de una imagen etc ...
+
+
+
+## Extensiones
+
+- [gongtimer](https://github.com/andrie/quarto-gongtimer): añade una barrita muy fina en el borde inferior de las slides que te avisa del tiempo que falta para acabar la presentación.
+
+- [codewindow](https://github.com/EmilHvitfeldt/quarto-revealjs-codewindow): añade unos "styled codeblock windows for code". Salen muy chulos, es una alternativa a los cuadritos de los chunks tradicionales.
+
+
+- [highlightword](https://github.com/EmilHvitfeldt/quarto-revealjs-highlightword): permite marcar/subrayar un trozo específico de un chunk
+
+
+
+## Texto
+
+### 1. texto: alinear texto de una columna
+
+- Funciona en html y en revealjs. 
+
+- Hay que poner: `style="text-align: left;"` . Para alinear imágenes es: `fig-align="center"
+
+- Funcionaba, pero ...
+
+``` markdown
+:::: {.columns}
+::: {.column width="50%" style="text-align: left;"}
+Left column
+:::
+::: {.column width="50%" style="text-align: right;"}
+Right column
+:::
+::::
+```
+
+
+### 2. texto: r-fit-text
+
+Que un texto ocupe toda la slide, pero centrado verticalmente; para ello, has de combinar `r-fit-text` con the center class en el título de la slide. 
+
+```markdown
+## {.center}
+
+::: r-fit-text
+This fits perfectly!
+:::
+```
+
+
+### 3. texto: posición absoluta
+
+- puedes rotarlo con : `style="rotate: -10deg;"`
+
+```md
+[My textito]{.absolute left="50%" top="20%" style="rotate: -10deg;"}
+```
+
+
+### 4. texto: cuadritos en el texto
+
+- Lo vi [aquí](https://emilhvitfeldt.com/post/slidecraft-layout/#section). Lo utilizan para resaltar texto que pones encima de una foto
+
+- Puedes rotarlo poniendo `rotate: -10deg;`  dentro de `style = " ...."`
+
+```markdown
+::: {.absolute left="55%" top="55%" style="font-size:1.8em; padding: 0.5em 1em; background-color: rgba(255, 255, 255, .5);"}
+Be Brave  
+Take Risks
+:::
+```
+
+
+## Listas
+
+### 1. Highlight incremental bullets
+
+- Se explica [aquí](https://emilhvitfeldt.com/post/slidecraft-7-tips-and-tricks/#highlight-incremental-slides)
+
+
+:::: {.columns}
+::: {.column width="50%"}
+```markdown
+::: {.incremental .highlight-last}
+- thing 1
+- thing 2
+:::
+```
+:::
+::: {.column width="50%"}
+`.current-fragment` pone en gris los bullets y deja distinto el current bullet
+
+
+```markdown
+.highlight-last  {
+  color: grey;
+  .current-fragment {
+    color: #5500ff;
+  }
+}
+```
+:::
+::::
+
+
+
+
+
+## Imágenes
+
+### 1. Imagén con `{.r-stretch}` 
+
+- Hace que la imagen ocupe todo el espacio vertical restante. Documentación [aquí](https://quarto.org/docs/presentations/revealjs/advanced.html#stretch)
+
+```markdown
+## Slide 1 {.nostretch}
+
+![](imagenes/flor.jpg)
+
+## Slide 2
+
+![](imagenes/flor.jpg){.r-stretch}
+
+## Slide 3
+
+![](imagenes/flor.jpg){.nostretch fig-align="center" width="500px"}
+```
+
+### 2. Imagen cubriendo slide
+
+
+```markdown
+# Datos: {background-image="./imagenes/flor.jpg" background-size="cover" background-opacity="0.5"}
+```
+
+- para la slide de título sería:
+
+```markdown
+title-slide-attributes:
+  data-background-image: ./imagenes/my_IA_img3.png
+  data-background-size: cover
+  data-background-opacity: "0.5"
+```
+
+### 3. opciones de chunks para imágenes
+
+
+```r
+#| fig-alt: "Bar chart showing the number of lemurs for three different species"
+#| fig-height: 7
+#| fig-width: 10
+#| fig-align: center
+#| output-location: slide          #- column
+g <- ggplot(
+  data = iris,
+  aes(x = Sepal.Length, y = Petal.Length)
+) +
+  geom_point()
+g
+```
+
+
+## Miscelanea
+
+- Extraer las speaker notes de unas Revealjs slides:  [aquí](https://github.com/melissavanbussel/posit-conf-2023)
+
+<details>
+<summary>Código para extraer notas de orador en Reveal.js</summary>
+```r
+# Read input from an external text file
+input_text <- readLines("posit-conf-2023.qmd", warn = FALSE)
+
+# Combine lines into a single string
+input_text <- paste(input_text, collapse = "\n")
+
+# Define the regular expression
+regex_pattern <- ":::{\\.notes}\\n([^::]*)\\n:::"
+
+# Extract notes using regex
+notes <- gregexpr(regex_pattern, input_text, perl = TRUE)
+notes <- regmatches(input_text, notes)
+
+# Flatten the list of matches
+notes <- unlist(notes)
+
+# Clean up the notes
+notes <- gsub(x = notes, pattern = ":::{\\.notes}\\n\\n", replacement = "", perl = TRUE)
+notes <- gsub(x = notes, pattern = "\\n\\n:::", replacement = "", perl = TRUE)
+
+# Print the extracted notes
+for (note in notes) {
+  cat("----------------------", "\n", note, "\n")
+}
+```
+</details>
+
+
+## Themes
+
+- [Cinco De Mayo](https://github.com/EmilHvitfeldt/quarto-revealjs-cinco-de-mayo)
+
+
+## Ejemplos de Slides
+
+- Slides sobre [epoxy](https://github.com/gadenbuie/slides/tree/gh-pages/epoxy-super-glue) de Garen
+
+- Unas slides chulas con muchas transiciones [aquí](https://melissavanbussel.quarto.pub/posit-conf-2023/). El [repo](https://github.com/melissavanbussel/posit-conf-2023)
+
+- Slides chulas con bastante `scss`. El repo [aquí](https://github.com/rstats-wtf/wtf-project-oriented-workflow-slides/tree/main)
+
+- Las slides de Ken Roy [aquí](https://deepshamenghani.github.io/posit_plotly_crosstalk/?utm_source=3mw.albert-rapp.de&utm_medium=referral&utm_campaign=3mw-exciting-news-from-posit-conf-2023#/title-slide). Tienen plotly y crosstalk. El [repo](https://github.com/deepshamenghani/posit_plotly_crosstalk)
+
+
+- Slides de Nicola Rennie [Introduction to reproducible reporting with Quarto](https://nrennie.rbind.io/talks/rladies-edinburgh-quarto/slides#/title-slide).
+
+- [Forecasting with Generalised Additive Models (GAMs) in R](https://github.com/nrennie/f4sg-gams). El [repo](https://github.com/nrennie/f4sg-gams)
