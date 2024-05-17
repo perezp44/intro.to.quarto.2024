@@ -86,7 +86,7 @@ Veamos algunas de ellas
 
 . . . 
 
-- Pero antes, **hay que tener activado vuestro espacio web en UV**. Veamos cómo hacerlo con [este post](/../blog/72_publicando-en-UV.html){target="_blank"}
+- Pero antes, **hay que tener activado vuestro espacio web en UV**. Veamos cómo hacerlo con [este post](../blog/72_publicando-en-UV.qmd){target="_blank"}
 
 
 
@@ -108,7 +108,7 @@ Además,
 <br>
 
 
-Entonces, ¿cómo lo hacemos? os lo cuento en [este post](/blog/20_referencias-bibliograficas.html){target="_blank"}
+Entonces, ¿cómo lo hacemos? os lo cuento en [este post](../blog/20_referencias-bibliograficas.qmd){target="_blank"}
 
 
 
@@ -260,7 +260,7 @@ quarto render mi-multi-format-document.qmd
 
 <br>
 
-- Vamos a profundizar en ello con [este post](/blog/73_tablas-de-modelos.html){target="_blank"} del blog
+- Vamos a profundizar en ello con [este post](../blog/73_tablas-de-modelos.qmd){target="_blank"} del blog
 
 
 
@@ -347,7 +347,7 @@ Veamos algunas de ellas
 ```{r}
 #| echo: fenced
 #| eval: false
-#| # devtools::install_github("gadenbuie/countdown")
+# devtools::install_github("gadenbuie/countdown")
 countdown::countdown(minutes = 0, seconds = 42)
 ```
 
@@ -381,7 +381,7 @@ glossary_add(term = "Ishi",
 - Para  referenciar palabras del glosario en el texto, se hace algo como:
 
 
-> Se considera a  `glossary::glossary("Ishi")`  el último nativo de la California septentrional que vivió fuera de la influencia de la cultura occidental. Su historiase popularizó a raíz de un libro de Theodora Kroeber, madre de Ursula K. Le Guin.
+> Se considera a  `glossary::glossary("Ishi")`  el último nativo de la California septentrional que vivió fuera de la influencia de la cultura occidental. Su historia se popularizó a raíz de un libro de Theodora Kroeber, madre de Ursula K. Le Guin.
 
 
 
@@ -411,13 +411,13 @@ glossary::glossary_style("purple", "underline")
 
 - Vamos a probar a hacer estos botones con la extensión [downloadthis](https://github.com/shafayetShafee/downloadthis). 
 
-- Para ello vamos a usar la documentación de la extensión y [este post](/blog/70_botoncitos_web.html){target="_blank"} del blog del curso.
+- Para ello vamos a usar la documentación de la extensión y [este post](../blog/70_botoncitos_web.qmd){target="_blank"} del blog del curso.
 
 
 
 ### Extensiones
 
-- En el curso se habla de las extensiones. En las slides nº5, concretamente [aquí](https://perezp44.github.io/intro.to.quarto/slides/05_primer_web.html?q=extens#/extensiones) y en [este post](/blog/23_extensiones.html#listado-de-extensiones){target="_blank"} y en [este otro](/blog/70_botoncitos-web.html){target="_blank"}
+- En el curso se habla de las extensiones. En las slides nº5, concretamente [aquí](https://perezp44.github.io/intro.to.quarto/slides/05_primer_web.html?q=extens#/extensiones) y en [este post](../blog/23_extensiones.qmd#listado-de-extensiones){target="_blank"} y en [este otro](/blog/70_botoncitos-web.html){target="_blank"}
 
 
 
@@ -524,7 +524,7 @@ Desde Quarto se pueden hacer curriculums. Por ejemplo:
 
 <br>
 
-- Lo haríamos con [este post](/blog/74_trucos-css.html){target="_blank"} del blog
+- Lo haríamos con [este post](../blog/74_trucos-css.qmd){target="_blank"} del blog
 
 
 
