@@ -1,5 +1,5 @@
 ---
-title: "Trucos: Webs (y otros formatos) con Quaro"
+title: "Trucos: Webs (blogs y books) con Quarto"
 date: 2024-02-21
 categories: [Quarto]
 image: "./thumbnails/thumbnail_generico.png"
@@ -7,7 +7,7 @@ image: "./thumbnails/thumbnail_generico.png"
 #subtitle: | 
 #  Practicando con Quarto
 description: |
-  Recopilando **trucos** sobre webs, blogs, libros y otros formatos hechos con Quarto
+  Recopilando **trucos** sobre webs, blogs y books hechos con Quarto
 filters:
   - collapse-social-embeds
 ---
@@ -23,7 +23,7 @@ filters:
 
 ## Ejemplos de web's
 
-- Un [listado de web's](https://qmdclub.com/) confeccionado por
+- Un [listado de web's](https://qmdclub.com/) confeccionado por <https://qmdclub.com/>
 
 - Web muy chula de Jade Ryan [aquí](https://jadeyryan.com/blog/2024-01-22_package-review/). Tiene un post sobre [crear una web](https://jadeyryan.com/blog/2024-02-19_beginner-quarto-netlify/)
 
@@ -38,11 +38,9 @@ filters:
 
 - Elya Kaye [web template](https://ellakaye.github.io/advent-of-code-website-template/) para hacer una web para publicar Advent of Code solutions. Essentially, each year is a listing page, and each day is a post. El [toot](https://fosstodon.org/@ellakaye/111495933386039967)
 
-
 - Web super-chula de una revista,[Real World DS](https://realworlddatascience.net/). El [repo](https://github.com/realworlddatascience/realworlddatascience.github.io). Una [charla](https://github.com/realworlddatascience/realworlddatascience.github.io) en `post::config(2023)` donde explican la creación
 
 - Video de ggnot sobre cómo publicar una web en Github [aquí](https://www.youtube.com/watch?v=DDQO_3R-q74). Hace el render en Github con Github Actions
-
 
 - [Web super-chula](https://dwayzer.netlify.app/), pero no está el repo en Github: hace cosas de Wikidata y bibliometría y CC en ggplot2.
 
@@ -70,4 +68,26 @@ book:
   repo-actions: [issue, source]
   downloads: [pdf, docx]
 ```
+
+
+# Trucos
+
+### Listing page a archivos
+
+Si quieres crear una "listing page" que contenga links a algunos archivos. Lo explican [aquí](https://mastodon.cloud/@nxskok/111576766289359321). Para ello has de: 
+
+```yaml
+---
+title: "Mis extra-files"
+listing: 
+  type: table
+  contents: 
+    - "*.csv"
+    - "*.txt"
+  fields: [last-modified, filename]
+  sort: filename
+---
+```
+
+
 

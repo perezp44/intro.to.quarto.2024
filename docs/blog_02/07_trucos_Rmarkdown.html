@@ -4814,20 +4814,20 @@ margin-left: 0.5em;
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">Índice</h2>
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="2"><h2 id="toc-title">Índice</h2>
    
   <ul>
 <li>
 <a href="#rmarkdown" id="toc-rmarkdown" class="nav-link active" data-scroll-target="#rmarkdown"><span class="header-section-number">1</span> Rmarkdown</a>
   <ul class="collapse">
-<li><a href="#ver-todas-las-opciones-de-los-chunks" id="toc-ver-todas-las-opciones-de-los-chunks" class="nav-link" data-scroll-target="#ver-todas-las-opciones-de-los-chunks">Ver todas las opciones de los chunks</a></li>
-  <li><a href="#ejecutar-.r-en-chunks" id="toc-ejecutar-.r-en-chunks" class="nav-link" data-scroll-target="#ejecutar-.r-en-chunks">Ejecutar <code>.R</code> en chunks</a></li>
-  <li><a href="#convertir-rmd-chunks-a-qmd" id="toc-convertir-rmd-chunks-a-qmd" class="nav-link" data-scroll-target="#convertir-rmd-chunks-a-qmd">convertir Rmd chunks a qmd</a></li>
-  <li><a href="#compilar-.tex" id="toc-compilar-.tex" class="nav-link" data-scroll-target="#compilar-.tex">Compilar .tex</a></li>
-  <li><a href="#child" id="toc-child" class="nav-link" data-scroll-target="#child">CHILD</a></li>
-  <li><a href="#inline-code" id="toc-inline-code" class="nav-link" data-scroll-target="#inline-code">Inline code</a></li>
-  <li><a href="#meta-markdown" id="toc-meta-markdown" class="nav-link" data-scroll-target="#meta-markdown">Meta-Markdown</a></li>
-  <li><a href="#convertir-inline-footnotes" id="toc-convertir-inline-footnotes" class="nav-link" data-scroll-target="#convertir-inline-footnotes">Convertir Inline footnotes</a></li>
+<li><a href="#ver-todas-las-opciones-de-los-chunks" id="toc-ver-todas-las-opciones-de-los-chunks" class="nav-link" data-scroll-target="#ver-todas-las-opciones-de-los-chunks"><span class="header-section-number">1.0.1</span> Ver todas las opciones de los chunks</a></li>
+  <li><a href="#ejecutar-.r-en-chunks" id="toc-ejecutar-.r-en-chunks" class="nav-link" data-scroll-target="#ejecutar-.r-en-chunks"><span class="header-section-number">1.0.2</span> Ejecutar <code>.R</code> en chunks</a></li>
+  <li><a href="#convertir-rmd-chunks-a-qmd" id="toc-convertir-rmd-chunks-a-qmd" class="nav-link" data-scroll-target="#convertir-rmd-chunks-a-qmd"><span class="header-section-number">1.0.3</span> convertir Rmd chunks a qmd</a></li>
+  <li><a href="#compilar-.tex" id="toc-compilar-.tex" class="nav-link" data-scroll-target="#compilar-.tex"><span class="header-section-number">1.0.4</span> Compilar .tex</a></li>
+  <li><a href="#child" id="toc-child" class="nav-link" data-scroll-target="#child"><span class="header-section-number">1.0.5</span> CHILD</a></li>
+  <li><a href="#inline-code" id="toc-inline-code" class="nav-link" data-scroll-target="#inline-code"><span class="header-section-number">1.0.6</span> Inline code</a></li>
+  <li><a href="#meta-markdown" id="toc-meta-markdown" class="nav-link" data-scroll-target="#meta-markdown"><span class="header-section-number">1.0.7</span> Meta-Markdown</a></li>
+  <li><a href="#convertir-inline-footnotes" id="toc-convertir-inline-footnotes" class="nav-link" data-scroll-target="#convertir-inline-footnotes"><span class="header-section-number">1.0.8</span> Convertir Inline footnotes</a></li>
   </ul>
 </li>
   <li><a href="#zz.-biblio" id="toc-zz.-biblio" class="nav-link" data-scroll-target="#zz.-biblio"><span class="header-section-number">2</span> ZZ. Biblio</a></li>
@@ -4836,7 +4836,8 @@ margin-left: 0.5em;
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content"><section id="rmarkdown" class="level1" data-number="1"><h1 data-number="1">
 <span class="header-section-number">1</span> Rmarkdown</h1>
-<section id="ver-todas-las-opciones-de-los-chunks" class="level3"><h3 class="anchored" data-anchor-id="ver-todas-las-opciones-de-los-chunks">Ver todas las opciones de los chunks</h3>
+<section id="ver-todas-las-opciones-de-los-chunks" class="level3" data-number="1.0.1"><h3 data-number="1.0.1" class="anchored" data-anchor-id="ver-todas-las-opciones-de-los-chunks">
+<span class="header-section-number">1.0.1</span> Ver todas las opciones de los chunks</h3>
 <ul>
 <li>Sale de <a href="https://blog.djnavarro.net/posts/2023-12-30_knitr-hooks/">este post</a> de Danielle Navarro</li>
 </ul>
@@ -4845,33 +4846,40 @@ margin-left: 0.5em;
 <span id="cb1-2"><a href="#cb1-2"></a>options <span class="ot">&lt;-</span> knitr<span class="sc">::</span>opts_chunk<span class="sc">$</span><span class="fu">get</span>()</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-</section><section id="ejecutar-.r-en-chunks" class="level3"><h3 class="anchored" data-anchor-id="ejecutar-.r-en-chunks">Ejecutar <code>.R</code> en chunks</h3>
+</section><section id="ejecutar-.r-en-chunks" class="level3" data-number="1.0.2"><h3 data-number="1.0.2" class="anchored" data-anchor-id="ejecutar-.r-en-chunks">
+<span class="header-section-number">1.0.2</span> Ejecutar <code>.R</code> en chunks</h3>
 <p>La explicación <a href="https://bookdown.org/yihui/rmarkdown-cookbook/option-code.html?mkt_tok=NzA5LU5YTi03MDYAAAGQMagsKcpH64qKKl6N7nRXQ1h8czWbEntH51TxrhnxuHUuqnZNna4Pewqn44TlYa2De1mfUXcqH6x5mAJTOgC_00egAEkoM2mGNVTJ7bqHHIY">aquí</a></p>
 <p><code>{r, file = &quot;some-file.R&quot;}</code></p>
 <p>El archivo <code>some-file.R</code> ha de estar en la misma carpeta que el <code>.qmd</code></p>
-</section><section id="convertir-rmd-chunks-a-qmd" class="level3"><h3 class="anchored" data-anchor-id="convertir-rmd-chunks-a-qmd">convertir Rmd chunks a qmd</h3>
+</section><section id="convertir-rmd-chunks-a-qmd" class="level3" data-number="1.0.3"><h3 data-number="1.0.3" class="anchored" data-anchor-id="convertir-rmd-chunks-a-qmd">
+<span class="header-section-number">1.0.3</span> convertir Rmd chunks a qmd</h3>
 <ul>
 <li>Para convertir Rmd chunks a qmd:</li>
 </ul>
 <div class="sourceCode" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a>knitr<span class="sc">::</span><span class="fu">convert_chunk_header</span>(<span class="st">&quot;document.qmd&quot;</span>, <span class="at">output =</span> identity)</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section><section id="compilar-.tex" class="level3"><h3 class="anchored" data-anchor-id="compilar-.tex">Compilar .tex</h3>
+</section><section id="compilar-.tex" class="level3" data-number="1.0.4"><h3 data-number="1.0.4" class="anchored" data-anchor-id="compilar-.tex">
+<span class="header-section-number">1.0.4</span> Compilar .tex</h3>
 <ul>
 <li>Compilar .tex a pdf desde RStudio: <code><a href="https://rdrr.io/r/tools/texi2dvi.html">tools::texi2pdf()</a></code>
 </li>
-</ul></section><section id="child" class="level3"><h3 class="anchored" data-anchor-id="child">CHILD</h3>
+</ul></section><section id="child" class="level3" data-number="1.0.5"><h3 data-number="1.0.5" class="anchored" data-anchor-id="child">
+<span class="header-section-number">1.0.5</span> CHILD</h3>
 <ul>
 <li>truco <code>knitr::knitr_child()</code> para generar distintas tablas y títulos en <code>.qmd</code> programáticamente: <a href="https://fosstodon.org/@MickaelCanouil/109919710663908424" class="uri">https://fosstodon.org/@MickaelCanouil/109919710663908424</a>
 </li>
-</ul></section><section id="inline-code" class="level3"><h3 class="anchored" data-anchor-id="inline-code">Inline code</h3>
+</ul></section><section id="inline-code" class="level3" data-number="1.0.6"><h3 data-number="1.0.6" class="anchored" data-anchor-id="inline-code">
+<span class="header-section-number">1.0.6</span> Inline code</h3>
 <ul>
 <li><p>Explican bien lo de scaping back-ticks: <a href="https://www.markdownguide.org/basic-syntax/#escaping-backticks" class="uri">https://www.markdownguide.org/basic-syntax/#escaping-backticks</a>. Estos <a href="https://rviews.rstudio.com/2017/12/04/how-to-show-r-inline-code-blocks-in-r-markdown/">otros</a> no lo hacen tan bien</p></li>
 <li><p>inline literal code: <code>` r 2+2`</code> <code>`abc`</code> <code>`` `abc` ``</code></p></li>
 <li><p>escribir esto: <code>`` `abc` ``</code> para que se muestre esto: <code>`abc`</code></p></li>
-</ul></section><section id="meta-markdown" class="level3"><h3 class="anchored" data-anchor-id="meta-markdown">Meta-Markdown</h3>
+</ul></section><section id="meta-markdown" class="level3" data-number="1.0.7"><h3 data-number="1.0.7" class="anchored" data-anchor-id="meta-markdown">
+<span class="header-section-number">1.0.7</span> Meta-Markdown</h3>
 <ul>
 <li><p>Automatizar la creación de una bullet list: <a href="https://stackoverflow.com/questions/74185749/automating-bullet-lists-in-quarto-with-word-output">aquí</a></p></li>
 <li><p>Pasar un enlace à la md, a enlace en html. <a href="https://fosstodon.org/@smach/110028277680618243">aquí</a> hilo de Shanon</p></li>
-</ul></section><section id="convertir-inline-footnotes" class="level3"><h3 class="anchored" data-anchor-id="convertir-inline-footnotes">Convertir Inline footnotes</h3>
+</ul></section><section id="convertir-inline-footnotes" class="level3" data-number="1.0.8"><h3 data-number="1.0.8" class="anchored" data-anchor-id="convertir-inline-footnotes">
+<span class="header-section-number">1.0.8</span> Convertir Inline footnotes</h3>
 <p><strong>Convertir Inline footnotes</strong> to Regular footnotes in Markdown: <a href="https://yihui.org/en/2023/02/markdown-footnotes/" class="uri">https://yihui.org/en/2023/02/markdown-footnotes/</a></p>
 </section></section><section id="zz.-biblio" class="level1" data-number="2"><h1 data-number="2">
 <span class="header-section-number">2</span> ZZ. Biblio</h1>

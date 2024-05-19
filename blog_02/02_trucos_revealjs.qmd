@@ -39,22 +39,41 @@ filters:
 
 ### 1. texto: alinear texto de una columna
 
-- Funciona en html y en revealjs. 
+- Funciona tanto en html como en revealjs. 
 
-- Hay que poner: `style="text-align: left;"` . Para alinear imágenes es: `fig-align="center"
+- Hay que poner: `style="text-align:left;"` . Para alinear imágenes es: `fig-align="center"`
 
-- Funcionaba, pero ...
+- Esto de abajo no me acaba de funcionar, no acabo de descubrir porque. Puede que sea porque aplico `css` o porque para que se  pueda ver el código y el resultado, he de anidar y "hackear" las marcas `:::`; pero no lo tengo claro, ya lo descubriré; pero a ti, si pegas el código en tus documentos, sí te funcionará.
+
+
+::: {.panel-tabset}
+#### Si escribes esto:
 
 ``` markdown
 :::: {.columns}
-::: {.column width="50%" style="text-align: left;"}
-Left column
+::: {.column width="50%" style="text-align:left;"}
+Primera columna (**left aligned**)
 :::
-::: {.column width="50%" style="text-align: right;"}
-Right column
+
+::: {.column width="50%" style="text-align:right;"}
+Segunda columna (**right aligned**)
 :::
 ::::
 ```
+#### Verás esto
+
+:::: {.columns}
+::: {.column width="50%" style="text-align:left;"}
+Primera columna (**left aligned**)
+:::
+
+::: {.column width="50%" style="text-align:right;"}
+Segunda columna (**right aligned**)
+:::
+::::
+
+:::
+
 
 
 ### 2. texto: r-fit-text

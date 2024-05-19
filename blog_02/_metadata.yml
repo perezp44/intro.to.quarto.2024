@@ -107,14 +107,14 @@ page-layout: full
 # Default for table of contents
 toc: true
 toc-depth: 3
+toc-expand: 2
 toc-location: right
 toc-title: Índice
 number-sections: true
-number-depth: 2
+number-depth: 3
 smooth-scroll: true
 #toc-background: "#1874CD"
-
-
+#toc-color: "#FFFFFF"
 
 #- cosas q estan en el post que-es-Quarto
 title-block-banner: true #- {true, false }

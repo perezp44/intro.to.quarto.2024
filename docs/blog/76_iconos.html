@@ -5,7 +5,7 @@
 <meta name="generator" content="quarto-1.4.553">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 <meta name="author" content="Pedro J. Pérez">
-<meta name="description" content="Usando iconos en Quarto">
+<meta name="description" content="Usando emojis e iconos en Quarto">
 <title>Escribiendo con R y Quarto - Iconos en Quarto</title>
 <style>
 code{white-space: pre-wrap;}
@@ -5431,11 +5431,12 @@ margin-left: 0.5em;
       <h1 class="title">Iconos en Quarto</h1>
                   <div>
         <div class="description">
-          <p>Usando iconos en Quarto</p>
+          <p>Usando emojis e iconos en Quarto</p>
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">Iconos</div>
+                <div class="quarto-category">iconos</div>
+                <div class="quarto-category">emojis</div>
               </div>
                   </div>
   </div>
@@ -5505,10 +5506,14 @@ margin-left: 0.5em;
 <p>A todos nos gusta que nuestros documentos sean atractivos y expresivos, así que vamos a ver cómo podemos insertar emojis e iconos en nuestros documentos QMD.</p>
 </section><section id="emojis" class="level2" data-number="2"><h2 data-number="2" class="anchored" data-anchor-id="emojis">
 <span class="header-section-number">2</span> Emojis</h2>
-<p>Los emojis son una forma sencilla de añadir expresividad a nuestros documentos. En Quarto podemos usar emojis de la forma <code>:&lt;nombre-del-emoji&gt;:</code>. Por ejemplo, <code>:smile:</code> se convierte en 😊.</p>
-<p>Puedes usar el editor visual para insertar emojis, o puedes buscar el emoji que quieras en <a href="https://emojipedia.org/">emojipedia</a>, copiarlo y pegarlo en tu documento.</p>
-<p>Aunque también puedes usar el paquete <a href="https://emilhvitfeldt.github.io/emoji/"><code>emoji</code></a> que cuando lo probé en 2024 tenía 4.702 emojis. Para insertar un emoji en el texto de tu .qmd has de escribir <span style="background-color: #e5e5e5; border-radius: 3px; padding: 4px; font-family: &#39;Source Code Pro&#39;, &#39;Lucida Console&#39;, Monaco, monospace;"><code>`r emoji::emoji(“star-struck”)`</code></span> para ver este emoji: 🤩.</p>
-<p>Otro ejemplo:</p>
+<p>Los emojis son una forma sencilla de añadir expresividad a nuestros documentos. Quarto logicamente permite usar emojis. Veamos cómo:</p>
+<ul>
+<li><p>Para mi, la forma más sencilla de incoporar emojis en nuestros .qmd’s es buscar el emoji que quieras en <a href="https://emojipedia.org/">emojipedia</a>, o casi mejor <a href="https://www.webfx.com/tools/emoji-cheat-sheet/">aquí</a>, para después copiarlo y pegarlo en tu documento. E</p></li>
+<li><p>También es muy fácil insertar emojis usando el editor visual de RStudio. Puedes verlo <a href="https://quarto.org/docs/visual-editor/content.html#emojis">aquí</a></p></li>
+<li><p>También se pueden usar emojis usando está sintaxis: por ejemplo, si en tu qmd escribes <code>:smile:</code> se convertirá en <span class="emoji" data-emoji="smile">😄</span> <code>:star-struck:</code>, si escribes <code>:rocket:</code> se convertirá en <span class="emoji" data-emoji="rocket">🚀</span> , etc… Para ello, antes hay que activar los emojis, poniendo en el yaml del .qmd lo siguiente: <code>from: markdown+emoji</code></p></li>
+<li><p>Quizás es un poco más lioso, pero también puedes usar el paquete <a href="https://emilhvitfeldt.github.io/emoji/"><code>emoji</code></a> que cuando lo probé en 2024 tenía 4.702 emojis. Para insertar un emoji en el texto de tu .qmd has de escribir <span style="background-color: #e5e5e5; border-radius: 3px; padding: 4px; font-family: &#39;Source Code Pro&#39;, &#39;Lucida Console&#39;, Monaco, monospace;"><code>`r emoji::emoji(“star-struck”)`</code></span> para ver este emoji: 🤩.</p></li>
+</ul>
+<p>Otro ejemplo de uso del paquete <code>emoji</code>:</p>
 <div class="cell">
 <details open class="code-fold"><summary>Código</summary><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a>emoji<span class="sc">::</span>emojis <span class="sc">|&gt;</span> </span>
 <span id="cb1-2"><a href="#cb1-2"></a>  dplyr<span class="sc">::</span><span class="fu">select</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>) <span class="sc">|&gt;</span> </span>
@@ -6074,7 +6079,6 @@ text-indent: 25px;
 </section><section id="bootstrap-icons" class="level3"><h3 class="anchored" data-anchor-id="bootstrap-icons">Bootstrap Icons</h3>
 <p><a href="https://icons.getbootstrap.com/">Bootstrap Icons</a> los iconos de Bootstrap</p>
 <p>Para usarlos en Quarto, puedes instalar la extensión <code>shafayetShafee/bsicons</code>. <a href="https://github.com/shafayetShafee/bsicons">Aquí</a> tienes el repo con ejemplos e instrucciones de instalación.</p>
-<p>https://github.com/shafayetShafee/bsicons</p>
 
 
 </section></section><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reutilizar</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.es">CC BY 4.0</a></div></div></section></div></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">

@@ -1,12 +1,13 @@
 ---
 title: "Iconos en Quarto"
 date: 2024-02-12
-categories: [Iconos]
+categories: [iconos, emojis]
 image: "./thumbnails/thumbnail_76_iconos.png"
 #subtitle: | 
 #  Practicando con Quarto
 description: |
-  Usando iconos en Quarto
+  Usando emojis e iconos en Quarto
+from: markdown+emoji
 ---
 
 ## Intro
@@ -16,19 +17,20 @@ A todos nos gusta que nuestros documentos sean atractivos y expresivos, así que
 
 ## Emojis
 
-Los emojis son una forma sencilla de añadir expresividad a nuestros documentos. En Quarto podemos usar emojis de la forma `:<nombre-del-emoji>:`. Por ejemplo, `:smile:` se convierte en 😊.
+Los emojis son una forma sencilla de añadir expresividad a nuestros documentos. Quarto logicamente permite usar emojis. Veamos cómo:
 
-Puedes usar el editor visual para insertar emojis, o puedes buscar el emoji que quieras en [emojipedia](https://emojipedia.org/), copiarlo y pegarlo en tu documento. 
+- Para mi, la forma más sencilla de incoporar emojis en nuestros .qmd's es buscar el emoji que quieras en [emojipedia](https://emojipedia.org/), o casi mejor [aquí](https://www.webfx.com/tools/emoji-cheat-sheet/), para después copiarlo y pegarlo en tu documento. E
 
-Aunque también puedes usar el paquete [`emoji`](https://emilhvitfeldt.github.io/emoji/) que cuando lo probé en 2024 tenía 4.702 emojis. Para insertar un emoji en el texto de tu .qmd has de escribir 
+- También es muy fácil insertar emojis usando el editor visual  de RStudio. Puedes verlo [aquí](https://quarto.org/docs/visual-editor/content.html#emojis) 
+
+- También se pueden usar emojis usando está sintaxis: por ejemplo, si en tu qmd escribes `:smile:` se convertirá en :smile: `:star-struck:`, si escribes  `:rocket:` se convertirá en :rocket: , etc... Para ello, antes hay que activar los emojis, poniendo en el yaml del .qmd lo siguiente: `from: markdown+emoji` 
+
+
+- Quizás es un poco más lioso, pero  también puedes usar el paquete [`emoji`](https://emilhvitfeldt.github.io/emoji/) que cuando lo probé en 2024 tenía 4.702 emojis. Para insertar un emoji en el texto de tu .qmd has de escribir 
 <span style="background-color: #e5e5e5; border-radius: 3px; padding: 4px; font-family: 'Source Code Pro', 'Lucida Console', Monaco, monospace;"><code>&grave;r emoji::emoji("star-struck")&grave;</code></span> 
 para ver este emoji: `r emoji::emoji("star-struck")`.
 
-Otro ejemplo:
-
-
-
-
+Otro ejemplo de uso del paquete `emoji`:
 
 
 ```{r}
@@ -196,6 +198,3 @@ Para usarlos en Quarto, puedes instalar la extensión `shafayetShafee/material-i
 Para usarlos en Quarto, puedes instalar la extensión `shafayetShafee/bsicons`. [Aquí](https://github.com/shafayetShafee/bsicons) tienes el repo con ejemplos e instrucciones de instalación.
 
 
-
-
-https://github.com/shafayetShafee/bsicons

@@ -164,4 +164,3 @@ Son simplemente algunas (de las muchas) que me han llamado la atención :smile:
 
  - [quartostamp](https://matt-dray.github.io/quartostamp/index.html): no es una extensión, es un paquete que contiene RStudio addings para insertar divs, callouts etc... Para mi ptse, PERO en [este post](https://www.rostrum.blog/2022/08/11/quartostamp-snorkel/) les encanta.
  
- 
