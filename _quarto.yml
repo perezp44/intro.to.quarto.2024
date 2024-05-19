@@ -46,6 +46,7 @@ website:
         target: _blank
       - text: "Truquillos"
         href: blog_02.qmd 
+        target: _blank
       - about.qmd
       # - icon: github
       #   href: https://github.com/perezp44

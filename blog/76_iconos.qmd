@@ -18,7 +18,25 @@ A todos nos gusta que nuestros documentos sean atractivos y expresivos, así que
 
 Los emojis son una forma sencilla de añadir expresividad a nuestros documentos. En Quarto podemos usar emojis de la forma `:<nombre-del-emoji>:`. Por ejemplo, `:smile:` se convierte en 😊.
 
-Puedes usar el editor visual para insertar emojis, o puedes buscar el emoji que quieras en [emojipedia](https://emojipedia.org/), copiarlo y pegarlo en tu documento.
+Puedes usar el editor visual para insertar emojis, o puedes buscar el emoji que quieras en [emojipedia](https://emojipedia.org/), copiarlo y pegarlo en tu documento. 
+
+Aunque también puedes usar el paquete [`emoji`](https://emilhvitfeldt.github.io/emoji/) que cuando lo probé en 2024 tenía 4.702 emojis. Para insertar un emoji en el texto de tu .qmd has de escribir 
+<span style="background-color: #e5e5e5; border-radius: 3px; padding: 4px; font-family: 'Source Code Pro', 'Lucida Console', Monaco, monospace;"><code>&grave;r emoji::emoji("star-struck")&grave;</code></span> 
+para ver este emoji: `r emoji::emoji("star-struck")`.
+
+Otro ejemplo:
+
+
+
+
+
+
+```{r}
+emoji::emojis |> 
+  dplyr::select(1:3) |> 
+  dplyr::slice_sample(n = 10) |> gt::gt()  
+```
+
 
 ## Iconos
 

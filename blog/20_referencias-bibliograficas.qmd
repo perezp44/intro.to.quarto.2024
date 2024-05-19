@@ -274,6 +274,13 @@ La documentación oficial de Quarto para citas y bibliografías está [aquí](ht
 
 <br>
 
+## Más cosas
+
+- A veces se necesita controlar/tunear más cómo y qué incluir de las referencias bibliográficas en el texto; para ello puedes usar [citetools](https://github.com/bcdavasconcelos/citetools). Lo ví [aquí](https://mastodon.ie/@DToher/112410536622660400)
+
+
+<br>
+
 ## Referencias {.unnumbered}
 
 ::: {#refs}

@@ -96,7 +96,7 @@ Cosillas que pueden ser útiles en Docencia
 
 ## quarto-assign 
 
-- Es una extensión de Quarto que permirte generar problemas y sus solucuiones en un único `.qmd` 
+- Es una extensión de Quarto que permite generar problemas y sus solucuiones en un único `.qmd`. EStá [aquí](https://github.com/coatless-quarto/assign)
 
 
 <br>

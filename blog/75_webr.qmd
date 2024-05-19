@@ -14,18 +14,25 @@ filters:
 
 ## Intro 
 
+
+Para ejecutar código R se necesita tener instalado R en tu ordenado: sí, se necesita un interprete de R. Pero resulta que, **Webr** es una versión de R que se ejecuta directamente en el navegador. ¿Y cómo puede R ejecutarse en el navegador? pues usando **WebAssembly**(wasm), un estándar abierto que ha revolucionado el desarrollo web al proporcionar un nuevo enfoque para ejecutar código en los navegadores. Si te interesa el tema,  [aquí](https://www.nature.com/articles/d41586-024-00725-1?utm_campaign=Data_Elixir&utm_source=Data_Elixir_477) puedes empezar. El caso es que ahora, con WebAssembly y Webr, **podemos ejecutar R en el navegador**. 
+
+
 La [documentación oficial](https://docs.r-wasm.org/webr/latest/) de **Webr** nos dice que:  
 
 > WebR is a version of the statistical language R compiled for the browser and Node.js using 
 > [WebAssembly](https://webassembly.org/), via Emscripten.  
 
 
-Así que con Webr **tenemos la posibilidad de ejecutar R en el navegador**. Genial!!, pero ¿cómo funciona?
+Así que con Webr **tenemos la posibilidad de ejecutar R en el navegador**. Genial!! [Aquí](https://webr.r-wasm.org/latest/) tienes una demo del webR IDE donde puedes probarlo. 
 
 
 ## `quarto-webr`
 
-[quarto-webr](https://github.com/coatless/quarto-webr) es una extensión de Quarto que facilita la inserción de **chunks de código WebR** en varios formatos de Quarto: HTML, RevealJS, Websites, Blogs, and Books. 
+Genial que ahora se pueda ejecutar R en el navegador, pero este curso va sobre Quarto, así que me voy a centrar en 
+[quarto-webr](https://github.com/coatless/quarto-webr), una extensión de Quarto que facilita la inserción de **chunks de código WebR** en documentos generados con Quarto de Quarto^[Evidentemente sólo funcionará para documentos en HTML, ya sean RevealJS slides, Websites, Blogs, etc ... Olvídate de que funcione en un pdf].
+
+¿Y para que puede ser de utilidad `quarto-webr`? Pues para hacer documentos interactivos, en el sentido de que se puedan ejecutar código R en ellos ... **sin tener instalado R en el ordenador!!**
 
 
 

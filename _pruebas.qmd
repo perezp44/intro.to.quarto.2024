@@ -1,9 +1,33 @@
 ---
 title: "Untitled"
-format: html
+format: revealjs
 ---
 
 The date `r lubridate::today()` is produced by \`&#8203;r lubridate::today()\` 
+
+Hola `r emoji::emoji("smile")`
+
+Hola `r emoji::emoji("star-struck")` 
+
+
+
+::: columns
+::: {.column width="50%"}
+What is [Quarto 
+:::
+
+::: {.column .fragment width="50%"}
+[Quarto] is an
+
+open-source
+
+scientific and technical
+
+publishing system
+
+built on Pandoc.
+:::
+:::
 
 
 
