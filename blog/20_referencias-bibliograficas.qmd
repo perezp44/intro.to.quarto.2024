@@ -276,7 +276,11 @@ La documentación oficial de Quarto para citas y bibliografías está [aquí](ht
 
 ## Más cosas
 
-- A veces se necesita controlar/tunear más cómo y qué incluir de las referencias bibliográficas en el texto; para ello puedes usar [citetools](https://github.com/bcdavasconcelos/citetools). Lo ví [aquí](https://mastodon.ie/@DToher/112410536622660400)
+- A veces se necesita controlar/tunear más cómo y qué incluir de las referencias bibliográficas en el texto; para ello puedes usar [citetools](https://github.com/bcdavasconcelos/citetools). Lo vi [aquí](https://mastodon.ie/@DToher/112410536622660400)
+
+-  ¿Se pueden poner varias bibliografías en un sólo documento? Andrew Heiss lo preguntó [aquí](https://fediscience.org/@andrew/111560089164492193) y cuando halló la solución, escribió un [post](https://www.andrewheiss.com/blog/2023/12/11/separate-bibliographies-quarto/) explicándolo; pero resulta que en mayo de 2024 se creó un Pandoc filter precisamente para generar bibliografías diferentes para cada capítulo o para cada top-level section. Puedes verlo [aquí](https://github.com/pandoc-ext/section-bibliographies)
+
+
 
 
 <br>

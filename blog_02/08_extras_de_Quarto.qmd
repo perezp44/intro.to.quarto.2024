@@ -1,6 +1,6 @@
 ---
 title: "EXTRAS de Quarto"
-date: 2024-02-25
+date: 2024-02-26
 categories: [Quarto]
 image: "./thumbnails/thumbnail_generico.png"
 #toc-location: left
@@ -8,6 +8,8 @@ image: "./thumbnails/thumbnail_generico.png"
 #  Practicando con Quarto
 description: |
   Cosas EXTRA de Quarto y también trucos más rarunos (ó EXTRA) sobre Quarto.
+toc-depth: 3
+toc-expand: 1
 ---
 
 # FORMATOS

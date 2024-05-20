@@ -8,14 +8,22 @@ image: "./thumbnails/thumbnail_generico.png"
 #  Practicando con Quarto
 description: |
   Recopilando trucos sobre **workflow** en Quarto.
+toc-depth: 3
+toc-expand: 1
 ---
 
 
 
 ## Render
 
-- Si haces Render de un QMD, se abre un background job, donde primero, knitr ejecutas los chunks y crea un nuevo documento `.md` que ya incluye el código y su output. El fichero `.md` es procesado por pandoc que crea el formato final.
+- Cuando haces el Render de un QMD ocurre lo siguiente: se abre un background job, donde primero, **knitr** ejecuta los chunks y crea un nuevo documento `.md` que ya incluye el código y su output; ese fichero `.md` es procesado por **pandoc** que crea el output final.
 
+
+<br>
+
+### Render
+
+- Se puede hacer el **render de un `.qmd`** de varias formas: 
 
 
 ```bash
@@ -26,24 +34,39 @@ quarto render document.qmd --to docx
 ```
 
 ```r
-#- desde la consola
+#- desde la Consola
 quarto::quarto_render("document.qmd") # defaults to html
 quarto::quarto_render("document.qmd", output_format = "pdf")
 ```
 
- - se puede render con opciones, p.ej:     
+<br>
+
+### Render con opciones
+
+ - También se puede hacer el **render con opciones**, p.ej:     
 
 ```bash
 quarto render document.qmd --to html -M code-fold:true                  
 quarto render document.qmd --to html -M code-fold:true -P alpha:0.2 -P ratio:0.3     
 ```
 
+<br>
+
+### Render book a epub
+
 - En [este post](https://parmsam.medium.com/rendering-r-books-to-epub-using-quarto-for-easier-reading-a5b1bfa575ff) Bruno nos cuenta como hacer render de un **Quarto book a epub** o pdf.
 
 
+### Parametrised reports
+
+- En parametrised reports, cuando haces el render, me gustaría que los archivos de salida se guardasen en otro directorio, pero se ve que esto no es fácil-fácil, al menos aún. En [este toot](https://fediscience.org/@jhelvy/109801352523104934) explican que como no encontraron la solución, así que lo que hace es hacer el render en la misma carpeta donde está el script, **pero** luego mueve los archivos que se han generado. para moverlos usa
+
+```r
+file.copy(full_path_source, full_path_destination)
+```
 
 
-- En parametrised, a veces hay que hacer render pero que el output vaya a otro directorio, en [este toot](https://fediscience.org/@jhelvy/109801352523104934)  se ve q esto esta complicaet, así que lo que hace es hacer el render en la misma carpeta donde está el script pero luego mueve los archivos que se han generado: `file.copy(full_path_source,full_path_destination)`
+### Ejecutar script from Terminal
 
 
 - Si quieres ejecutar un R script desde la Terminal:  
@@ -52,11 +75,19 @@ quarto render document.qmd --to html -M code-fold:true -P alpha:0.2 -P ratio:0.3
 Rscript -e "rmarkdown::render('document.Rmd')"
 ```
 
-- Para pasar un documento Word a `.md`. De este [toot](https://mathstodon.xyz/@tschenkel/110027618199749971)
+<br>
+
+### Word a .md
+
+
+- Para pasar un documento Word a `.md` utilizando Pandoc. Lo vi en este [toot](https://mathstodon.xyz/@tschenkel/110027618199749971)
 
 ```bash
 pandoc -f docx -t markdown foo.docx -o foo.markdown
 ```
+
+<br>
+
 - Para pasar un documento Word a `.md` desde R:
 
 ```r
@@ -64,9 +95,13 @@ pandoc -f docx -t markdown foo.docx -o foo.markdown
 ```
 
 
+### Truqillos to render
+
+
 - Cómo hacer el render rápidamente (ptse): <https://github.com/quarto-dev/quarto-cli/discussions/6173>
 
-- truco para q se haga el render solo en partes; <https://fosstodon.org/@mccarthymg/111889746218019391>
+
+- Truco para q se haga el render solo en partes; <https://fosstodon.org/@mccarthymg/111889746218019391>. De Rennie.
 
 
 <br>

@@ -60,12 +60,6 @@ Trucos de Quarto en general. Hay una página aparte para Revealjs slides y otra 
 
 <br>
 
-### Varias bibliografías 
-
-- ¿Se pueden poner varias bibliografías en un sólo documento? Andrew Heiss lo preguntó [aquí](https://fediscience.org/@andrew/111560089164492193) y cuando halló la solución, escribió un [post](https://www.andrewheiss.com/blog/2023/12/11/separate-bibliographies-quarto/)
-
-<br>
-
 ### Varios themes
 - Puedes tener varios themes en el `_quarto.yml`. Por ejemplo puedes poner un theme light y otro dark. También se puede usar un theme para HTML y otro para Revealjs. Por ejemplo: 
 

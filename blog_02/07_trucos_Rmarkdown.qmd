@@ -1,6 +1,6 @@
 ---
 title: "Trucos: Rmarkdown"
-date: 2024-02-26
+date: 2024-02-25
 categories: [Quarto]
 image: "./thumbnails/thumbnail_generico.png"
 #toc-location: left
@@ -8,11 +8,14 @@ image: "./thumbnails/thumbnail_generico.png"
 #  Practicando con Quarto
 description: |
   Recopilando trucos sobre **Rmarkdown** y knitr.
+toc-depth: 3
+toc-expand: 1
 ---
 
 
 # Rmarkdown
 
+<br>
 
 ### Ver todas las opciones de los chunks
 
@@ -24,6 +27,8 @@ description: |
 options <- knitr::opts_chunk$get()
 ```
 
+<br>
+
 
 ### Ejecutar `.R` en chunks
 
@@ -34,6 +39,7 @@ La explicación [aquí](https://bookdown.org/yihui/rmarkdown-cookbook/option-cod
 
 El archivo `some-file.R` ha de estar en la misma carpeta que el `.qmd`
 
+<br>
 
 
 ### convertir Rmd chunks a qmd
@@ -44,17 +50,22 @@ El archivo `some-file.R` ha de estar en la misma carpeta que el `.qmd`
 knitr::convert_chunk_header("document.qmd", output = identity)
 ```
 
+<br>
+
 ### Compilar .tex
 
 - Compilar .tex a pdf desde RStudio: `tools::texi2pdf()`
 
 
+<br>
 
 
 
 ### CHILD
 
 - truco `knitr::knitr_child()` para generar distintas tablas y títulos en `.qmd` programáticamente: <https://fosstodon.org/@MickaelCanouil/109919710663908424>
+
+<br>
 
 
 ### Inline code
@@ -68,6 +79,7 @@ knitr::convert_chunk_header("document.qmd", output = identity)
 
 
 
+<br>
 
 
 
@@ -77,10 +89,18 @@ knitr::convert_chunk_header("document.qmd", output = identity)
 
 - Pasar un enlace à la md, a enlace en html. [aquí](https://fosstodon.org/@smach/110028277680618243) hilo de Shanon
 
+<br>
+
 
 ### Convertir Inline footnotes
 
 **Convertir Inline footnotes** to Regular footnotes in Markdown: <https://yihui.org/en/2023/02/markdown-footnotes/>
+
+<br>
+
+---------------------
+
+<br>
 
 
 # ZZ. Biblio
