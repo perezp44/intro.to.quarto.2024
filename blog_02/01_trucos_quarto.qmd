@@ -107,6 +107,54 @@ format:
 
 <br>
 
+
+## Texto
+
+
+### Tamaño texto con `:::`
+
+
+
+
+:::: {.columns}
+::: {.column width="35%" style="text-align:left;"}
+Si escribes esto: 
+```markdown
+::: {style="font-size: 2.5em"}
+First we take ...
+:::
+```
+:::
+
+::: {.column width="2%" style="text-align:right;"}
+:::
+
+::: {.column width="52%" style="text-align:right;"}
+Veras esto: 
+
+::: {style="font-size: 2.5em"}
+First we take ...
+:::
+
+:::
+::::
+
+
+
+
+
+
+
+
+
+
+<br>
+
+-----------------------
+
+<br>
+
+
 ## Body
 
 <br>
@@ -320,7 +368,23 @@ Para poner ecuaciones Latex en las captions de las figures, tablas etc ... [Aqu�
 
 <br>
 
-## Paquetes 
+# Extensiones
+
+<br>
+
+## Extensiones
+
+- [now](https://pkg.garrickadenbuie.com/quarto-now/): extensión de Garrick Aden-Buie que permite **insertar** (y formatear) **la fecha de creación** y de actualización de los .qmd's. En [este post](https://www.garrickadenbuie.com/blog/quarto-now/) explica su uso
+
+
+<br>
+
+- [embedio](https://github.com/coatless-quarto/embedio): permite insertar different file types into Quarto HTML documents. Los archivos pueden ser: archivos de audio, pdf's y revealjs slides.
+
+
+<br>
+
+## Paquetes
 
  - [quartostamp](https://matt-dray.github.io/quartostamp/index.html): no es una extensión, es un paquete que contiene RStudio addings para insertar divs, callouts etc... Para mi es un poco ptse, PERO en [este post](https://www.rostrum.blog/2022/08/11/quartostamp-snorkel/) les encanta.
  

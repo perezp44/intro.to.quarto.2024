@@ -60,10 +60,10 @@ Veamos algunas de ellas
 
 
 
-### Subir la web a la UV
+### Subir nuestra web a la UV
 
 
-- Una vez hemos generado nuestra web en local con Quarto nos queda **subirla a la web**.  La documentación oficial de Quarto está [aquí](https://quarto.org/docs/publishing/)
+- Una vez hemos generado nuestra web en local con Quarto nos queda **subirla a Internet**.  La documentación oficial de Quarto está [aquí](https://quarto.org/docs/publishing/)
 
 
 - Hay muchos servicios de alojamiento, [por ejemplo](https://info5940.infosci.cornell.edu/slides/publishing-reproducible-documents/#/publishing).
@@ -73,20 +73,54 @@ Veamos algunas de ellas
 
 . . . 
 
-- Pero ... nosotros tenemos un **espacio en la web de la UV.**  :smile:
+- Pero ... nosotros tenemos un **espacio en la web de la UV.**, así que ...
 
 . . . 
 
 
-<br>
+::: {.callout-important icon="false"}
+#### Tarea 6.1: Subir nuestra web 
+
+::: {.panel-tabset}
+## Tarea 
+
+- Sí, tienes que subir nuestra web a nuestro espacio en servidor web de la UV
+
+## Pistas
 
 - Para subir nuestra web a nuestro espacio UV, solo **tenemos que subir los ficheros** de la carpeta `docs` o `_site` a la web de la UV
 
-<br>
+
+- Pero antes, **hay que tener activado vuestro espacio web en UV**. Veamos cómo hacerlo con [este post](../blog/72_publicando-en-UV.qmd){target="_blank"}
+:::
+
+:::
 
 . . . 
 
-- Pero antes, **hay que tener activado vuestro espacio web en UV**. Veamos cómo hacerlo con [este post](../blog/72_publicando-en-UV.qmd){target="_blank"}
+
+- Perfecto!!, pero ahora imagina que te vas a un congreso y quieres subir unas slides para poder hacer la presentación desde la web. ¿Cómo lo haces?
+
+
+
+::: {.callout-important icon="false"}
+#### Tarea 6.1b: Subir unas slides
+
+::: {.panel-tabset}
+## Tarea 
+
+- Sí, tienes que subir unas revealjs slides a tu espacio web en la UV
+
+## Pistas
+
+- Si has hecho las slides autocontenidas, entonces sólo tendrás que subir el fichero `my_slides.html` a tu espacio web en la UV
+
+
+- Consejo: yo alojaría las slides en un directorio llamado `slides` o `presentaciones` o algo similar
+:::
+
+:::
+
 
 
 

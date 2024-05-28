@@ -30,4 +30,4 @@ En el curso usaremos **Quarto** y **R** a través de **RStudio**. En [Info](info
 
 <br><br>
 
-Nos vemos pronto en el [Aula 0.2](https://www.google.es/maps/place/Centro+de+Formaci%C3%B3n+y+Calidad+Manuel+Sanchis+Guarner/@39.4750955,-0.346133,17z/data=!3m1!4b1!4m6!3m5!1s0xd6049dbfd241e75:0xc257e3f91a60e197!8m2!3d39.4750914!4d-0.3435581!16s%2Fg%2F11r_fpk8ms?hl=es&entry=ttu){target="_blank"} del SFPIE (Centro de Formación y Calidad Manuel Sanchis Guarner, Campus de Tarongers)
+Nos vemos pronto en el [Aula 0.1](https://www.google.es/maps/place/Centro+de+Formaci%C3%B3n+y+Calidad+Manuel+Sanchis+Guarner/@39.4750955,-0.346133,17z/data=!3m1!4b1!4m6!3m5!1s0xd6049dbfd241e75:0xc257e3f91a60e197!8m2!3d39.4750914!4d-0.3435581!16s%2Fg%2F11r_fpk8ms?hl=es&entry=ttu){target="_blank"} del SFPIE (Centro de Formación y Calidad Manuel Sanchis Guarner, Campus de Tarongers)

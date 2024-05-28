@@ -41,7 +41,7 @@ revealjs-plugins: [pointer]
 embed-resources: true
 ---
 
-# Primeras   ideas {background-color="#b8c2aa"}
+# Primeras ideas {background-color="#b8c2aa"}
 
 {{< var lineanaranja >}}
 
@@ -53,7 +53,7 @@ embed-resources: true
 
 2.  ¿Qué son R/RStudio y Quarto?
 
-------------------------------------------------------------------------
+
 
 ## Documentos ¿reproducibles?
 

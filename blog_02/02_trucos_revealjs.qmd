@@ -60,19 +60,74 @@ then we take Berlin
 ```
 
 
+
 <br>
 
 -------------------
 
 <br>
 
+# Fondos
+
+### Hacer como si cambias el fondo de una slide
+
+- Puedes simular que cambias el fondo de una slide, para ello sólo hay que poner la misma slides pero añadiendo en su título: `# My slide que cambia {background-transition="fade" background-color="#B7D9F6"}`
+
+
+<br>
+
+-------------------
+
+<br>
+
+
+# Layout
+
+
+### Columnas incrementales
+
+- Puedes hacer que, si divides el layout en varias columnas, que estas se muestren una a una, vamos, que primero se muestre solo la primera columna (hay que poner en la segunda columna `::: {.column .fragment width="50%"}`^[Lo vi en [este repo](https://github.com/EmilHvitfeldt/talk-slc-slidecraft), concretamente en el fichero index.qmd]. Dentro de cada columna puedes hacer que los bullets sean incrementales o no. Por ejemplo:
+
+
+```markdown
+
+::: columns
+::: {.column width="50%"}
+::: {.incremental}
+- They sentenced me to 20 years of boredom
+
+
+- For trying to change the system from within
+:::
+:::
+
+::: {.column .fragment width="50%"}
+- Ah, remember me, I used to live for music
+
+- First we take Manhattan, then we take Berlin
+:::
+:::
+```
+
+
+
+
+
+
+<br>
+
+-------------------
+
+<br>
+
+
+
+
 # Listas
 
 ### Highlight incremental bullets
 
 - Queda chulo hacer que una lista de bullets se resalte más el bullet actual y que los otros bullets se difuminen un poco. Se explica [aquí](https://emilhvitfeldt.com/post/slidecraft-7-tips-and-tricks/#highlight-incremental-slides).
-
-
 
 
 :::: {.columns}
@@ -102,6 +157,7 @@ La explicación es que se pone todo en gris y `.current-fragment` muestra en un 
 
 :::
 ::::
+
 
 
 
