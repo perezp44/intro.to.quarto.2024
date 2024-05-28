@@ -116,7 +116,7 @@ Recuerda que os enseñaré a instalar los paquetes en clase, pero si quieres ir 
 
 install.packages("pak")
 
-pak::pak(c("tidyverse", "ggtext",  "curl", "perezp44/pjpv.curso.R.2022", "irlba", "widyr", "markdown", "gt", "maps", "mapproj", "DT", "reactable"))
+pak::pak(c("tidyverse", "ggtext",  "curl", "irlba", "widyr", "markdown", "gt", "maps", "mapproj", "DT", "reactable"))
 
 pak::pak(c("showtext", "glue",  "plotly", "fs", "countrycode", "here", "quarto"))
 
