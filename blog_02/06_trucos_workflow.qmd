@@ -54,8 +54,15 @@ quarto render document.qmd --to html -M code-fold:true -P alpha:0.2 -P ratio:0.3
 
 ### Render book a epub
 
-- En [este post](https://parmsam.medium.com/rendering-r-books-to-epub-using-quarto-for-easier-reading-a5b1bfa575ff) Bruno nos cuenta como hacer render de un **Quarto book a epub** o pdf.
+- Para crear epub en Quarto bastaría con hacer en la Terminal: 
 
+```bash
+quarto render my_file.qmd --to epub
+```
+
+- Aún así, [Bruno Rodrigues](https://www.brodrigues.co/blog/2023-03-03-quarto_books/) y [Sam Parmar](https://parmsam.medium.com/rendering-r-books-to-epub-using-quarto-for-easier-reading-a5b1bfa575ff) nos cuentan algunos truquillo sobre como hacer render de un **Quarto book a epub**, o a pdf.
+
+<br>
 
 ### Parametrised reports
 
@@ -65,6 +72,7 @@ quarto render document.qmd --to html -M code-fold:true -P alpha:0.2 -P ratio:0.3
 file.copy(full_path_source, full_path_destination)
 ```
 
+<br>
 
 ### Ejecutar script from Terminal
 
@@ -80,7 +88,7 @@ Rscript -e "rmarkdown::render('document.Rmd')"
 ### Word a .md
 
 
-- Para pasar un documento Word a `.md` utilizando Pandoc. Lo vi en este [toot](https://mathstodon.xyz/@tschenkel/110027618199749971)
+- Para pasar un documento Word a `.md` **utilizando Pandoc**. Lo vi en este [toot](https://mathstodon.xyz/@tschenkel/110027618199749971)
 
 ```bash
 pandoc -f docx -t markdown foo.docx -o foo.markdown
@@ -88,12 +96,13 @@ pandoc -f docx -t markdown foo.docx -o foo.markdown
 
 <br>
 
-- Para pasar un documento Word a `.md` desde R:
+- Para pasar un documento Word a `.md` **desde R**:
 
 ```r
-- docx to md:  rmarkdown::pandoc_convert("input.docx", to = "md")
+rmarkdown::pandoc_convert("input.docx", to = "md")
 ```
 
+<br>
 
 ### Truqillos to render
 

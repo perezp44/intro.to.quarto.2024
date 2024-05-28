@@ -4819,7 +4819,7 @@ margin-left: 0.5em;
       <div>
       <div class="quarto-title-meta-heading">Fecha de modificación</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">20 de mayo de 2024</p>
+        <p class="date-modified">28 de mayo de 2024</p>
       </div>
     </div>
       
@@ -4887,35 +4887,42 @@ margin-left: 0.5em;
 <section id="render-book-a-epub" class="level3" data-number="1.3">
 <h3 data-number="1.3" class="anchored" data-anchor-id="render-book-a-epub"><span class="header-section-number">1.3</span> Render book a epub</h3>
 <ul>
-<li>En <a href="https://parmsam.medium.com/rendering-r-books-to-epub-using-quarto-for-easier-reading-a5b1bfa575ff">este post</a> Bruno nos cuenta como hacer render de un <strong>Quarto book a epub</strong> o pdf.</li>
+<li>Para crear epub en Quarto bastaría con hacer en la Terminal:</li>
 </ul>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1"></a><span class="ex">quarto</span> render my_file.qmd <span class="at">--to</span> epub</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>Aún así, <a href="https://www.brodrigues.co/blog/2023-03-03-quarto_books/">Bruno Rodrigues</a> y <a href="https://parmsam.medium.com/rendering-r-books-to-epub-using-quarto-for-easier-reading-a5b1bfa575ff">Sam Parmar</a> nos cuentan algunos truquillo sobre como hacer render de un <strong>Quarto book a epub</strong>, o a pdf.</li>
+</ul>
+<p><br></p>
 </section>
 <section id="parametrised-reports" class="level3" data-number="1.4">
 <h3 data-number="1.4" class="anchored" data-anchor-id="parametrised-reports"><span class="header-section-number">1.4</span> Parametrised reports</h3>
 <ul>
 <li>En parametrised reports, cuando haces el render, me gustaría que los archivos de salida se guardasen en otro directorio, pero se ve que esto no es fácil-fácil, al menos aún. En <a href="https://fediscience.org/@jhelvy/109801352523104934">este toot</a> explican que como no encontraron la solución, así que lo que hace es hacer el render en la misma carpeta donde está el script, <strong>pero</strong> luego mueve los archivos que se han generado. para moverlos usa</li>
 </ul>
-<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a><span class="fu">file.copy</span>(full_path_source, full_path_destination)</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1"></a><span class="fu">file.copy</span>(full_path_source, full_path_destination)</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><br></p>
 </section>
 <section id="ejecutar-script-from-terminal" class="level3" data-number="1.5">
 <h3 data-number="1.5" class="anchored" data-anchor-id="ejecutar-script-from-terminal"><span class="header-section-number">1.5</span> Ejecutar script from Terminal</h3>
 <ul>
 <li>Si quieres ejecutar un R script desde la Terminal:</li>
 </ul>
-<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1"></a><span class="ex">Rscript</span> <span class="at">-e</span> <span class="st">&quot;rmarkdown::render(&#39;document.Rmd&#39;)&quot;</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1"></a><span class="ex">Rscript</span> <span class="at">-e</span> <span class="st">&quot;rmarkdown::render(&#39;document.Rmd&#39;)&quot;</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><br></p>
 </section>
 <section id="word-a-.md" class="level3" data-number="1.6">
 <h3 data-number="1.6" class="anchored" data-anchor-id="word-a-.md"><span class="header-section-number">1.6</span> Word a .md</h3>
 <ul>
-<li>Para pasar un documento Word a <code>.md</code> utilizando Pandoc. Lo vi en este <a href="https://mathstodon.xyz/@tschenkel/110027618199749971">toot</a></li>
+<li>Para pasar un documento Word a <code>.md</code> <strong>utilizando Pandoc</strong>. Lo vi en este <a href="https://mathstodon.xyz/@tschenkel/110027618199749971">toot</a></li>
 </ul>
-<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1"></a><span class="ex">pandoc</span> <span class="at">-f</span> docx <span class="at">-t</span> markdown foo.docx <span class="at">-o</span> foo.markdown</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1"></a><span class="ex">pandoc</span> <span class="at">-f</span> docx <span class="at">-t</span> markdown foo.docx <span class="at">-o</span> foo.markdown</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><br></p>
 <ul>
-<li>Para pasar un documento Word a <code>.md</code> desde R:</li>
+<li>Para pasar un documento Word a <code>.md</code> <strong>desde R</strong>:</li>
 </ul>
-<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1"></a><span class="sc">-</span> docx to md<span class="sc">:</span>  rmarkdown<span class="sc">::</span><span class="fu">pandoc_convert</span>(<span class="st">&quot;input.docx&quot;</span>, <span class="at">to =</span> <span class="st">&quot;md&quot;</span>)</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1"></a>rmarkdown<span class="sc">::</span><span class="fu">pandoc_convert</span>(<span class="st">&quot;input.docx&quot;</span>, <span class="at">to =</span> <span class="st">&quot;md&quot;</span>)</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><br></p>
 </section>
 <section id="truqillos-to-render" class="level3" data-number="1.7">
 <h3 data-number="1.7" class="anchored" data-anchor-id="truqillos-to-render"><span class="header-section-number">1.7</span> Truqillos to render</h3>
@@ -4933,8 +4940,8 @@ margin-left: 0.5em;
 <ul>
 <li><strong>prework de T. Mock</strong>: In order to create PDFs you will need to install a recent distribution of LaTeX. We recommend the use of TinyTeX (which is based on TexLive):</li>
 </ul>
-<div class="sourceCode" id="cb8"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb8-1"><a href="#cb8-1"></a><span class="at">quarto install tool tinytext</span></span>
-<span id="cb8-2"><a href="#cb8-2"></a><span class="at">quarto install tool chromium</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb9"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb9-1"><a href="#cb9-1"></a><span class="at">quarto install tool tinytext</span></span>
+<span id="cb9-2"><a href="#cb9-2"></a><span class="at">quarto install tool chromium</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
 </section>

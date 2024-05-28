@@ -4820,7 +4820,7 @@ margin-left: 0.5em;
       <div>
       <div class="quarto-title-meta-heading">Fecha de modificación</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">20 de mayo de 2024</p>
+        <p class="date-modified">28 de mayo de 2024</p>
       </div>
     </div>
       
@@ -4933,14 +4933,19 @@ margin-left: 0.5em;
 <section id="varios-formatos" class="level3" data-number="2.1.3">
 <h3 data-number="2.1.3" class="anchored" data-anchor-id="varios-formatos"><span class="header-section-number">2.1.3</span> Varios formatos</h3>
 <ul>
-<li>Se puede hacer que un mismo source document generé varios outputs</li>
+<li>Se puede hacer que un mismo source document genere varios outputs</li>
 </ul>
 <div class="sourceCode" id="cb2"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a href="#cb2-1"></a><span class="pp">---</span></span>
 <span id="cb2-2"><a href="#cb2-2"></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;My Report&quot;</span><span class="at">         </span></span>
-<span id="cb2-3"><a href="#cb2-3"></a><span class="fu">format</span><span class="kw">:</span><span class="at">                 </span></span>
-<span id="cb2-4"><a href="#cb2-4"></a><span class="at">  </span><span class="fu">html</span><span class="kw">:</span><span class="at">                                     </span></span>
-<span id="cb2-5"><a href="#cb2-5"></a><span class="at">  </span><span class="fu">docx</span><span class="kw">:</span><span class="at">                                                          </span></span>
-<span id="cb2-6"><a href="#cb2-6"></a><span class="pp">---</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-3"><a href="#cb2-3"></a><span class="fu">format</span><span class="kw">:</span><span class="at"> </span></span>
+<span id="cb2-4"><a href="#cb2-4"></a><span class="at">  </span><span class="fu">html</span><span class="kw">:</span><span class="at"> default</span></span>
+<span id="cb2-5"><a href="#cb2-5"></a><span class="at">  </span><span class="fu">epub</span><span class="kw">:</span><span class="at"> default</span></span>
+<span id="cb2-6"><a href="#cb2-6"></a><span class="at">  </span><span class="fu">docx</span><span class="kw">:</span><span class="at"> default                                                         </span></span>
+<span id="cb2-7"><a href="#cb2-7"></a><span class="pp">---</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>Hay que hacer el render desde la Terminal con:</li>
+</ul>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1"></a><span class="ex">quarto</span> render my-report.qmd</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><br></p>
 </section>
 <section id="code-in-the-yaml" class="level3" data-number="2.1.4">
@@ -4962,9 +4967,9 @@ margin-left: 0.5em;
 <div class="columns">
 <div class="column" style="text-align:left;">
 <p>Si escribes esto:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a href="#cb3-1"></a>::: {style=&quot;font-size: 2.5em&quot;}</span>
-<span id="cb3-2"><a href="#cb3-2"></a>First we take ...</span>
-<span id="cb3-3"><a href="#cb3-3"></a>:::</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a href="#cb4-1"></a>::: {style=&quot;font-size: 2.5em&quot;}</span>
+<span id="cb4-2"><a href="#cb4-2"></a>First we take ...</span>
+<span id="cb4-3"><a href="#cb4-3"></a>:::</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column" style="text-align:right;">
 
 </div><div class="column" style="text-align:right;">
@@ -4987,9 +4992,9 @@ margin-left: 0.5em;
 <div class="columns">
 <div class="column" style="width:40%;">
 <p><u>Si escribes esto:</u></p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource md number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a href="#cb4-1"></a>:::{style=&quot;color:#9A4665;&quot;}</span>
-<span id="cb4-2"><a href="#cb4-2"></a>Esto se verá en rojito</span>
-<span id="cb4-3"><a href="#cb4-3"></a>:::</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource md number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb5-1"><a href="#cb5-1"></a>:::{style=&quot;color:#9A4665;&quot;}</span>
+<span id="cb5-2"><a href="#cb5-2"></a>Esto se verá en rojito</span>
+<span id="cb5-3"><a href="#cb5-3"></a>:::</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column" style="width:10%;">
 
 </div><div class="column" style="width:40%;">
@@ -5012,15 +5017,15 @@ margin-left: 0.5em;
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Si escribes esto:</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Verás esto</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb5-1"><a href="#cb5-1"></a>:::: {.columns}</span>
-<span id="cb5-2"><a href="#cb5-2"></a>::: {.column width=&quot;50%&quot; style=&quot;text-align:left;&quot;}</span>
-<span id="cb5-3"><a href="#cb5-3"></a>Primera columna (**left aligned**)</span>
-<span id="cb5-4"><a href="#cb5-4"></a>:::</span>
-<span id="cb5-5"><a href="#cb5-5"></a></span>
-<span id="cb5-6"><a href="#cb5-6"></a>::: {.column width=&quot;50%&quot; style=&quot;text-align:right;&quot;}</span>
-<span id="cb5-7"><a href="#cb5-7"></a>Segunda columna (**right aligned**)</span>
-<span id="cb5-8"><a href="#cb5-8"></a>:::</span>
-<span id="cb5-9"><a href="#cb5-9"></a>::::</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb6-1"><a href="#cb6-1"></a>:::: {.columns}</span>
+<span id="cb6-2"><a href="#cb6-2"></a>::: {.column width=&quot;50%&quot; style=&quot;text-align:left;&quot;}</span>
+<span id="cb6-3"><a href="#cb6-3"></a>Primera columna (**left aligned**)</span>
+<span id="cb6-4"><a href="#cb6-4"></a>:::</span>
+<span id="cb6-5"><a href="#cb6-5"></a></span>
+<span id="cb6-6"><a href="#cb6-6"></a>::: {.column width=&quot;50%&quot; style=&quot;text-align:right;&quot;}</span>
+<span id="cb6-7"><a href="#cb6-7"></a>Segunda columna (**right aligned**)</span>
+<span id="cb6-8"><a href="#cb6-8"></a>:::</span>
+<span id="cb6-9"><a href="#cb6-9"></a>::::</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <div class="columns">
@@ -5042,13 +5047,13 @@ margin-left: 0.5em;
 <li><p>Documentación oficial <a href="https://quarto.org/docs/authoring/conditional.html">aquí</a>.</p></li>
 <li><p>Se hace uso de <code>.content-visible</code> and <code>.content-hidden</code> classes. Por ejemplo:</p></li>
 </ul>
-<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource md number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb6-1"><a href="#cb6-1"></a>::: {.content-visible when-format=&quot;html&quot;}</span>
-<span id="cb6-2"><a href="#cb6-2"></a><span class="al">![](my_image.gif)</span></span>
-<span id="cb6-3"><a href="#cb6-3"></a>:::</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource md number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb7-1"><a href="#cb7-1"></a>::: {.content-visible when-format=&quot;html&quot;}</span>
+<span id="cb7-2"><a href="#cb7-2"></a><span class="al">![](my_image.gif)</span></span>
+<span id="cb7-3"><a href="#cb7-3"></a>:::</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
 <li>También se puede aplicar a contenido <code>in-line</code>:</li>
 </ul>
-<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource md number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb7-1"><a href="#cb7-1"></a><span class="an">Para contenido inline has de:</span><span class="co"> [Will only appear in pdf. (inline)]{.content-visible when-format=&quot;pdf&quot;}</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb8"><pre class="sourceCode numberSource md number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb8-1"><a href="#cb8-1"></a><span class="an">Para contenido inline has de:</span><span class="co"> [Will only appear in pdf. (inline)]{.content-visible when-format=&quot;pdf&quot;}</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><br></p>
 </section>
 <section id="incluir-toots-etc-en-callouts" class="level3" data-number="2.3.4">
@@ -5059,9 +5064,9 @@ margin-left: 0.5em;
 </ul>
 <div class="columns">
 <div class="column" style="width:50%;">
-<div class="sourceCode" id="cb8"><pre class="sourceCode numberSource md number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb8-1"><a href="#cb8-1"></a></span>
-<span id="cb8-2"><a href="#cb8-2"></a>::: {.gist user=tarleb gist_id=852f6ae98764bea56aeeac979f3c17be }</span>
-<span id="cb8-3"><a href="#cb8-3"></a>:::</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb9"><pre class="sourceCode numberSource md number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb9-1"><a href="#cb9-1"></a></span>
+<span id="cb9-2"><a href="#cb9-2"></a>::: {.gist user=tarleb gist_id=852f6ae98764bea56aeeac979f3c17be }</span>
+<span id="cb9-3"><a href="#cb9-3"></a>:::</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column" style="width:5%;">
 
 </div><div class="column" style="width:40%;">
@@ -5104,12 +5109,12 @@ document.write('<div id=\"gist118970119\" class=\"gist\">\n    <div class=\"gist
 <ul>
 <li><u>Si escribes esto:</u></li>
 </ul>
-<div class="sourceCode" id="cb9"><pre class="sourceCode numberSource md number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb9-1"><a href="#cb9-1"></a>&lt;details&gt;</span>
-<span id="cb9-2"><a href="#cb9-2"></a>&lt;summary&gt;Mi (foldable) chunk no-ejecutable&lt;/summary&gt;</span>
-<span id="cb9-3"><a href="#cb9-3"></a>``r</span>
-<span id="cb9-4"><a href="#cb9-4"></a>print(2 +2)</span>
-<span id="cb9-5"><a href="#cb9-5"></a>``</span>
-<span id="cb9-6"><a href="#cb9-6"></a>&lt;/details&gt;</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb10"><pre class="sourceCode numberSource md number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb10-1"><a href="#cb10-1"></a>&lt;details&gt;</span>
+<span id="cb10-2"><a href="#cb10-2"></a>&lt;summary&gt;Mi (foldable) chunk no-ejecutable&lt;/summary&gt;</span>
+<span id="cb10-3"><a href="#cb10-3"></a>``r</span>
+<span id="cb10-4"><a href="#cb10-4"></a>print(2 +2)</span>
+<span id="cb10-5"><a href="#cb10-5"></a>``</span>
+<span id="cb10-6"><a href="#cb10-6"></a>&lt;/details&gt;</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column" style="width:10%;">
 
 </div><div class="column" style="width:40%;">
@@ -5120,7 +5125,7 @@ document.write('<div id=\"gist118970119\" class=\"gist\">\n    <div class=\"gist
 <summary>
 Mi (foldable) chunk no-ejecutable
 </summary>
-<div class="sourceCode" id="cb10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1"></a><span class="fu">print</span>(<span class="dv">2</span> <span class="sc">+</span><span class="dv">2</span>)</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1"></a><span class="fu">print</span>(<span class="dv">2</span> <span class="sc">+</span><span class="dv">2</span>)</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
 </div>
@@ -5143,7 +5148,7 @@ Mi (foldable) chunk no-ejecutable
 <section id="latex-en-captions" class="level3" data-number="2.5.2">
 <h3 data-number="2.5.2" class="anchored" data-anchor-id="latex-en-captions"><span class="header-section-number">2.5.2</span> Latex en captions</h3>
 <p>Para poner ecuaciones Latex en las captions de las figures, tablas etc … <a href="https://fosstodon.org/@juli_nagel/110146398766389608">Aquí</a> lo explican. Se pone así:</p>
-<div class="sourceCode" id="cb11"><pre class="sourceCode numberSource md number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb11-1"><a href="#cb11-1"></a>#| fig-cap: &quot;This is a caption at $<span class="sc">\\</span>alpha =$ .05.&quot;</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb12"><pre class="sourceCode numberSource md number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb12-1"><a href="#cb12-1"></a>#| fig-cap: &quot;This is a caption at $<span class="sc">\\</span>alpha =$ .05.&quot;</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><br></p>
 <hr>
 <p><br></p>

@@ -77,17 +77,24 @@ format:
 
 ### Varios formatos 
 
-- Se puede hacer que un mismo source document generé varios outputs
+- Se puede hacer que un mismo source document genere varios outputs
 
 ```yaml
 ---
 title: "My Report"         
-format:                 
-  html:                                     
-  docx:                                                          
+format: 
+  html: default
+  epub: default
+  docx: default                                                         
 ---
-
 ```
+
+- Hay que hacer el render desde la Terminal con: 
+
+```bash
+quarto render my-report.qmd
+```
+
 
 <br>
 
