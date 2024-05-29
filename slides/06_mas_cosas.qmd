@@ -131,7 +131,7 @@ Además,
 
 ### Práctica: Gestión de bibliografía
 
-- Para ello, vamos a utilizar el archivo: `Qproject_eurovision/tareas/tarea_6.2_biblio.qmd`
+- Para ello, vamos a utilizar el archivo: `./tareas/tarea_6.2_biblio.qmd` que puedes encontrar en el  "Qproj_01_eurovision" que puedes descargarte [aquí](../recursos/Qproj_01_eurovision.zip)
 
 . . . 
 
@@ -283,7 +283,7 @@ csl: <ruta-a-my-fichero.csl>
 ::: panel-tabset
 ## Tarea
 
-- Procesa el documento: `tareas/tarea_6.3_varios-formatos.qmd`
+- Procesa el documento: `./tareas/tarea_6.3_varios-formatos.qmd`. Lo puedes encontrar en el  "Qproj_01_eurovision" que puedes descargarte [aquí](../recursos/Qproj_01_eurovision.zip)
 
 - Fíjate que el yaml ya está preparado para generar 2 formatos: `.html` y `.docx`
 
@@ -294,7 +294,7 @@ csl: <ruta-a-my-fichero.csl>
 - En la terminal has de escribir algo como:
 
 ```bash
-quarto render Qproject_eurovision/tareas/tarea_6.3_varios-formatos.qmd
+quarto render tareas/tarea_6.3_varios-formatos.qmd
 ```
 :::
 :::
@@ -333,7 +333,7 @@ quarto render Qproject_eurovision/tareas/tarea_6.3_varios-formatos.qmd
 ::: panel-tabset
 ## Tarea 6.4.a
 
-- Abre el documento: `tareas/tarea_6.4_webexercises.qmd`
+- Abre el documento: `tareas/tarea_6.4_webexercises.qmd` que puedes encontrar en el  "Qproj_01_eurovision" que puedes descargarte [aquí](../recursos/Qproj_01_eurovision.zip)
 
 - Mira su contenido
 
@@ -374,6 +374,8 @@ cat("¿Qué es Quarto?", longmcq(opts))
 webexercises::add_to_quarto(include_dir = "assets/webexercises")
 
 ```
+
+- Cuidado porque genera ruta a los assets en el YAML del fichero `.qmd`, pero también en el fichero `_quarto.yml`
 
 <br>
 
@@ -444,7 +446,7 @@ gt::gt(df)
 
 **¿Cómo hacer tablas más chulas?**
 
--   En [este post](/blog/71_tablas-con-R.html){target="_blank"} explica en detalle cómo se pueden hacer tablas muy chulas con R
+-   En [este post](../blog/71_tablas-con-R.html){target="_blank"} explica en detalle cómo se pueden hacer tablas muy chulas con R
 
 
 . . . 
@@ -459,6 +461,34 @@ gt::gt(df)
 
 
 -   Vamos a profundizar en ello con [este post](../blog/73_tablas-de-modelos.qmd){target="_blank"} del blog
+
+
+
+### 6.6 Informes parametrizados
+
+- A veces necesitamos **generar informes** con **datos diferentes**. Por ejemplo, un informe de ventas de diferentes productos, o un informe para cada municipio, o un informe para cada periodo
+
+- En [este post](../blog/30_informes-parametrizados.qmd){target="_blank"} del blog se explica cómo hacerlo.
+
+- Muchas veces es más fácil hacerlo que contarlo, así que:
+
+
+
+::: {.callout-important icon="false"}
+#### Tarea 6.6: Aprender a hacer informes parametrizados
+
+
+- Para ello, vamos a usar el Qproject llamado "Qproj_02_param-rep" que puedes descargarte [aquí](../recursos/Qproj_02_param-rep.zip){target="_blank"}
+
+
+:::
+
+
+<br>
+
+
+
+
 
 
 
@@ -744,15 +774,6 @@ Desde Quarto se pueden hacer curriculums. Por ejemplo:
 <br>
 
 Ejemplos que se me han quedado en el tintero (quizás para otra edición)
-
-### Informes parametrizados
-
--   un ejemplo con notas y quizás mandarlo por mail
-
-<br>
-
--   o con datos de inflación de varios países: <https://datageeek.com/2023/03/16/food-inflation-interactive-chart-with-ggiraph/>
-
 
 ### Runing Stata in Quarto documents
 
