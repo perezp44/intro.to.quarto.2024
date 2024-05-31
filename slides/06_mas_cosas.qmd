@@ -59,11 +59,18 @@ Veamos algunas de ellas
 
 ### 6.1 Subir nuestra web a la UV
 
+
 -   Una vez hemos generado nuestra web en local con Quarto nos queda **subirla a Internet**. La documentación oficial de Quarto está [aquí](https://quarto.org/docs/publishing/)
 
--   Hay muchos servicios de alojamiento, [por ejemplo](https://info5940.infosci.cornell.edu/slides/publishing-reproducible-documents/#/publishing).
+<br>
 
--   [Aquí](https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/) explican las ventajas y cómo subir una web a [Netlify](https://www.netlify.com/).
+. . . 
+
+-   Hay muchos servicios de alojamiento, puedes ver algunos de ellos [aquí](https://info5940.infosci.cornell.edu/slides/publishing-reproducible-documents/#/publishing).
+
+-   Por ejemplo, [aquí](https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/) explican las ventajas y cómo subir una web a [Netlify](https://www.netlify.com/).
+
+<br>
 
 . . .
 
@@ -90,7 +97,7 @@ Veamos algunas de ellas
 
 . . .
 
--   Perfecto!!, pero, imagina que te vas a un congreso y **quieres subir unas slides** para poder hacer la presentación desde la web. ¿Cómo lo haces?
+-   Perfecto!!, pero, imagina que te vas a un congreso y ahora **quieres subir unas slides** para poder hacer la presentación desde la web. ¿Cómo lo haces?
 
 ::: {.callout-important icon="false"}
 #### Tarea 6.1b: Subir unas slides
@@ -110,7 +117,7 @@ Veamos algunas de ellas
 
 ### 6.2 Gestión de bibliografia
 
--   Imagina que en uno de nuestros post queremos **incorporar referencias bibliográficas** y además **referenciarlas** en el cuerpo del artículo ¿te suena, no?
+-   Imagina que queremos **incorporar referencias bibliográficas** en uno de nuestros post; y además queremos **referenciarlas** en el cuerpo del artículo ¿te suena, no?
 
 . . .
 
@@ -211,7 +218,7 @@ csl: <ruta-a-my-fichero.csl>
 
 . . .
 
-<center>¿Cómo? Solo hay que hacer **2 cosas**: </center>
+<center>¿Cómo? [Solo hay que hacer **2 cosas**]{.underline} : </center>
 
 ::: {.incremental}
 1) especificarlo en el YAML, por ejemplo:
@@ -259,7 +266,7 @@ csl: <ruta-a-my-fichero.csl>
 
 ### Otra posibilidad
 
-- Los documentos `.html` que generemos, ya sean estos documentos individuales o dentro de una web, pueden incluir links al mismo documento en **otros formatos**. Documentación [aquí](https://quarto.org/docs/output-formats/html-multi-format.html).
+- Los documentos `.html` que generemos, ya sean estos documentos individuales o dentro de una web, pueden incluir [links al mismo documento en **otros formatos**]{.underline}. Documentación [aquí](https://quarto.org/docs/output-formats/html-multi-format.html).
 
 - El YAML del documento tendría que quedar algo como:
 
@@ -301,7 +308,7 @@ quarto render tareas/tarea_6.3_varios-formatos.qmd
 
 
 
-### Ejercicios interactivos
+### 6.4 Ejercicios interactivos
 
 -   Hay varios paquetes como [learnr](https://rstudio.github.io/learnr/) que permiten incorporar **ejercicios interactivos** a documentos `.html` generados con Quarto, pero ...
 
@@ -370,23 +377,22 @@ cat("¿Qué es Quarto?", longmcq(opts))
 <br>
 
 - Para procesar correctamente los ficheros "webexercises" hay que tener los .css y .js necesarios. Para ello: 
-```r
-webexercises::add_to_quarto(include_dir = "assets/webexercises")
+  ```r
+  webexercises::add_to_quarto(include_dir = "assets/webexercises")
 
-```
+  ```
 
-- Cuidado porque genera ruta a los assets en el YAML del fichero `.qmd`, pero también en el fichero `_quarto.yml`
+  - Cuidado porque genera ruta a los assets en el YAML del fichero `.qmd`, pero también en el fichero `_quarto.yml` (mejor quitarlos de _quarto.yml)
 
 <br>
+
 
 - Nosotros ya teníamos una plantilla "webexercises" en la carpeta `./tareas/tarea_6.4_webexercises.qmd`. La creé con algo como: 
   
-```r
-webexercises::create_quarto_doc(name = "my_titulo", open = interactive())
+  ```r
+  webexercises::create_quarto_doc(name = "my_titulo", open = interactive())
 
-```
-
-<br>
+  ```
 
 :::
 :::
@@ -459,6 +465,7 @@ gt::gt(df)
 
 - Muchas veces hay que **presentar los resultados** de contrastes o de la **estimación de modelos estadísticos**. En estos casos, **las tablas** son una herramienta muy útil para **presentar los resultados** de una manera clara y concisa.
 
+<br>
 
 -   Vamos a profundizar en ello con [este post](../blog/73_tablas-de-modelos.qmd){target="_blank"} del blog
 
@@ -470,17 +477,18 @@ gt::gt(df)
 
 - En [este post](../blog/30_informes-parametrizados.qmd){target="_blank"} del blog se explica cómo hacerlo.
 
-- Muchas veces es más fácil hacerlo que contarlo, así que:
+<br>
 
+. . .
+
+
+- Muchas veces es más fácil hacerlo que contarlo, así que:
 
 
 ::: {.callout-important icon="false"}
 #### Tarea 6.6: Aprender a hacer informes parametrizados
 
-
 - Para ello, vamos a usar el Qproject llamado "Qproj_02_param-rep" que puedes descargarte [aquí](../recursos/Qproj_02_param-rep.zip){target="_blank"}
-
-
 :::
 
 
@@ -489,6 +497,35 @@ gt::gt(df)
 
 
 
+
+### 6.7 "Reutilizar" unas slides
+
+- Imagina que has visto unas slides chulisimas y quieres ~~copiarlas~~ **inspirarte **en ellas para hacer las tuyas propias. ¿Cómo lo haces?
+
+. . . 
+
+- Es muy habitual que la comunidad R comparta el código de sus materiales; principalmente en [GitHub](https://github.com/)
+
+- Por ejemplo [estas slides]() hechas por [Mine Çetinkaya-Rundel]() son muy chulas. Vamos a ver el código que genera las slides
+
+
+
+
+::: {.callout-important icon="false"}
+#### Tarea 6.7: Aprender a "reutilizar" materiales
+
+:::
+
+
+
+
+## Con Quarto se pueden generar muu:scream_cat:uuchos FORMATOS distintos!!! {.unnumbered background-color="#ebf5fb"}
+
+{{< var lineanaranja >}}
+
+<br>
+
+Veamos algunos de ellos
 
 
 
@@ -509,6 +546,101 @@ gt::gt(df)
 
 -   [Esta charla](https://fosstodon.org/@Posit/110470020629680463) de Mine Çetinkaya-Rundel habla de este tema en el minuto 14 aprox.
 :::
+
+
+
+
+### Curriculums con Quarto
+
+Desde Quarto se pueden hacer curriculums. Por ejemplo:
+
+. . .
+
+-   Plantilla para crear CV con Quarto: [quarto-cv](https://github.com/mps9506/quarto-cv)
+
+-   Otra plantilla para hacer CV's, de `@BeaMilz`: el [código](https://github.com/beatrizmilz/resume/blob/master/docs/index.qmd) y el [resultado](https://beatrizmilz.github.io/resume/index.pdf)
+
+-   Tengo el CV en un `.docx` ¿puedo pasarlo a Quarto? Sí, [aquí](https://sciences.social/@CoffeeBaseball/110027602855581359) la explicación. Aconsejan pasarlo primero a Google doc's
+
+<br>
+
+. . .
+
+#### CV's con `.Rmd`
+
+-   Un **currículum** con [pagedown::html_resume](https://github.com/rstudio/pagedown#resume-pagedownhtml_resume).
+
+-   Curriculum con [datadrivencv](https://github.com/nstrayer/datadrivencv) package
+
+### Posters con Quarto
+
+-   Yo aún no he visto que se pueda, pero [la gente esta esperando](https://github.com/quarto-dev/quarto-cli/discussions/2205) poder hacer posters con Quarto
+
+. . .
+
+-   Con `.Rmd` habían varios paquetes para hacer posters, por ejemplo con [posterdown](https://github.com/brentthorne/posterdown) o con [pagedown::poster_relaxed](https://github.com/rstudio/pagedown#resume-pagedownhtml_resume).
+
+### Más formatos con `.Rmd`
+
+<br>
+
+-   **Business cards** con [pagedown::business_card](https://github.com/rstudio/pagedown#business-cards-pagedownbusiness_card)
+
+<br>
+
+-   **"Cuadros de mando"** con [flexdashboard](https://pkgs.rstudio.com/flexdashboard/): tienes algunos ejemplos [aquí](https://pkgs.rstudio.com/flexdashboard/articles/examples.html). Permite [distintos layouts](https://pkgs.rstudio.com/flexdashboard/articles/layouts.html), incluidos los [storyboards](https://pkgs.rstudio.com/flexdashboard/articles/using.html#storyboards), por ejemplo [este](https://beta.rstudioconnect.com/jjallaire/htmlwidgets-showcase-storyboard/htmlwidgets-showcase-storyboard.html)
+
+<br>
+
+-   **Shiny apps** con el paquete [shiny](https://shiny.rstudio.com/): algunos [ejemplos](https://shiny.rstudio.com/gallery/)
+
+<br>
+
+-   Formatos posibles gracias al paquete [rmdformats](https://github.com/juba/rmdformats)
+
+
+
+
+### Trabajando con documentos WORD
+
+-   [officedown](https://davidgohel.github.io/officedown/): facilita el formateo de informe de Word desde R. [Aquí](https://ardata-fr.github.io/officeverse/) un libro y dos posts: [aquí](https://www.business-science.io/code-tools/2024/02/24/make-microsoft-word-reports-officedown.html), otro [aquí](https://www.apreshill.com/blog/2021-07-officedown/)
+
+<br>
+
+-   [officer](https://davidgohel.github.io/officer/): The officer package lets R users manipulate Word (.docx) and PowerPoint (\*.pptx) documents. In short, one can add images, tables and text into documents from R.
+
+<br>
+
+-   [docxtractr](https://gitlab.com/hrbrmstr/docxtractr): Extract Data Tables and Comments from Microsoft Word Documents. [Aquí](https://www.brodrigues.co/blog/2023-03-18-docxtractr/) un post sobre su uso.
+
+### Plantillas/cosas de pdf's
+
+-   Plantillas para hacer pretty pdfs: [aquí](https://nrennie.rbind.io/blog/making-pretty-pdf-quarto/) y [aquí](https://rfortherestofus.com/2021/01/announcing-pagedreport/)
+
+-   Plantilla para [compact pdf](https://github.com/arcruz0/quarto-compact)
+
+-   Nicola Rennie te dice cómo hacer pdfs parámetrizados: [aquí](https://meghan.rbind.io/blog/quarto-pdfs/)
+
+-   Quarto YouTube [Playlist](https://www.youtube.com/playlist?list=PLDqZV53PcnYxnBYuEdSBxnOwdKLGaoKGg)
+
+-   Title Pages [templates](https://nmfs-opensci.github.io/quarto_titlepages/) for adding a cover page to your Quarto pdf books. Un [ejemplo](https://nmfs-opensci.github.io/quarto_titlepages/titlepages/great-wave/article.pdf)
+
+-   Great looking pdf with pagedown: vídeo [aquí](https://www.youtube.com/watch?v=jiYVkyWGrbs)
+
+<br>
+
+-   Muchísimas más en [Quarto awesome](https://github.com/mcanouil/awesome-quarto)
+
+<br>
+
+##### Otras plantillas
+
+-   Un instituto de física: <https://github.com/sebdunnett/quarto-iop>
+
+-   [quarto-lcars-theme](https://github.com/mccarthy-m-g/quarto-lcars-theme):
+
+
+
 
 
 ## Con Quarto **AÚN** se pueden hacer muu:scream_cat:uuchas más cosas!! {.unnumbered background-color="#ebf5fb"}
@@ -675,7 +807,7 @@ glossary::glossary_style("purple", "underline")
 
 ### Extensiones
 
--   En el curso se habla de las extensiones. En las slides nº5, concretamente [aquí](https://perezp44.github.io/intro.to.quarto/slides/05_primer_web.html?q=extens#/extensiones) y en [este post](../blog/23_extensiones.qmd#listado-de-extensiones){target="_blank"} y en [este otro](/blog/70_botoncitos-web.html){target="_blank"}
+-   En el curso se habla de las extensiones. En las slides nº 5, concretamente [aquí](https://perezp44.github.io/intro.to.quarto/slides/05_primer_web.html?q=extens#/extensiones) y en [este post](../blog/23_extensiones.qmd#listado-de-extensiones){target="_blank"} y en [este otro](/blog/70_botoncitos-web.html){target="_blank"}
 
 -   [Aquí](https://www.paltmeyer.com/blog/posts/quarto-extensions/) un post que cuenta como hacer extensiones
 
@@ -707,55 +839,6 @@ glossary::glossary_style("purple", "underline")
 
 -   [quarto-animate](https://github.com/mcanouil/quarto-animate): permite crear unas animaciones muy "aparatosas". Puedes ver un ejemplo [aquí](https://m.canouil.dev/quarto-animate/)
 
-
-
-### Curriculums con Quarto
-
-Desde Quarto se pueden hacer curriculums. Por ejemplo:
-
-. . .
-
--   Plantilla para crear CV con Quarto: [quarto-cv](https://github.com/mps9506/quarto-cv)
-
--   Otra plantilla para hacer CV's, de `@BeaMilz`: el [código](https://github.com/beatrizmilz/resume/blob/master/docs/index.qmd) y el [resultado](https://beatrizmilz.github.io/resume/index.pdf)
-
--   Tengo el CV en un `.docx` ¿puedo pasarlo a Quarto? Sí, [aquí](https://sciences.social/@CoffeeBaseball/110027602855581359) la explicación. Aconsejan pasarlo primero a Google doc's
-
-<br>
-
-. . .
-
-#### CV's con `.Rmd`
-
--   Un **currículum** con [pagedown::html_resume](https://github.com/rstudio/pagedown#resume-pagedownhtml_resume).
-
--   Curriculum con [datadrivencv](https://github.com/nstrayer/datadrivencv) package
-
-### Posters con Quarto
-
--   Yo aún no he visto que se pueda, pero [la gente esta esperando](https://github.com/quarto-dev/quarto-cli/discussions/2205) poder hacer posters con Quarto
-
-. . .
-
--   Con `.Rmd` habían varios paquetes para hacer posters, por ejemplo con [posterdown](https://github.com/brentthorne/posterdown) o con [pagedown::poster_relaxed](https://github.com/rstudio/pagedown#resume-pagedownhtml_resume).
-
-### Más formatos con `.Rmd`
-
-<br>
-
--   **Business cards** con [pagedown::business_card](https://github.com/rstudio/pagedown#business-cards-pagedownbusiness_card)
-
-<br>
-
--   **"Cuadros de mando"** con [flexdashboard](https://pkgs.rstudio.com/flexdashboard/): tienes algunos ejemplos [aquí](https://pkgs.rstudio.com/flexdashboard/articles/examples.html). Permite [distintos layouts](https://pkgs.rstudio.com/flexdashboard/articles/layouts.html), incluidos los [storyboards](https://pkgs.rstudio.com/flexdashboard/articles/using.html#storyboards), por ejemplo [este](https://beta.rstudioconnect.com/jjallaire/htmlwidgets-showcase-storyboard/htmlwidgets-showcase-storyboard.html)
-
-<br>
-
--   **Shiny apps** con el paquete [shiny](https://shiny.rstudio.com/): algunos [ejemplos](https://shiny.rstudio.com/gallery/)
-
-<br>
-
--   Formatos posibles gracias al paquete [rmdformats](https://github.com/juba/rmdformats)
 
 ### Trucos [CSS](https://www.w3schools.com/css/) y [SASS](https://sass-lang.com/)
 
@@ -827,43 +910,6 @@ No he visto que sea posible correr SPSS code dentro de R, pero para que tenemos 
 
 -   [RISmed](https://cran.r-project.org/web/packages/RISmed/index.html): A set of tools to extract bibliographic content from the National Center for Biotechnology Information (NCBI) databases, including PubMed.
 
-### Trabajando con documentos WORD
-
--   [officedown](https://davidgohel.github.io/officedown/): facilita el formateo de informe de Word desde R. [Aquí](https://ardata-fr.github.io/officeverse/) un libro y dos posts: [aquí](https://www.business-science.io/code-tools/2024/02/24/make-microsoft-word-reports-officedown.html), otro [aquí](https://www.apreshill.com/blog/2021-07-officedown/)
-
-<br>
-
--   [officer](https://davidgohel.github.io/officer/): The officer package lets R users manipulate Word (.docx) and PowerPoint (\*.pptx) documents. In short, one can add images, tables and text into documents from R.
-
-<br>
-
--   [docxtractr](https://gitlab.com/hrbrmstr/docxtractr): Extract Data Tables and Comments from Microsoft Word Documents. [Aquí](https://www.brodrigues.co/blog/2023-03-18-docxtractr/) un post sobre su uso.
-
-### Plantillas/cosas de pdf's
-
--   Plantillas para hacer pretty pdfs: [aquí](https://nrennie.rbind.io/blog/making-pretty-pdf-quarto/) y [aquí](https://rfortherestofus.com/2021/01/announcing-pagedreport/)
-
--   Plantilla para [compact pdf](https://github.com/arcruz0/quarto-compact)
-
--   Nicola Rennie te dice cómo hacer pdfs parámetrizados: [aquí](https://meghan.rbind.io/blog/quarto-pdfs/)
-
--   Quarto YouTube [Playlist](https://www.youtube.com/playlist?list=PLDqZV53PcnYxnBYuEdSBxnOwdKLGaoKGg)
-
--   Title Pages [templates](https://nmfs-opensci.github.io/quarto_titlepages/) for adding a cover page to your Quarto pdf books. Un [ejemplo](https://nmfs-opensci.github.io/quarto_titlepages/titlepages/great-wave/article.pdf)
-
--   Great looking pdf with pagedown: vídeo [aquí](https://www.youtube.com/watch?v=jiYVkyWGrbs)
-
-<br>
-
--   Muchísimas más en [Quarto awesome](https://github.com/mcanouil/awesome-quarto)
-
-<br>
-
-##### Otras plantillas
-
--   Un instituto de física: <https://github.com/sebdunnett/quarto-iop>
-
--   [quarto-lcars-theme](https://github.com/mccarthy-m-g/quarto-lcars-theme):
 
 ### Ejemplitos (de copiar y hacer)
 

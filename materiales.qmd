@@ -40,12 +40,12 @@ Si quieres, puedes descargar todas las slides en pdf [aquí](./slides/slides_en_
 
 En clase también usaremos dos Qproject's:
 
-- El primer Qproject que usaremos podrás descargarlo en breve [aquí](./recursos/Qproj_01_eurovision.zip){target="_blank"}.
+- El **primer Qproject**, llamado  `Qproj_01_eurovision` podrás descargarlo en breve [aquí](./recursos/Qproj_01_eurovision.zip){target="_blank"}.
 
     (Al pinchar, se te descargará una archivo comprimido llamado `Qproj_01_eurovision.zip`. Descomprime el archivo y así tendrás en tu ordenador el Qproject con los materiales (scripts, ejemplos, datos, ...) que utilizaremos en clase.)
 
 
-- El segundo Qproject, llamado `Qproj_02_param-rep`, también comprimido, puedes descargarlo [aquí](./recursos/Qproj_02_param-rep.zip){target="_blank"}. Lo usaremos cuando hagamos "informes parametrizados".
+- El **segundo Qproject**, llamado `Qproj_02_param-rep` puedes descargarlo, también comprimido, [aquí](./recursos/Qproj_02_param-rep.zip){target="_blank"}. Lo usaremos cuando hagamos "informes parametrizados".
 
 <!-- 
 -   El Qproject llamado "parametrised_reports" que podrás descargar [aquí](/cuestionario/parametrised_reports.zip){target="_blank"}, también comprimido en formato .zip Write 
