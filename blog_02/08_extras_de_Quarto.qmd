@@ -24,26 +24,19 @@ Quarto manuscript projects provide a framework for writing and publishing schola
 
 - Unas slides de JJ Allaire hablando sobre el proyecto [aquí](https://jjallaire.quarto.pub/reproducible-manuscripts-with-quarto/#/title-slide)
 
+- Charla de Mine [aquí](https://www.youtube.com/watch?v=NK1onTLcgY4),  y el post [aquí](https://quarto.org/docs/blog/posts/2024-04-01-manuscripts-rmedicine/)
 
-## Typst
-
-- Un [video](https://www.youtube.com/watch?v=t30sqFch2v0&list=PL9HYL-VRX0oRFZslRGHwHuwea7SvAATHp&index=74) de C. Scheidiger en `posit::conf(2023)`. Cuenta los pb's de Latex y espera que Typst lo reemplace. Ventajas en el minuto 4:40. Sólo hay que cambiar a `format: typst`
+<br>
 
 
+
+<br>
 
 ## pdf's
 
 - En [Making Pretty PDFs with Quarto](https://nrennie.rbind.io/blog/making-pretty-pdf-quarto/) Nicola Rennie explica cómo crear una extensión de Quarto para una plantilla de un pretty-pdf
 
-
-## CV's
-
-- [Super-post](https://alexespinosaco.github.io/aerovagante/2024-02-18-cv/) para hacer CV's con Quarto. Entre otras, cita las [plantillas para CV](https://github.com/schochastics/quarto-cv) de D. Schochs. 
-
-- [aquí](https://github.com/produnis/quarto-cv) otra plantilla que creo que no está en el post
-
-- Plantillas para varios formatos: cv, list of publicaciones, letter y un timer: [aquí](https://ruhr.social/@produnis/111766773526870010)
-
+<br>
 
 
 ## like Storyteller
@@ -65,24 +58,7 @@ Quarto manuscript projects provide a framework for writing and publishing schola
 
 - Para convertir un Google Doc en un Quarto book puedes usar el pkg  [quartificate](https://docs.ropensci.org/quartificate/)
 
-## APA
 
-- La extensión de Quarto [apaquarto](https://github.com/wjschne/apaquarto) provee una template para crear documentos **APA Style 7th Ed** en `.docx`, .html. y `.pdf`. If you want to type in markdown to create a document in the "APA 6th Ed", I suggest using [papaja](https://frederikaust.com/papaja_man/)
-
-- Hay otra extesion: [apaish](https://github.com/mvuorre/quarto-apaish) que permite crear documentos pdf en el estilo de la APA 7th Ed via Typst. Tiene varios tipos: manuscript, document, and journal (Similar to the APA7 LaTeX package, but  Typst produces them much faster and easier)
-
-## Posters
-
-- Una plantilla para crear un **typst poster** de David Schoch [aquí](https://github.com/schochastics/CRAN_collaboration/tree/main/typst-poster). El [toot](https://fosstodon.org/@schochastics/111097462080543727). El 
-
-
-## Journal template
-
-- Cómo crear una [Quarto Journal Article Templates](https://christophertkenny.com/posts/2023-07-01-creating-quarto-journal-articles/)
-
-## Certificados
-
-- El paquete [labeleR](https://ecologyr.github.io/labeleR/) permite crear certificados de asistencia, badges, ....
 
 
 
@@ -92,13 +68,13 @@ Quarto manuscript projects provide a framework for writing and publishing schola
 
 <br>
 
-## Docencia
+# Docencia
 
 Cosillas que pueden ser útiles en Docencia
 
 ## quarto-assign 
 
-- Es una extensión de Quarto que permite generar problemas y sus solucuiones en un único `.qmd`. EStá [aquí](https://github.com/coatless-quarto/assign)
+- Es una extensión de Quarto que permite generar problemas y sus soluciones en un único `.qmd`. Está [aquí](https://github.com/coatless-quarto/assign)
 
 
 <br>

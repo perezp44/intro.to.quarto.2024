@@ -998,7 +998,7 @@
     "href": "blog_02/07_trucos_Rmarkdown.html",
     "title": "Trucos: Rmarkdown",
     "section": "",
-    "text": "1 Rmarkdown\n\n\n1.0.1 Ver todas las opciones de los chunks\n\nSale de este post de Danielle Navarro\n\n\nCódigo#- salen las opciones por defecto\noptions &lt;- knitr::opts_chunk$get()\n\n\n\n\n1.0.2 Ejecutar .R en chunks\nLa explicación aquí\n{r, file = \"some-file.R\"}\nEl archivo some-file.R ha de estar en la misma carpeta que el .qmd\n\n\n1.0.3 convertir Rmd chunks a qmd\n\nPara convertir Rmd chunks a qmd:\n\nknitr::convert_chunk_header(\"document.qmd\", output = identity)\n\n\n1.0.4 Compilar .tex\n\nCompilar .tex a pdf desde RStudio: tools::texi2pdf()\n\n\n\n\n1.0.5 CHILD\n\ntruco knitr::knitr_child() para generar distintas tablas y títulos en .qmd programáticamente: https://fosstodon.org/@MickaelCanouil/109919710663908424\n\n\n\n\n1.0.6 Inline code\n\nExplican bien lo de scaping back-ticks: https://www.markdownguide.org/basic-syntax/#escaping-backticks. Estos otros no lo hacen tan bien\ninline literal code: ` r 2+2` `abc` `` `abc` ``\nescribir esto: `` `abc` `` para que se muestre esto: `abc`\n\n\n\n1.0.7 Meta-Markdown\n\nAutomatizar la creación de una bullet list: aquí\nPasar un enlace à la md, a enlace en html. aquí hilo de Shanon\n\n\n\n1.0.8 Convertir Inline footnotes\nConvertir Inline footnotes to Regular footnotes in Markdown: https://yihui.org/en/2023/02/markdown-footnotes/\n\n\n\n\n2 ZZ. Biblio\n\n\nWriting knitr hooks, de danielle Navarro.\n\n\n\nReutilizarCC BY 4.0"
+    "text": "1 Rmarkdown\n\n\n1.0.1 Ver todas las opciones de los chunks\n\nSale de este post de Danielle Navarro\n\n\nCódigo#- salen las opciones por defecto\noptions &lt;- knitr::opts_chunk$get()\n\n\n\n\n1.0.2 Ejecutar .R en chunks\nLa explicación aquí\n{r, file = \"some-file.R\"}\nEl archivo some-file.R ha de estar en la misma carpeta que el .qmd\n\n\n1.0.3 convertir Rmd chunks a qmd\n\nPara convertir Rmd chunks a qmd:\n\nknitr::convert_chunk_header(\"document.qmd\", output = identity)\n\n\n1.0.4 Compilar .tex\n\nCompilar .tex a pdf desde RStudio: tools::texi2pdf()\n\n\n\n\n1.0.5 CHILD\n\ntruco knitr::knitr_child() para generar distintas tablas y títulos en .qmd programáticamente: https://fosstodon.org/@MickaelCanouil/109919710663908424\n\n\n\n\n1.0.6 Inline code\n\nExplican bien lo de scaping back-ticks: https://www.markdownguide.org/basic-syntax/#escaping-backticks. Estos otros no lo hacen tan bien\ninline literal code: ` r 2+2` `abc` `` `abc` ``\nescribir esto: `` `abc` `` para que se muestre esto: `abc`\n\n\n\n1.0.7 Meta-Markdown\n\nAutomatizar la creación de una bullet list: aquí\nPasar un enlace à la md, a enlace en html. aquí hilo de Shanon\n\n\n\n1.0.8 Convertir Inline footnotes\nConvertir Inline footnotes to Regular footnotes in Markdown: https://yihui.org/en/2023/02/markdown-footnotes/\n\n\n\n\n2 ZZ. Biblio\n\nWriting knitr hooks, de danielle Navarro.\nGenerating dynamic contents in R Markdown and Quarto: volvio a salir al ver este toot\n\n\n\nReutilizarCC BY 4.0"
   },
   {
     "objectID": "blog_02/02_trucos_revealjs.html",
@@ -1040,21 +1040,14 @@
     "href": "blog_02/08_extras_de_Quarto.html",
     "title": "EXTRAS de Quarto",
     "section": "",
-    "text": "Quarto manuscript projects provide a framework for writing and publishing scholarly articles.\n\nDocumentación oficial aquí. Un ejemplo\nUnas slides de Mine. Permite usar Binder\nUnas slides de JJ Allaire hablando sobre el proyecto aquí\n\n\n\n\n\nUn video de C. Scheidiger en posit::conf(2023). Cuenta los pb’s de Latex y espera que Typst lo reemplace. Ventajas en el minuto 4:40. Sólo hay que cambiar a format: typst\n\n\n\n\n\nEn Making Pretty PDFs with Quarto Nicola Rennie explica cómo crear una extensión de Quarto para una plantilla de un pretty-pdf\n\n\n\n\n\nSuper-post para hacer CV’s con Quarto. Entre otras, cita las plantillas para CV de D. Schochs.\naquí otra plantilla que creo que no está en el post\nPlantillas para varios formatos: cv, list of publicaciones, letter y un timer: aquí\n\n\n\n\n\ncomo storytelling: https://mastodon.social/@benschneider/111354305395601257\ncomo un storyteller: https://github.com/andrewpbray/gg-close-read\n\n\n\n\n\nYo usaba Flipbook en Xaringan slides. Aquí hay un port de flipbook a Revealjs. Ya no es tan-tan necesario pero igual lo uso para teach ggplot2\n\n\n\n\n\nUn post de 2024 sobre creación de word’s\n\n\n\n\n\nPara convertir un Google Doc en un Quarto book puedes usar el pkg quartificate\n\n\n\n\n\nLa extensión de Quarto apaquarto provee una template para crear documentos APA Style 7th Ed en .docx, .html. y .pdf. If you want to type in markdown to create a document in the “APA 6th Ed”, I suggest using papaja\nHay otra extesion: apaish que permite crear documentos pdf en el estilo de la APA 7th Ed via Typst. Tiene varios tipos: manuscript, document, and journal (Similar to the APA7 LaTeX package, but Typst produces them much faster and easier)\n\n\n\n\n\nUna plantilla para crear un typst poster de David Schoch aquí. El toot. El\n\n\n\n\n\nCómo crear una Quarto Journal Article Templates\n\n\n\n\n\nEl paquete labeleR permite crear certificados de asistencia, badges, ….\n\n\n\n\n\n\n\nCosillas que pueden ser útiles en Docencia\n\n\n\n\nEs una extensión de Quarto que permite generar problemas y sus solucuiones en un único .qmd. EStá aquí"
+    "text": "Quarto manuscript projects provide a framework for writing and publishing scholarly articles.\n\nDocumentación oficial aquí. Un ejemplo\nUnas slides de Mine. Permite usar Binder\nUnas slides de JJ Allaire hablando sobre el proyecto aquí\nCharla de Mine aquí, y el post aquí\n\n\n\n\n\n\n\nEn Making Pretty PDFs with Quarto Nicola Rennie explica cómo crear una extensión de Quarto para una plantilla de un pretty-pdf\n\n\n\n\n\n\ncomo storytelling: https://mastodon.social/@benschneider/111354305395601257\ncomo un storyteller: https://github.com/andrewpbray/gg-close-read\n\n\n\n\n\nYo usaba Flipbook en Xaringan slides. Aquí hay un port de flipbook a Revealjs. Ya no es tan-tan necesario pero igual lo uso para teach ggplot2\n\n\n\n\n\nUn post de 2024 sobre creación de word’s\n\n\n\n\n\nPara convertir un Google Doc en un Quarto book puedes usar el pkg quartificate"
   },
   {
     "objectID": "blog_02/08_extras_de_Quarto.html#quarto-manuscripts",
     "href": "blog_02/08_extras_de_Quarto.html#quarto-manuscripts",
     "title": "EXTRAS de Quarto",
     "section": "",
-    "text": "Quarto manuscript projects provide a framework for writing and publishing scholarly articles.\n\nDocumentación oficial aquí. Un ejemplo\nUnas slides de Mine. Permite usar Binder\nUnas slides de JJ Allaire hablando sobre el proyecto aquí"
-  },
-  {
-    "objectID": "blog_02/08_extras_de_Quarto.html#typst",
-    "href": "blog_02/08_extras_de_Quarto.html#typst",
-    "title": "EXTRAS de Quarto",
-    "section": "",
-    "text": "Un video de C. Scheidiger en posit::conf(2023). Cuenta los pb’s de Latex y espera que Typst lo reemplace. Ventajas en el minuto 4:40. Sólo hay que cambiar a format: typst"
+    "text": "Quarto manuscript projects provide a framework for writing and publishing scholarly articles.\n\nDocumentación oficial aquí. Un ejemplo\nUnas slides de Mine. Permite usar Binder\nUnas slides de JJ Allaire hablando sobre el proyecto aquí\nCharla de Mine aquí, y el post aquí"
   },
   {
     "objectID": "blog_02/08_extras_de_Quarto.html#pdfs",
@@ -1062,13 +1055,6 @@
     "title": "EXTRAS de Quarto",
     "section": "",
     "text": "En Making Pretty PDFs with Quarto Nicola Rennie explica cómo crear una extensión de Quarto para una plantilla de un pretty-pdf"
-  },
-  {
-    "objectID": "blog_02/08_extras_de_Quarto.html#cvs",
-    "href": "blog_02/08_extras_de_Quarto.html#cvs",
-    "title": "EXTRAS de Quarto",
-    "section": "",
-    "text": "Super-post para hacer CV’s con Quarto. Entre otras, cita las plantillas para CV de D. Schochs.\naquí otra plantilla que creo que no está en el post\nPlantillas para varios formatos: cv, list of publicaciones, letter y un timer: aquí"
   },
   {
     "objectID": "blog_02/08_extras_de_Quarto.html#like-storyteller",
@@ -1099,74 +1085,39 @@
     "text": "Para convertir un Google Doc en un Quarto book puedes usar el pkg quartificate"
   },
   {
-    "objectID": "blog_02/08_extras_de_Quarto.html#apa",
-    "href": "blog_02/08_extras_de_Quarto.html#apa",
-    "title": "EXTRAS de Quarto",
-    "section": "",
-    "text": "La extensión de Quarto apaquarto provee una template para crear documentos APA Style 7th Ed en .docx, .html. y .pdf. If you want to type in markdown to create a document in the “APA 6th Ed”, I suggest using papaja\nHay otra extesion: apaish que permite crear documentos pdf en el estilo de la APA 7th Ed via Typst. Tiene varios tipos: manuscript, document, and journal (Similar to the APA7 LaTeX package, but Typst produces them much faster and easier)"
-  },
-  {
-    "objectID": "blog_02/08_extras_de_Quarto.html#posters",
-    "href": "blog_02/08_extras_de_Quarto.html#posters",
-    "title": "EXTRAS de Quarto",
-    "section": "",
-    "text": "Una plantilla para crear un typst poster de David Schoch aquí. El toot. El"
-  },
-  {
-    "objectID": "blog_02/08_extras_de_Quarto.html#journal-template",
-    "href": "blog_02/08_extras_de_Quarto.html#journal-template",
-    "title": "EXTRAS de Quarto",
-    "section": "",
-    "text": "Cómo crear una Quarto Journal Article Templates"
-  },
-  {
-    "objectID": "blog_02/08_extras_de_Quarto.html#certificados",
-    "href": "blog_02/08_extras_de_Quarto.html#certificados",
-    "title": "EXTRAS de Quarto",
-    "section": "",
-    "text": "El paquete labeleR permite crear certificados de asistencia, badges, …."
-  },
-  {
-    "objectID": "blog_02/08_extras_de_Quarto.html#docencia",
-    "href": "blog_02/08_extras_de_Quarto.html#docencia",
-    "title": "EXTRAS de Quarto",
-    "section": "",
-    "text": "Cosillas que pueden ser útiles en Docencia"
-  },
-  {
     "objectID": "blog_02/08_extras_de_Quarto.html#quarto-assign",
     "href": "blog_02/08_extras_de_Quarto.html#quarto-assign",
     "title": "EXTRAS de Quarto",
-    "section": "",
-    "text": "Es una extensión de Quarto que permite generar problemas y sus solucuiones en un único .qmd. EStá aquí"
+    "section": "2.1 quarto-assign",
+    "text": "2.1 quarto-assign\n\nEs una extensión de Quarto que permite generar problemas y sus soluciones en un único .qmd. Está aquí"
   },
   {
     "objectID": "blog_02/08_extras_de_Quarto.html#chatgpt",
     "href": "blog_02/08_extras_de_Quarto.html#chatgpt",
     "title": "EXTRAS de Quarto",
-    "section": "2.1 ChatGPT",
-    "text": "2.1 ChatGPT\n\nchatgpt-from-r: https://www.sumsar.net/blog/call-chatgpt-from-r/"
+    "section": "3.1 ChatGPT",
+    "text": "3.1 ChatGPT\n\nchatgpt-from-r: https://www.sumsar.net/blog/call-chatgpt-from-r/"
   },
   {
     "objectID": "blog_02/08_extras_de_Quarto.html#publicaciones",
     "href": "blog_02/08_extras_de_Quarto.html#publicaciones",
     "title": "EXTRAS de Quarto",
-    "section": "2.2 Publicaciones",
-    "text": "2.2 Publicaciones\n\nEl paquete Rcademy permite buscar y pasar a df tus publicaciones y hace bastantes más cosas\n\ndevtools::install_github(\"ropenscilabs/Rcademy\")\nlibrary(Rcademy)\nmypubs_bib &lt;- read_bib(\"mypubs.bib\")\nmypubs_pubmed &lt;- read_pubmed(\"Rob Hyndman\")\nmypubs_scholar &lt;- read_scholar(\"PXaWcW4AAAAJ\")     #- ok\nmypubs_orcid &lt;- read_orcid(\"0000-0001-9375-6330\")  #- ok\n\nEl paquete pubmedr busca en PubMed\n\nmed_cannabis &lt;- pubmedr::pmed_search_pubmed(search_term = \n\"medical marijuana\", fields = c('TIAB','MH'))\n\nScholia: is a service that creates visual scholarly profiles for topics, people, organizations, species, chemicals, etc using bibliographic and other information in Wikidata https://scholia.toolforge.org/\nZenodo: un repositorio de acceso abierto donde quienes investigan depositan artículos, datos, software, informes, etc. Puede venir bien al buscar info para trabajos universitarios 😉 https://zenodo.org/ desarrollado bajo el programa europeo OpenAIRE y operado por CERN . Permite a cualquier artefacto digital relacionado con la investigación. Para cada envío, se acuña un identificador de objeto digital persistente (DOI), lo que hace que los elementos almacenados se puedan citar fácilmente."
+    "section": "3.2 Publicaciones",
+    "text": "3.2 Publicaciones\n\nEl paquete Rcademy permite buscar y pasar a df tus publicaciones y hace bastantes más cosas\n\ndevtools::install_github(\"ropenscilabs/Rcademy\")\nlibrary(Rcademy)\nmypubs_bib &lt;- read_bib(\"mypubs.bib\")\nmypubs_pubmed &lt;- read_pubmed(\"Rob Hyndman\")\nmypubs_scholar &lt;- read_scholar(\"PXaWcW4AAAAJ\")     #- ok\nmypubs_orcid &lt;- read_orcid(\"0000-0001-9375-6330\")  #- ok\n\nEl paquete pubmedr busca en PubMed\n\nmed_cannabis &lt;- pubmedr::pmed_search_pubmed(search_term = \n\"medical marijuana\", fields = c('TIAB','MH'))\n\nScholia: is a service that creates visual scholarly profiles for topics, people, organizations, species, chemicals, etc using bibliographic and other information in Wikidata https://scholia.toolforge.org/\nZenodo: un repositorio de acceso abierto donde quienes investigan depositan artículos, datos, software, informes, etc. Puede venir bien al buscar info para trabajos universitarios 😉 https://zenodo.org/ desarrollado bajo el programa europeo OpenAIRE y operado por CERN . Permite a cualquier artefacto digital relacionado con la investigación. Para cada envío, se acuña un identificador de objeto digital persistente (DOI), lo que hace que los elementos almacenados se puedan citar fácilmente."
   },
   {
     "objectID": "blog_02/08_extras_de_Quarto.html#truletes",
     "href": "blog_02/08_extras_de_Quarto.html#truletes",
     "title": "EXTRAS de Quarto",
-    "section": "2.3 TRULETES",
-    "text": "2.3 TRULETES\nSon trucos q no los voy a utilizar nunca pero quiero guardarlos\n\n@andrewheiss: Regular reminder that @tjmahr’s trick of storing model results as tab-completable lists (by feeding data frames to split()) is ingenious and will forever change how you use inline chunks with https://www.tjmahr.com/lists-knitr-secret-weapon/\nbuscar archivos que tengan draft: true : grep -rl \"draft: true\": https://isaac-flath.tech/til/quartodrafts\nHmisc::rendHTML(): https://fosstodon.org/@smach/110006219843294743\nMostrar las rows de una tabla poco a poco: https://fosstodon.org/@yabellini/110097048443787861\nel ejemplo redefinitivo: https://rd.thecoatlessprofessor.com/webR-quarto-demos/webr-quarto-html-demo.html"
+    "section": "3.3 TRULETES",
+    "text": "3.3 TRULETES\nSon trucos q no los voy a utilizar nunca pero quiero guardarlos\n\n@andrewheiss: Regular reminder that @tjmahr’s trick of storing model results as tab-completable lists (by feeding data frames to split()) is ingenious and will forever change how you use inline chunks with https://www.tjmahr.com/lists-knitr-secret-weapon/\nbuscar archivos que tengan draft: true : grep -rl \"draft: true\": https://isaac-flath.tech/til/quartodrafts\nHmisc::rendHTML(): https://fosstodon.org/@smach/110006219843294743\nMostrar las rows de una tabla poco a poco: https://fosstodon.org/@yabellini/110097048443787861\nel ejemplo redefinitivo: https://rd.thecoatlessprofessor.com/webR-quarto-demos/webr-quarto-html-demo.html"
   },
   {
     "objectID": "blog_02/08_extras_de_Quarto.html#biblio",
     "href": "blog_02/08_extras_de_Quarto.html#biblio",
     "title": "EXTRAS de Quarto",
-    "section": "2.4 “Biblio”",
-    "text": "2.4 “Biblio”\n\nMás trucos (complicaetes y algunos rarunos para mi) de .Rmd de Elio Campitelli: https://mastodon.social/@eliocamp/110209569783331181"
+    "section": "3.4 “Biblio”",
+    "text": "3.4 “Biblio”\n\nMás trucos (complicaetes y algunos rarunos para mi) de .Rmd de Elio Campitelli: https://mastodon.social/@eliocamp/110209569783331181"
   },
   {
     "objectID": "blog/26_css-bizarro.html",
@@ -2104,7 +2055,7 @@
     "href": "slides/04_revealjs.html#algunos-truquillos",
     "title": "Slides con Quarto",
     "section": "Algunos truquillos",
-    "text": "Algunos truquillos\n\nPoner varios autores: una solución aquí"
+    "text": "Algunos truquillos"
   },
   {
     "objectID": "slides/imagenes/tt_01/ejemplo_2.html",
@@ -2125,7 +2076,7 @@
     "href": "slides/06_mas_cosas.html#con-quarto-se-pueden-generar-muuuuchos-formatos-distintos",
     "title": "Más cosas con Quarto",
     "section": "Con Quarto se pueden generar muu🙀uuchos FORMATOS distintos!!!",
-    "text": "Con Quarto se pueden generar muu🙀uuchos FORMATOS distintos!!!\n\n\nVeamos algunos de ellos"
+    "text": "Con Quarto se pueden generar muu🙀uuchos FORMATOS distintos!!!\n\n\nEl curso se ha centrado en la realización de documentos .html pero desde Quarto se pueden generar documentos en múltiples formatos. Veamos algunos de ellos!!!"
   },
   {
     "objectID": "slides/06_mas_cosas.html#con-quarto-aún-se-pueden-hacer-muuuuchas-más-cosas",

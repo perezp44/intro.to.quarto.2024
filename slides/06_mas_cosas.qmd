@@ -506,13 +506,27 @@ gt::gt(df)
 
 - Es muy habitual que la comunidad R comparta el código de sus materiales; principalmente en [GitHub](https://github.com/)
 
-- Por ejemplo [estas slides]() hechas por [Mine Çetinkaya-Rundel]() son muy chulas. Vamos a ver el código que genera las slides
+<br>
 
+. . . 
 
+- Por ejemplo [estas slides](https://mine-cetinkaya-rundel.github.io/2022-repro-toronto/#/title-slide) hechas por [Mine Çetinkaya-Rundel](https://mine-cr.com/) son relativamente simples, pero muy chulas. Vamos a ver el código que genera las slides: está [aquí](https://github.com/mine-cetinkaya-rundel/2022-repro-toronto)
+
+<br>
+
+. . .
+
+- Otro ejemplo son [estas slides](https://colorado.posit.co/rsc/inflation-explorer-slides/automated-quarto-dashboards.html) de [Isabella Velásquez](https://fosstodon.org/@ivelasq3). El repo de las slides está [aquí](https://github.com/ivelasq/automated-quarto-dashboards-slides/blob/main/index.qmd), la charla está  [aquí](https://www.youtube.com/watch?v=xnJuXOw7iu8) y el repo para el dashboard [aquí](https://github.com/posit-marketing/inflation-explorer)
+
+---
 
 
 ::: {.callout-important icon="false"}
 #### Tarea 6.7: Aprender a "reutilizar" materiales
+
+- Vamos a reutilizar el código de una de las 2 slides anteriores. 
+
+- Sí, se aprende mucho viendo el código de otros
 
 :::
 
@@ -525,28 +539,89 @@ gt::gt(df)
 
 <br>
 
-Veamos algunos de ellos
+
+El curso se ha centrado en la realización de documentos `.html` pero desde Quarto se pueden generar documentos en [múltiples formatos](https://quarto.org/docs/output-formats/all-formats.html). Veamos algunos de ellos!!!
 
 
 
 ### Journal articles
 
--   El curso se ha centrado en la realización de documentos `.html` pero desde Quarto se pueden generar documentos en [múltiples formatos](https://quarto.org/docs/output-formats/all-formats.html).
+-   Tenemos disponibles **plantillas** para generar, directamente desde Quarto, documentos en el formato adecuado para un conjunto de Journals.
 
--   Además, disponemos de **plantillas** para generar, directamente desde Quarto, documentos en el formato adecuado para un conjunto de Journals. Puedes ver el **listado de Journals** [aquí](https://quarto.org/docs/journals/) y [aquí](https://github.com/mcanouil/awesome-quarto#journals)
+. . . 
 
--   En **Rmarkdown** tenemos el paquete [rticles](https://pkgs.rstudio.com/rticles/) con plantillas para generar documentos de un conjunto amplio de [Journals](https://pkgs.rstudio.com/rticles/#templates)
+- Puedes ver el **listado de Journals** [aquí](https://quarto.org/docs/journals/) y [aquí](https://github.com/mcanouil/awesome-quarto#journals). La documentación oficial la tienes [aquí](https://quarto.org/docs/journals/formats.html)
+
+. . . 
 
 ::: {.callout-warning collapse="true" appearance="default" icon="false"}
 #### Extensión: más sobre publicación en Journals desde Quarto
+
+- La extensión de Quarto [apaquarto](https://github.com/wjschne/apaquarto) provee una template para crear documentos **APA Style 7th Ed** en `.docx`, .html. y `.pdf`. La web del proyecto está [aquí](https://wjschne.github.io/apaquarto/).
+
+- If you want to type in markdown to create a document in the "APA 6th Ed", I suggest using [papaja](https://frederikaust.com/papaja_man/)
+
+- Hay otra extensión: [apaish](https://github.com/mvuorre/quarto-apaish) que permite crear documentos pdf en el estilo de la APA 7th ed. via Typst. Tiene varios tipos: manuscript, document, and Journal (Similar to the APA7 LaTeX package, but  Typst produces them much faster and easier)
+
+-   En **Rmarkdown** tenemos el paquete [rticles](https://pkgs.rstudio.com/rticles/) con plantillas para generar documentos de un conjunto amplio de [Journals](https://pkgs.rstudio.com/rticles/#templates)
 
 -   Un [hilo de Mastodon](https://fosstodon.org/@MikeMahoney218/110016333650289913) con las vicisitudes de M. Mahoney para publicar en Elsevier desde Quarto:
 
 -   [Journals](https://www.software.ac.uk/which-journals-should-i-publish-my-software) para publicar código.
 
 -   [Esta charla](https://fosstodon.org/@Posit/110470020629680463) de Mine Çetinkaya-Rundel habla de este tema en el minuto 14 aprox.
+
+
+- Cómo crear una [Quarto Journal Article Templates](https://christophertkenny.com/posts/2023-07-01-creating-quarto-journal-articles/)
 :::
 
+---
+
+
+::: {.callout-important icon="false"}
+#### Tarea: Practicando con Journal articles
+
+
+::: panel-tabset
+## Tarea
+
+- Primero vamos a generar un paper para JSS (Journal of Statistical Software), y después generaremos un artículo para Elsevier 
+
+
+## JSS Journal
+
+El repo para la plantilla/extensión está [aquí](https://github.com/quarto-journals/elsevier)
+
+1. Instalar la extensión: hay que ejecutar en la Terminal:
+
+    ```bash
+    quarto use template quarto-journals/jss
+    ```
+    
+2. Ver qué se ha creado en el Qproject
+
+3. Procesar el archivo `templates.qmd` que se ha creado
+
+## Elsevier Journal
+
+- El repo para la plantilla/extensión está [aquí](https://github.com/quarto-journals/elsevier). Tiene muchas más variantes y opciones!!
+
+
+1. Instalar la extensión: hay que ejecutar en la Terminal:
+
+    ```bash
+    quarto use template quarto-journals/elsevier
+    ```
+    
+2. Ver qué se ha creado en el Qproject
+
+3. Procesar el archivo `elsevier.qmd` que se ha creado
+
+4. Hay muchas [más opciones](https://github.com/quarto-journals/elsevier?tab=readme-ov-file#format-options)
+
+
+:::
+:::
 
 
 
@@ -556,29 +631,93 @@ Desde Quarto se pueden hacer curriculums. Por ejemplo:
 
 . . .
 
+::: {.callout}
+
+#### CV's con Quarto
+
+
 -   Plantilla para crear CV con Quarto: [quarto-cv](https://github.com/mps9506/quarto-cv)
 
 -   Otra plantilla para hacer CV's, de `@BeaMilz`: el [código](https://github.com/beatrizmilz/resume/blob/master/docs/index.qmd) y el [resultado](https://beatrizmilz.github.io/resume/index.pdf)
 
+
+- [Super-post](https://alexespinosaco.github.io/aerovagante/2024-02-18-cv/) para hacer CV's con Quarto. Entre otras, cita las [plantillas para CV](https://github.com/schochastics/quarto-cv) de D. Schochs. [Aquí](https://github.com/produnis/quarto-cv) otra plantilla que creo que no está en el post
+
+
+
+- Más plantillas para CV [aquí](https://ruhr.social/@produnis/111766773526870010)
+:::
+
+. . . 
+
+::: {.callout}
+
+#### Convertir CV's a Quarto
 -   Tengo el CV en un `.docx` ¿puedo pasarlo a Quarto? Sí, [aquí](https://sciences.social/@CoffeeBaseball/110027602855581359) la explicación. Aconsejan pasarlo primero a Google doc's
+
+
+- Para convertir un Google Doc en un Quarto book puedes usar el pkg  [quartificate](https://docs.ropensci.org/quartificate/)
+
+
+
+:::
+
+. . .
+
+::: {.callout-warning collapse="true" appearance="default" icon="false"}
+#### Extensión: CV's con `.Rmd`
+
+-   Un **currículum** con [pagedown::html_resume](https://github.com/rstudio/pagedown#resume-pagedownhtml_resume).
+
+-   Currículum con [datadrivencv](https://github.com/nstrayer/datadrivencv) package
+
+:::
+
+### Posters con Quarto
+
+Ahora ya es posible hacer **posters con Quarto**, pero [la gente estaba esperando](https://github.com/quarto-dev/quarto-cli/discussions/2205) hace tiempo. Por ejemplo:
+
+. . . 
+
+::: {.callout}
+
+- Póster de Lorena Abad [aquí](https://loreabad6.github.io/posts/2023-04-26-betterposter-at-egu-2023/)
+
+- **Typst-poster**. Lo vi en [este video](https://www.youtube.com/watch?v=t30sqFch2v0&list=PL9HYL-VRX0oRFZslRGHwHuwea7SvAATHp&index=74), concretamente en el minuto 7:30
+
+- Una plantilla para crear un **typst poster** de David Schoch [aquí](https://github.com/schochastics/CRAN_collaboration/tree/main/typst-poster). El [toot](https://fosstodon.org/@schochastics/111097462080543727). 
+
+:::
 
 <br>
 
 . . .
 
-#### CV's con `.Rmd`
-
--   Un **currículum** con [pagedown::html_resume](https://github.com/rstudio/pagedown#resume-pagedownhtml_resume).
-
--   Curriculum con [datadrivencv](https://github.com/nstrayer/datadrivencv) package
-
-### Posters con Quarto
-
--   Yo aún no he visto que se pueda, pero [la gente esta esperando](https://github.com/quarto-dev/quarto-cli/discussions/2205) poder hacer posters con Quarto
-
-. . .
+::: {.callout-warning collapse="true" appearance="default" icon="false"}
+#### Extensión: Posters con Rmarkdown
 
 -   Con `.Rmd` habían varios paquetes para hacer posters, por ejemplo con [posterdown](https://github.com/brentthorne/posterdown) o con [pagedown::poster_relaxed](https://github.com/rstudio/pagedown#resume-pagedownhtml_resume).
+
+:::
+
+
+### Typst con Quarto
+
+- Un [video](https://www.youtube.com/watch?v=t30sqFch2v0&list=PL9HYL-VRX0oRFZslRGHwHuwea7SvAATHp&index=74) de C. Scheidiger en `posit::conf(2023)`. Cuenta los pb's de Latex y espera que Typst lo reemplace. Ventajas en el minuto 4:40. Sólo hay que cambiar a `format: typst`
+
+
+- Rennie tyspt o latex: el [toot](https://fosstodon.org/@nrennie/112344186236225190), [sus charlas](https://github.com/nrennie/nrennie.github.io/tree/main/static/talks). No funcionan, pero [esta sí](https://github.com/nrennie/teaching-with-webR), [esta tb](https://github.com/nrennie/nhs-r-tidymodels)
+
+ - Plantillas tyspt de Weis [aquí](https://fediscience.org/@andrew/112303731677325053). Hay muchas [templates de  tysp](https://typst.app/universe/package/pesha)
+
+### Más formatos con Quarto
+
+- Plantillas para varios formatos: cv, list of publicaciones, **letter** y un timer: [aquí](https://ruhr.social/@produnis/111766773526870010)
+
+- El paquete [labeleR](https://ecologyr.github.io/labeleR/) permite crear **certificados** de asistencia, badges, ...
+
+- Plantillas para tesis [aquí](https://llrs.dev/post/2022/05/09/writing-thesis-bookdown/). Más recursos para thesis [aquí](https://social.vivaldi.net/@hsorlie/112405545859681288)
+
 
 ### Más formatos con `.Rmd`
 

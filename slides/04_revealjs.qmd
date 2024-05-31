@@ -1526,5 +1526,3 @@ Algunos truquillos
 
 ## Algunos truquillos
 
-- Poner varios autores: una solución [aquí](https://stackoverflow.com/questions/75347447/how-to-add-multiple-authors-and-multiple-affiliations-with-quarto-and-export-it)
-

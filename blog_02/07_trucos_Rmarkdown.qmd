@@ -106,3 +106,5 @@ knitr::convert_chunk_header("document.qmd", output = identity)
 # ZZ. Biblio
 
 - [Writing knitr hooks](https://blog.djnavarro.net/posts/2023-12-30_knitr-hooks/), de danielle Navarro. 
+
+- [Generating dynamic contents in R Markdown and Quarto](https://www.qiushiyan.dev/posts/dynamic-rmd-quarto/): volvio a salir al ver     [este toot](https://mastodon.social/@rmflight/112531882832970164)

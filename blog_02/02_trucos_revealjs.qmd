@@ -60,6 +60,39 @@ then we take Berlin
 ```
 
 
+<br>
+
+-------------------
+
+<br>
+
+# Animaciones
+
+- Para hacer que un texto aparezca de forma incremental, pero ademas el nuevo texto que parece se hace grande y cambia de color. Puedes  ver un ejemplo en [esta slide](https://colorado.posit.co/rsc/inflation-explorer-slides/automated-quarto-dashboards.html#/quarto)
+
+```markdown
+<center>
+
+Quarto® is an
+
+::: {.fragment .grow .semi-fade-out}
+open-source
+:::
+
+::: {.fragment .grow .semi-fade-out}
+scientific and technical
+:::
+
+::: {.fragment .grow .semi-fade-out}
+publishing system
+:::
+
+::: {.fragment .grow .semi-fade-out}
+built on Pandoc.
+:::
+
+</center>
+```
 
 <br>
 
