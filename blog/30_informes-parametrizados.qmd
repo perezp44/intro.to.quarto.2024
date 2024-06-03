@@ -122,3 +122,12 @@ Yo ya había hecho unos cuantos informes parametrizados, incluso un año, lo ens
 
 - [Aquí](https://twitter.com/WeAreRLadies/status/1599096598314754054), una preciosura de slides en las que se hace algo parecido; bueno en realidad usa `child documents` para crear unas slides donde hay una slide para cada persona de una organización.
 
+
+- Si quieres hacer el render **con parámetros** desde la Terminal : 
+
+    ```bash
+     quarto render annual_report.qmd -P year:2024
+    ```
+
+- [Aquí](https://meghan.rbind.io/blog/2022-09-25-tips-for-custom-parameterized-pdfs-in-quarto/) un post de Meghan Hall sobre informes parametrizados con énfasis en la personalización de los PDFs.
+

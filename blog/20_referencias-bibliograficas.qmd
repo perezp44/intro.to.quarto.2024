@@ -276,6 +276,9 @@ La documentación oficial de Quarto para citas y bibliografías está [aquí](ht
 
 ## Más cosas
 
+- [Using Zotero for citations in Quarto and R Markdown documents](https://tidytales.ca/series/2023-01-24_reproducible-data-science/posts/zotero-setup.html#using-zotero-for-citations-in-quarto-and-r-markdown-documents) es un post que me ayudo; además, lleva a esto de [editor visual de RStudio](https://rstudio.github.io/visual-markdown-editing/citations.html), al [archivo de CSL's](https://citationstyles.org/)
+y al [paquete rbbt](https://github.com/paleolimbot/rbbt), que conecta R con el conector Better Bibtex for Zotero. 
+
 - A veces se necesita controlar/tunear más cómo y qué incluir de las referencias bibliográficas en el texto; para ello puedes usar [citetools](https://github.com/bcdavasconcelos/citetools). Lo vi [aquí](https://mastodon.ie/@DToher/112410536622660400)
 
 -  ¿Se pueden poner varias bibliografías en un sólo documento? Andrew Heiss lo preguntó [aquí](https://fediscience.org/@andrew/111560089164492193) y cuando halló la solución, escribió un [post](https://www.andrewheiss.com/blog/2023/12/11/separate-bibliographies-quarto/) explicándolo; pero resulta que en mayo de 2024 se creó un Pandoc filter precisamente para generar bibliografías diferentes para cada capítulo o para cada top-level section. Puedes verlo [aquí](https://github.com/pandoc-ext/section-bibliographies)

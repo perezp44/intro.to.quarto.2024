@@ -66,6 +66,13 @@ quarto render my_file.qmd --to epub
 
 ### Parametrised reports
 
+- Para hacer el render desde la Terminal **con parámetros**: 
+
+    ```bash
+     quarto render annual_report.qmd -P year:2024
+    ```
+    
+
 - En parametrised reports, cuando haces el render, me gustaría que los archivos de salida se guardasen en otro directorio, pero se ve que esto no es fácil-fácil, al menos aún. En [este toot](https://fediscience.org/@jhelvy/109801352523104934) explican que como no encontraron la solución, así que lo que hace es hacer el render en la misma carpeta donde está el script, **pero** luego mueve los archivos que se han generado. para moverlos usa
 
 ```r
