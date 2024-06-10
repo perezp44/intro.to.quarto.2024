@@ -97,7 +97,7 @@ Veamos algunas de ellas
 . . . 
 
 
-- Puedes usar [esta plantilla]((./recursos/plantilla_web.zip){target="_blank"})  hecha por mi o una plantilla chulísima hecha por Marvin Schmitt. Marvin nos explica cómo usarla en [este post](https://www.marvinschmitt.com/blog/website-tutorial-quarto/)
+- Puedes usar [esta plantilla](../recursos/plantilla_web.zip){target="_blank"}  hecha por mi o una plantilla chulísima hecha por Marvin Schmitt. Marvin nos explica cómo usarla en [este post](https://www.marvinschmitt.com/blog/website-tutorial-quarto/)
 
 --- 
 
