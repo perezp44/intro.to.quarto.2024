@@ -7,11 +7,12 @@ project:
     watch-inputs: true
     navigate: true
   resources:
-    - "recursos/mi_articulo_01.pdf"
+    - "recursos/"
     - "slides/slides_en_pdf.zip"
     - "slides/slides_en_html.zip"
-    - "recursos/Qproj_01_eurovision.zip"
-    - "recursos/Qproj_02_param-rep.zip"
+   # - "recursos/mi_articulo_01.pdf"
+   #  - "recursos/Qproj_01_eurovision.zip"
+   #  - "recursos/Qproj_02_param-rep.zip"
     
 website:
   #page-navigation: true
