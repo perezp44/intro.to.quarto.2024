@@ -35,7 +35,7 @@ Durante el curso utilizaremos, en clase, las siguientes **slides**:
 -   [Slides 07: Aún más cosas con Quarto](./slides/07_aun_mas_cosas.qmd){target="_blank"}
 
 
-Si quieres, puedes descargar todas las slides en pdf [aquí](./slides/slides_en_pdf.zip){target="_blank"}, y en formato html [aquí](./slides/slides_en_html.zip){target="_blank"}.
+Si quieres, puedes descargar todas las slides en formato html [aquí](./recursos/slides_en_html.zip){target="_blank"}.
 
 <br>
 
