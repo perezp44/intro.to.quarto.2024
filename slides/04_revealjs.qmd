@@ -1520,9 +1520,8 @@ format:
 
 {{< var lineanaranja >}}
 
-Algunos truquillos
+<br>
 
----
+Puedes ver algunos truquillos sobre **Revealjs slides** [aquí](https://perezp44.github.io/intro.to.quarto.2024/blog_02/02_trucos_revealjs.html)
 
-## Algunos truquillos
 

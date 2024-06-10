@@ -171,8 +171,8 @@ Explicar que : 1) para sacarle todo el provecho a QMD hay q saber R, pero q tamb
 -   Por ejemplo, estos cursos:
 
     -   [Econometría](https://perezp44.github.io/web.econometria.GADE_23-24/){target="blank"}
-    -   [Intro a la Ciencia de datos con R](https://perezp44.github.io/intro-ds-23-24-web/){target="blank"} (tenéis que ver [los trabajos de los estudiantes](https://perezp44.github.io/intro-ds-22-23-web/07-trabajos_2022-23.html){target="\"blank”"})
-    -   [Curso de Introducción a R](https://perezp44.github.io/intro-ds-23-24-web/){target="blank"} (en el SFPIE).
+    -   [Intro a la Ciencia de datos con R](https://perezp44.github.io/intro-ds-23-24-web/){target="blank"} (tenéis que ver [los trabajos de los estudiantes](https://perezp44.github.io/intro-ds-23-24-web/05-trabajos-estudiantes.html#trabajos-curso-2023-24){target="\"blank”"})
+    -   [Curso de Introducción a R](https://perezp44.github.io/intro.R.sfpie.2024.web/){target="blank"} (en el SFPIE).
 
 . . .
 

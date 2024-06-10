@@ -4,7 +4,7 @@ email:
 
 pedroblog: "[Pedro's blog](https://perezp44.github.io/pjperez.web/01_blog.html)"
 webcurso: "[https://go.uv.es/pjperez/intro.to.quarto](https://perezp44.github.io/intro.to.quarto/){target='blank'}"
-lineanaranja: "<hr color='#EB811B' size=1px width=1644px>"
+lineanaranja: "<hr color='#EB811B' size=1px width=1580px>"
 my_subtitle: "Escribiendo con Quarto <br> (Web del curso [aquí](https://perezp44.github.io/intro.to.quarto.2024/){target='blank'})"
 my_subtitle2: "(Web del curso [aquí](https://perezp44.github.io/intro.to.quarto.2024/){target='blank'})"
 my_curso: "[Escribiendo con R y Quarto](https://perezp44.github.io/intro.to.quarto.2024/){target='blank'}"

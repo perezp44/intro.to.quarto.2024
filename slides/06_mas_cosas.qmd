@@ -57,7 +57,7 @@ bibliography: references.bib
 
 Veamos algunas de ellas
 
-### 6.1 Subir nuestra web a la UV
+### 6.1 Subir nuestras web's a la UV
 
 
 -   Una vez hemos generado nuestra web en local con Quarto nos queda **subirla a Internet**. La documentación oficial de Quarto está [aquí](https://quarto.org/docs/publishing/)
@@ -77,15 +77,42 @@ Veamos algunas de ellas
 -   Pero ... nosotros tenemos un **espacio en la web de la UV**, así que ...
 
 
-### Práctica: Subir nuestra web
+### Práctica: Subir nuestras web's
+
+
+<br>
 
 ::: {.callout-important icon="false"}
-#### Tarea 6.1a: Subir nuestra web
+#### Tarea 6.1a: Subir tu web
+
+- Sí, tienes que subir **tu** web a tu espacio en el servidor web de la UV
+:::
+
+<br>
+
+. . . 
+
+- Ya Pedro, pero no me ha dado tiempo a hacerme la web 🙆‍♂️, ¿qué hago?
+
+. . . 
+
+
+- Puedes usar [esta plantilla]((../recursos/plantilla_web.zip){target="_blank"})  hecha por mi o una plantilla chulísima hecha por Marvin Schmitt. Marvin nos explica cómo usarla en [este post](https://www.marvinschmitt.com/blog/website-tutorial-quarto/)
+
+--- 
+
+
+- Ahora ya no hay excusa para hacer la tarea 😉
+
+::: {.callout-important icon="false"}
+#### Tarea 6.1a: Subir tu web
 
 ::: panel-tabset
 ## Tarea
 
--   Sí, tienes que subir nuestra web a nuestro espacio en el servidor web de la UV
+- Sí, tienes que subir **tu** web a tu espacio en el servidor web de la UV
+
+
 
 ## Pistas
 

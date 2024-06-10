@@ -651,599 +651,340 @@
     "text": "Beamer slides (documentación)\n\n\n\nUser Guide oficial de Beamer\nDocumentación oficial Beamer de Quarto aquí\nOpciones de YAMl de Beamer en Quarto aquí\nBeamer en RMD\nBeamer en StackOverflow. Por ejemplo:\n\nNumeración de las slides como en Revealjs\nJustificar texto"
   },
   {
-    "objectID": "slides/04_revealjs.html#algunos-truquillos",
-    "href": "slides/04_revealjs.html#algunos-truquillos",
-    "title": "Slides con Quarto",
-    "section": "Algunos truquillos",
-    "text": "Algunos truquillos"
-  },
-  {
-    "objectID": "slides/06_mas_cosas.html#con-quarto-se-pueden-hacer-muuuuchas-más-cosas",
-    "href": "slides/06_mas_cosas.html#con-quarto-se-pueden-hacer-muuuuchas-más-cosas",
-    "title": "Más cosas con Quarto",
-    "section": "Con Quarto se pueden hacer muu🙀uuchas más cosas!!!",
-    "text": "Con Quarto se pueden hacer muu🙀uuchas más cosas!!!\n\n\nVeamos algunas de ellas"
-  },
-  {
-    "objectID": "slides/imagenes/tt_01/ejemplo_2.html",
-    "href": "slides/imagenes/tt_01/ejemplo_2.html",
-    "title": "Documentos Rmarkdown (.Rmd)",
-    "section": "",
-    "text": "Código# se pueden poner comentarios\n# de la forma habitual\naa &lt;- c(1, 4, 9, 16, 25)\nsqrt(aa)\n\n[1] 1 2 3 4 5\n\n\n\nCódigo2 + 2\n\n\n\nCódigo2 + 2"
-  },
-  {
-    "objectID": "slides/zz_sobre-mi.html#sobre-mi",
-    "href": "slides/zz_sobre-mi.html#sobre-mi",
-    "title": "Escribiendo con R y Quarto",
-    "section": "Sobre mi",
-    "text": "Sobre mi\n\n\nProfesor en la UV: Econometría e Intro a la Ciencia de datos con R\nEntusiasta de R\n\n\n\nNo soy “bloguero”, más bien soy creador y liquidador de blogs:\n\n2015, R & flowers , con Jekyll\n2018, R & flowers V, con Hugo y blogdown\n2020, R & flowers (o casi), con radix\n2021, pedro.j.perez blog’s, con Distill\n2022, R & flowers, con Quarto\n\n\n\n\n\nSlides hechas con Quarto para las XII Jornadas de Usuarios de R"
-  },
-  {
-    "objectID": "slides/03_aprendiendo_Qmd.html#qué-es-quarto-1",
-    "href": "slides/03_aprendiendo_Qmd.html#qué-es-quarto-1",
+    "objectID": "slides/03_aprendiendo_Qmd.knit.html#qué-es-quarto-1",
+    "href": "slides/03_aprendiendo_Qmd.knit.html#qué-es-quarto-1",
     "title": "Aprendiendo a escribir en QMD",
     "section": "¿Qué es Quarto?",
     "text": "¿Qué es Quarto?\n\n\nUn nuevo sistema de publicación científica y técnica de código abierto basado en Pandoc\n\n\n\n\nQuarto no es un paquete, es un programa independiente, un CLI\n\n\n\n\nPermite incorporar texto y código para producir documentos (reproducibles) en múltiples formatos\n\n\n\n\nEs … la “segunda generación de Rmarkdown”\n\n\n\n\nMuy parecido a Rmarkdown, pero … no requiere R. Soporta lenguajes como Phyton, Julia y Observable.\nQuarto utiliza Knitr para ejecutar el código R; así que es capaz de procesar también los ficheros .Rmd sin modificarlos"
   },
   {
-    "objectID": "slides/03_aprendiendo_Qmd.html#section",
-    "href": "slides/03_aprendiendo_Qmd.html#section",
+    "objectID": "slides/03_aprendiendo_Qmd.knit.html#section",
+    "href": "slides/03_aprendiendo_Qmd.knit.html#section",
     "title": "Aprendiendo a escribir en QMD",
     "section": "",
     "text": "Extensión: Ventajas de Quarto sobre RMD\n\n\n\nProyecto en desarrollo activo … mientras que Rmarkdown it’s not going away pero …\nQuarto unifica funcionalidades de varios paquetes del entorno Rmd como xaringan, bookdown, blogdown , …\nPor ejemplo: Cross references, Call-outs, Advanced Layout (tb para imágenes), Extensiones, Interactividad, YAML inteligence, Quarto Pub, Divs, Spans\nPara ver si estas ventajas merecen la pena para ti puedes leer a Occasional Divergences, Nick Tierney, Alison Hill, Danielle Navarro, Jumping Rivers o esta pregunta de Stack Overflow."
   },
   {
-    "objectID": "slides/03_aprendiendo_Qmd.html#section-1",
-    "href": "slides/03_aprendiendo_Qmd.html#section-1",
+    "objectID": "slides/03_aprendiendo_Qmd.knit.html#section-1",
+    "href": "slides/03_aprendiendo_Qmd.knit.html#section-1",
     "title": "Aprendiendo a escribir en QMD",
     "section": "",
     "text": "Extensión: ¿Qué es Rmarkdown? ¿Para qué sirve?\n\n\n\nEl predecesor de Quarto\nUn “entorno” para hacer informes/publicaciones/transparencias REPRODUCIBLES con R.\n\n\nIs an authoring framework for data science, combining your code, its results, and your prose. R Markdown documents are fully reproducible and support dozens of output formats, like PDFs, Word files, slideshows, and more.\n\n\nCon Rmd se pueden generar multitud de outputs. Por ejemplo, visita está galería o este listado\n\n\nUna oda a Rmarkdown\n\nHow Rmarkdown changed my life: charla de Rob Hyndman sobre su proceso hasta llegar a usar Rmarkdown para hacer sus documentos científicos y webs."
   },
   {
-    "objectID": "slides/03_aprendiendo_Qmd.html#para-poder-practicar-lo-que-vayamos-aprendiendo",
-    "href": "slides/03_aprendiendo_Qmd.html#para-poder-practicar-lo-que-vayamos-aprendiendo",
+    "objectID": "slides/03_aprendiendo_Qmd.knit.html#para-poder-practicar-lo-que-vayamos-aprendiendo",
+    "href": "slides/03_aprendiendo_Qmd.knit.html#para-poder-practicar-lo-que-vayamos-aprendiendo",
     "title": "Aprendiendo a escribir en QMD",
     "section": "Para poder practicar lo que vayamos aprendiendo …",
     "text": "Para poder practicar lo que vayamos aprendiendo …\n\n\n\n\nTarea 3.0: Vamos a crear un nuevo Qproject\n\n\n\nCierra RStudio\nCrea un nuevo Qproject llamado “my_qproject”\nInspecciona los documentos que hay dentro de “my_qproject”\nBorra el archivo my_qproject.qmd\nCrea un archivo .qmd\nProcésalo y llámalo prueba_01.qmd"
   },
   {
-    "objectID": "slides/03_aprendiendo_Qmd.html#los-documentos-.qmd-tienen-3-4-partes",
-    "href": "slides/03_aprendiendo_Qmd.html#los-documentos-.qmd-tienen-3-4-partes",
+    "objectID": "slides/03_aprendiendo_Qmd.knit.html#los-documentos-.qmd-tienen-3-4-partes",
+    "href": "slides/03_aprendiendo_Qmd.knit.html#los-documentos-.qmd-tienen-3-4-partes",
     "title": "Aprendiendo a escribir en QMD",
     "section": "Los documentos .qmd tienen 3-4 partes",
     "text": "Los documentos .qmd tienen 3-4 partes\n\nEncabezamiento (yaml header)\n\nTrozos de código R (R chunks)\n\nTexto (escrito en Markdown) …\n… y todo lo demás: imágenes, links, ecuaciones, etc …\n\n\n\nUn ejemplo\n\n\nsource code (escrito en QMD)\n\n\n\n\n\n\n\n\n\n\n\noutput"
   },
   {
-    "objectID": "slides/03_aprendiendo_Qmd.html#ii-chunks-los-chunks-pueden-tener-opciones.",
-    "href": "slides/03_aprendiendo_Qmd.html#ii-chunks-los-chunks-pueden-tener-opciones.",
+    "objectID": "slides/03_aprendiendo_Qmd.knit.html#ii-chunks-los-chunks-pueden-tener-opciones.",
+    "href": "slides/03_aprendiendo_Qmd.knit.html#ii-chunks-los-chunks-pueden-tener-opciones.",
     "title": "Aprendiendo a escribir en QMD",
     "section": "(II) Chunks: los chunks pueden tener opciones.",
     "text": "(II) Chunks: los chunks pueden tener opciones.\n\nPor ejemplo:\n\n\n\n\n\nLas principales opciones son:\n\n\n\n\nOpción\n(valor por defecto)\n¿Que hace?\n\n\n\n\necho\ntrue\nIncluye el código en el documento final\n\n\neval\ntrue\nEvalúa el código\n\n\nwarning\ntrue\nIncluye los avisos en el documento final\n\n\nmessage\ntrue\nIncluye los mensajes"
   },
   {
-    "objectID": "slides/03_aprendiendo_Qmd.html#ii-chunks-los-chunks-pueden-tener-opciones.-1",
-    "href": "slides/03_aprendiendo_Qmd.html#ii-chunks-los-chunks-pueden-tener-opciones.-1",
+    "objectID": "slides/03_aprendiendo_Qmd.knit.html#ii-chunks-los-chunks-pueden-tener-opciones.-1",
+    "href": "slides/03_aprendiendo_Qmd.knit.html#ii-chunks-los-chunks-pueden-tener-opciones.-1",
     "title": "Aprendiendo a escribir en QMD",
     "section": "(II) Chunks: los chunks pueden tener opciones.",
     "text": "(II) Chunks: los chunks pueden tener opciones.\n\n\n\nExtensión: hay más opciones para los chunks\n\n\n\n\n\n\n\n\n\n\nOpción\n(valor por defecto)\n¿Que hace?\n\n\n\n\noutput\ntrue\nIncluye el resultado de la evaluación del código\n\n\nerror\nfalse\nSi pones true, se mostrarán los errores (!!!!)\n\n\ninclude\ntrue\n\n\n\nlabel\n\nSi quieres poner label al chunk\n\n\n\n\n\nPuedes ver todas las opciones aquí 🙀"
   },
   {
-    "objectID": "slides/03_aprendiendo_Qmd.html#section-2",
-    "href": "slides/03_aprendiendo_Qmd.html#section-2",
+    "objectID": "slides/03_aprendiendo_Qmd.knit.html#section-2",
+    "href": "slides/03_aprendiendo_Qmd.knit.html#section-2",
     "title": "Aprendiendo a escribir en QMD",
     "section": "",
     "text": "Extensión: más detalles sobre las opciones de los chunks\n\n\n\n\ninclude: si en un chunk pones  #| include: false , el código de ese chunk se ejecutará pero no se mostrará nada, ni el código, ni el resultado, ni mensajes, ni errores. Esta opción es útil, por ejemplo, para cargar los paquetes de R.\n\n\n\n #| label: setup : si un chunk se llama setup, este chunk se ejecutará siempre que ejecutes otro chunk del mismo documento. Esta opción suele usarse para cargar los paquetes necesarios para un análisis, de formas que estos siempre estén disponibles cuando ejecutes otro chunk. Esto puede ser una buena práctica."
   },
   {
-    "objectID": "slides/03_aprendiendo_Qmd.html#section-3",
-    "href": "slides/03_aprendiendo_Qmd.html#section-3",
+    "objectID": "slides/03_aprendiendo_Qmd.knit.html#section-3",
+    "href": "slides/03_aprendiendo_Qmd.knit.html#section-3",
     "title": "Aprendiendo a escribir en QMD",
     "section": "",
     "text": "Extensión: dos detalles más sobre opciones de los chunks\n\n\n\n\n #| output: asis : permite generar raw-markdown. Un ejemplo aquí\n\n\n\necho: además de los típicos true y false, ahora incorpora nuevos valores, como  #| echo: fenced , que facilita mostrar las marcas de los chunks en el documento final, o la opción  #| echo: […]  que permite mostrar sólo algunas de las lineas de código del chunk. Documentación aquí y aquí."
   },
   {
-    "objectID": "slides/03_aprendiendo_Qmd.html#ii-chunks-opciones-de-los-chunks-en-el-yaml",
-    "href": "slides/03_aprendiendo_Qmd.html#ii-chunks-opciones-de-los-chunks-en-el-yaml",
+    "objectID": "slides/03_aprendiendo_Qmd.knit.html#ii-chunks-opciones-de-los-chunks-en-el-yaml",
+    "href": "slides/03_aprendiendo_Qmd.knit.html#ii-chunks-opciones-de-los-chunks-en-el-yaml",
     "title": "Aprendiendo a escribir en QMD",
     "section": "(II) Chunks: opciones de los chunks en el YAML",
     "text": "(II) Chunks: opciones de los chunks en el YAML\n\nEn el YAML, podemos fijar los valores por defecto de las opciones de los chunks\n\n\n\nSe han de poner anidadas dentro de execute:\n\n\n\n\nPor ejemplo:\n\n\n.Qmd (chunk options en el chunk)\n\n\n\n\n\n\n\n.Qmd (chunk options en el yaml)"
   },
   {
-    "objectID": "slides/03_aprendiendo_Qmd.html#ii-chunks-más-opciones-de-knitr",
-    "href": "slides/03_aprendiendo_Qmd.html#ii-chunks-más-opciones-de-knitr",
+    "objectID": "slides/03_aprendiendo_Qmd.knit.html#ii-chunks-más-opciones-de-knitr",
+    "href": "slides/03_aprendiendo_Qmd.knit.html#ii-chunks-más-opciones-de-knitr",
     "title": "Aprendiendo a escribir en QMD",
     "section": "(II) Chunks: Más opciones de knitr",
     "text": "(II) Chunks: Más opciones de knitr\n\nSi usamos knitr para ejecutar los chunks, entonces podemos usar todas las opciones nativas de knitr, como: collapse, fig.width, comment, etc … Más información aquí. Un ejemplo:\n\n\n\nSi quieres ver todas las opciones disponibles para los chunks en knitr tendrás que ir a la página web de knitr, a la cheat sheet sobre Rmarkdown, o a la Reference Guide"
   },
   {
-    "objectID": "slides/03_aprendiendo_Qmd.html#section-4",
-    "href": "slides/03_aprendiendo_Qmd.html#section-4",
+    "objectID": "slides/03_aprendiendo_Qmd.knit.html#section-4",
+    "href": "slides/03_aprendiendo_Qmd.knit.html#section-4",
     "title": "Aprendiendo a escribir en QMD",
     "section": "",
     "text": "Extensión: Mi chunk de setup en RMD\n\n\n```{r chunk-setup, include = FALSE}\nknitr::opts_chunk$set(echo = TRUE, eval = TRUE, message = FALSE, warning = FALSE,\n                      #results = \"hold\",\n                      cache = FALSE, cache.path = \"/caches/\", comment = \"#&gt;\",\n                      #fig.width = 7, #fig.height= 7,\n                      #out.width = 7, out.height = 7,\n                      collapse = TRUE,  fig.show = \"hold\",\n                      fig.asp = 7/9, out.width = \"60%\", fig.align = \"center\")\n\noptions(scipen = 999) #- para quitar la notación científica\n```\n\n\n\n\n\nLas opciones del chunk de setup, en el YAML quedarían como:\n\n---\ntitle: \"My Document\"\nexecute:\n  echo: true\nknitr:\n  opts_chunk: \n    results: \"hold\"\n    collapse: true\n    comment: \"#&gt;\" \n    fig.asp: 7/9, \n    out.width: \"60%\"\n    fig.align: \"center\"\n    fig.show: \"hold\"\n    R.options:\n      scipen: 999  #- para quitar la notación científica\n---"
   },
   {
-    "objectID": "slides/03_aprendiendo_Qmd.html#ii-chunks-otras-opciones-de-quarto-para-los-chunks",
-    "href": "slides/03_aprendiendo_Qmd.html#ii-chunks-otras-opciones-de-quarto-para-los-chunks",
+    "objectID": "slides/03_aprendiendo_Qmd.knit.html#ii-chunks-otras-opciones-de-quarto-para-los-chunks",
+    "href": "slides/03_aprendiendo_Qmd.knit.html#ii-chunks-otras-opciones-de-quarto-para-los-chunks",
     "title": "Aprendiendo a escribir en QMD",
     "section": "(II) Chunks: otras opciones de Quarto para los chunks",
     "text": "(II) Chunks: otras opciones de Quarto para los chunks\nAhora, en Quarto, hay más opciones para los chunks. Documentación oficial aquí. Por ejemplo:\n\n\n\nHacer folding code con #| code-fold: true\n\nPuedes combinarlo con #| code-summary: \"Para ver el código, pincha\"\n\n\n\n\n\n\nSi el código es muy largo, puedes usar #| code-overflow: wrap (o scroll)\n\n\n\n\n\nPuedes hacer que se muestren los números de linea con #| code-line-numbers: true\n\n\n\nTodas estas opciones también pueden ir en el YAML."
   },
   {
-    "objectID": "slides/03_aprendiendo_Qmd.html#ii-chunks-code-annotation",
-    "href": "slides/03_aprendiendo_Qmd.html#ii-chunks-code-annotation",
+    "objectID": "slides/03_aprendiendo_Qmd.knit.html#ii-chunks-code-annotation",
+    "href": "slides/03_aprendiendo_Qmd.knit.html#ii-chunks-code-annotation",
     "title": "Aprendiendo a escribir en QMD",
     "section": "(II) Chunks: Code annotation",
     "text": "(II) Chunks: Code annotation\n\nDesde Quarto 1.3 podemos incluir en los chunks line-based annotations. Documentación aquí. Por ejemplo:\n\n\n\n\nEl código:\n\n```r\nlibrary(tidyverse)\nlibrary(palmerpenguins)\npenguins |&gt;                                      # &lt;1&gt;\n  mutate(                                        # &lt;2&gt;\n    bill_ratio = bill_depth_mm / bill_length_mm, # &lt;2&gt;\n    bill_area  = bill_depth_mm * bill_length_mm  # &lt;2&gt;\n  )                                              # &lt;2&gt;\n```\n1. Take `penguins`, and then,\n2. add new columns for the bill ratio and bill area.\n (*) (faltan las {} en el chunk)\n\n\nEl resultado:\n\n\nlibrary(tidyverse)\nlibrary(palmerpenguins)\n1penguins |&gt;\n2  mutate(\n    bill_ratio = bill_depth_mm / bill_length_mm,\n    bill_area  = bill_depth_mm * bill_length_mm\n  )\n\n\n1\n\nTake penguins, and then,\n\n2\n\nadd new columns for the bill ratio and bill area."
   },
   {
-    "objectID": "slides/03_aprendiendo_Qmd.html#ii-código-inline-code",
-    "href": "slides/03_aprendiendo_Qmd.html#ii-código-inline-code",
+    "objectID": "slides/03_aprendiendo_Qmd.knit.html#ii-código-inline-code",
+    "href": "slides/03_aprendiendo_Qmd.knit.html#ii-código-inline-code",
     "title": "Aprendiendo a escribir en QMD",
     "section": "(II) Código: inline code",
     "text": "(II) Código: inline code\n\nLa mayoría del código suele ir en los chunks, pero a veces necesitamos inline code ; es decir, código R dentro de nuestro texto.\n\n\n\nPor ejemplo\n\n\nSi quiero describir un conjunto de datos puedo hacerlo escribiendo: “El data.frame iris tiene 150 filas y 5 variables”\nPero es mejor hacerlo con inline code. Para ello tienes que poner el código R dentro de estas marcas: `r `\nHabría que escribirlo así:\n\nEl data.frame iris tiene  `r nrow(iris)` filas y  `r ncol(iris)` variables.\n\n\n\n\nDocumentación oficial de Quarto aquí. (No hay mucho más)"
   },
   {
-    "objectID": "slides/03_aprendiendo_Qmd.html#ii-chunks-bloques-de-código-no-ejecutables",
-    "href": "slides/03_aprendiendo_Qmd.html#ii-chunks-bloques-de-código-no-ejecutables",
+    "objectID": "slides/03_aprendiendo_Qmd.knit.html#ii-chunks-bloques-de-código-no-ejecutables",
+    "href": "slides/03_aprendiendo_Qmd.knit.html#ii-chunks-bloques-de-código-no-ejecutables",
     "title": "Aprendiendo a escribir en QMD",
     "section": "(II) Chunks: bloques de código no ejecutables",
     "text": "(II) Chunks: bloques de código no ejecutables\n\nHemos visto que podemos incluir código R en nuestro .qmd.\nEl código R normalmente es ejecutado por el paquete knitr. Para ello hay que usar estas marcas:\n\n```{r}\n2 + 2\n```\n\n\n\nPero, además, como estamos usando Markdown, podemos incorporar en nuestro .qmd bloques de código no ejecutables.\nSe usan las mismas marcas  ``` , pero sin las llaves:\n\n```r\n2 + 2\n```\n\n\nPandoc soporta syntax highlighting para cerca de 140 different languages. si no estuviese el lenguaje que necesitas, usa el default language.\nDocumentación oficial aquí.\n\n\n\n\n\nTarea 3.6: bloques de código no ejecutable\n\n\n\nUtiliza el archivo prueba_01.qmd para incorporar:\n\nun bloque de código R no ejecutable\nun bloque de código Phyton no ejecutable"
   },
   {
-    "objectID": "slides/03_aprendiendo_Qmd.html#section-5",
-    "href": "slides/03_aprendiendo_Qmd.html#section-5",
+    "objectID": "slides/03_aprendiendo_Qmd.knit.html#section-5",
+    "href": "slides/03_aprendiendo_Qmd.knit.html#section-5",
     "title": "Aprendiendo a escribir en QMD",
     "section": "",
     "text": "Extensión: diferencias entre Quarto y Rmd\n\n\n\nNo hace falta chunk inicial: con Quarto se pueden poner las opciones de los chunks en el YAML\nEn ficheros .qmd, las opciones de los chunks se pueden especificar globalmente en el YAML y a nivel individual en cada uno de los chunks.\nEn los chunks individuales ahora se se utiliza la sintaxis YAML (key: value) en lineas dentro del chunk que empiezan con #|. Por ejemplo:\n\n\n\n\n\n\n\nUn ejemplo (diferencias .qmd vs. .Rmd):\n\n\n\n.qmd\n\n\n\n\n\n\n\n.Rmd"
   },
   {
-    "objectID": "slides/03_aprendiendo_Qmd.html#section-6",
-    "href": "slides/03_aprendiendo_Qmd.html#section-6",
+    "objectID": "slides/03_aprendiendo_Qmd.knit.html#section-6",
+    "href": "slides/03_aprendiendo_Qmd.knit.html#section-6",
     "title": "Aprendiendo a escribir en QMD",
     "section": "",
     "text": "Extensión: convertir de Rmarkdown a Quarto\n\n\nEsta perfectamente bien explicado por Thomas Mock aquí y aquí pero, por si alguna vez desaparecen sus slides, lo replicaré aquí.\n\n\nLa mayoría de las veces, Quarto puede procesar los ficheros .Rmd, pero si quieres convertirlos a .qmd\n\nCambia la extensión del fichero de .Rmd a .qmd\nCambia la sintaxis del yaml:\n\nen lugar de output: html_document ahora es format: html\n\nPuedes convertir los chunks de código a la sintáxis actual con:\n\nknitr::convert_chunk_header(\"doc.qmd\", output = identity)"
   },
   {
-    "objectID": "slides/03_aprendiendo_Qmd.html#iii-texto-qué-narices-es-esto-de-markdown",
-    "href": "slides/03_aprendiendo_Qmd.html#iii-texto-qué-narices-es-esto-de-markdown",
+    "objectID": "slides/03_aprendiendo_Qmd.knit.html#iii-texto-qué-narices-es-esto-de-markdown",
+    "href": "slides/03_aprendiendo_Qmd.knit.html#iii-texto-qué-narices-es-esto-de-markdown",
     "title": "Aprendiendo a escribir en QMD",
     "section": "(III) Texto: ¿qué narices es esto de Markdown?",
     "text": "(III) Texto: ¿qué narices es esto de Markdown?\n\n\nEs un lenguaje de marcas diseñado para escribir fácilmente para la web y que también sea fácilmente legible.\n\n\n\n\nMarkdown es un lenguaje estoico para escribir (para la web)\n\n\n\n\nMarkdown fue creado por John Grueber y Aaron Swartz en 2004. Para saber más sobre Aaron Swartz puedes ver este documental.\nSe creó con el objetivo de crear un formato de texto fácil de escribir y leer y que se convirtiera fácilmente en .html\n\nMarkdown is a text-to-HTML conversion tool for web writers.\n\n\n\n\n\nLa ventaja de escribir en Markdown es que es un lenguaje muy fácil de aprender y que, como está basado en un formato de texto plano, es y será compatible con la mayoría de plataformas.\n\n\n\n\nEn este otro tutorial de Markdown, se puede leer lo siguiente:\n\n\nMarkdown is a way to write for the web. It’s written in what nerds like to call “plaintext”. Plaintext is just the regular alphabet, with a few familiar symbols. Unlike cumbersome word processing applications, text written in Markdown can be easily shared between computers, mobile phones, and people. It’s quickly becoming the writing standard for academics, scientists, writers, and many more. Websites like GitHub and reddit use Markdown to style their comments."
   },
   {
-    "objectID": "slides/03_aprendiendo_Qmd.html#iii-texto-ideas-básicas-otra-vez",
-    "href": "slides/03_aprendiendo_Qmd.html#iii-texto-ideas-básicas-otra-vez",
+    "objectID": "slides/03_aprendiendo_Qmd.knit.html#iii-texto-ideas-básicas-otra-vez",
+    "href": "slides/03_aprendiendo_Qmd.knit.html#iii-texto-ideas-básicas-otra-vez",
     "title": "Aprendiendo a escribir en QMD",
     "section": "(III) Texto: ideas básicas (otra vez)",
     "text": "(III) Texto: ideas básicas (otra vez)\n\nEn los documentos .qmd, “todo” lo que no es el yaml o un chunk, es texto.\nEn Quarto el texto se escribe en Markdown\nComo Quarto se basa en pandoc, se usa “Pandoc`s markdown”, una versión revisada y extendida de la propuesta original de Grueber\n\n\n\nTienes una fantástica guía de Markdown aquí, y aquí una cheatsheet."
   },
   {
-    "objectID": "slides/03_aprendiendo_Qmd.html#iii-texto-dando-formato-al-texto",
-    "href": "slides/03_aprendiendo_Qmd.html#iii-texto-dando-formato-al-texto",
+    "objectID": "slides/03_aprendiendo_Qmd.knit.html#iii-texto-dando-formato-al-texto",
+    "href": "slides/03_aprendiendo_Qmd.knit.html#iii-texto-dando-formato-al-texto",
     "title": "Aprendiendo a escribir en QMD",
     "section": "(III) Texto: Dando formato al texto",
     "text": "(III) Texto: Dando formato al texto\n\n\nSintaxis básica de markdown\n\n\n\n\n\n\n\n\nSi escribes esto:\nSe verá esto:\n\n\n\n\ntexto normal\ntexto normal\n\n\ntexto en **negrita**\ntexto en negrita\n\n\ntexto en *cursiva*\ntexto en cursiva\n\n\nun superíndice^2^\nun superíndice2\n\n\nun subíndice~2~\nun subíndice2\n\n\npalabras ~~tachadas~~\npalabras tachadas\n\n\n`verbatim code`\nverbatim code\n\n\n&gt; un blockquote\n\nun blockquote"
   },
   {
-    "objectID": "slides/03_aprendiendo_Qmd.html#iii-texto-dando-formato-al-texto-1",
-    "href": "slides/03_aprendiendo_Qmd.html#iii-texto-dando-formato-al-texto-1",
+    "objectID": "slides/03_aprendiendo_Qmd.knit.html#iii-texto-dando-formato-al-texto-1",
+    "href": "slides/03_aprendiendo_Qmd.knit.html#iii-texto-dando-formato-al-texto-1",
     "title": "Aprendiendo a escribir en QMD",
     "section": "(III) Texto: Dando formato al texto",
     "text": "(III) Texto: Dando formato al texto\n\nMás posibilidades:\n\n\n\n\n\n\n\n\nSi escribes esto:\nSe verá esto:\n\n\n\n\n[texto subrayado]{.underline}\ntexto subrayado\n\n\n&lt;mark&gt;texto destacado&lt;/mark&gt;\ntexto destacado\n\n\n[En versalita]{.smallcaps}\nEn versalita\n\n\nel emoji :joy:\nel emoji 😂\n\n\n&gt; :warning: **Cuidado!!** no\n\n⚠️ Cuidado!! no\n\n\n\n\n\n\n\n\n\n(**) Los emojis mejor desde el editor visual o copiándolos, por ejemplo, desde aquí o desde la Emojipedia"
   },
   {
-    "objectID": "slides/03_aprendiendo_Qmd.html#iii-texto-notas-al-píe",
-    "href": "slides/03_aprendiendo_Qmd.html#iii-texto-notas-al-píe",
+    "objectID": "slides/03_aprendiendo_Qmd.knit.html#iii-texto-notas-al-píe",
+    "href": "slides/03_aprendiendo_Qmd.knit.html#iii-texto-notas-al-píe",
     "title": "Aprendiendo a escribir en QMD",
     "section": "(III) Texto: Notas al píe",
     "text": "(III) Texto: Notas al píe\nHay 2 sintaxis: inline y no-inline. En las 2 se usa la marca ^[]\n\n\n\nIn-line: se llama in-line porque el contenido de la nota al pie se entremezcla con el contenido principal del texto. El contenido de la nota al pie se pone dentro de los corchetes. Esta es la sintaxis que yo uso. Abajo tienes un ejemplo:\n\nQuiero incluir una nota al pie en esta frase, concretamente aquí^[Este es el contenido de la nota al pie, \nComo ves el contenido de la nota al pie va dentro de los corchetes], para poder explicar algo con más detalle.\n\n\n\n\nNo-inline: el contenido de la nota al pie no va dentro del corchete sino en una linea aparte. Abajo tienes un ejemplo:\n\nAquí voy a poner otra nota al píe [^1] , y otra más aquí[^b]\n\n[^1]: Esta otra sintaxis me gusta menos. Pero igual es más clara\n\n[^b]: No sufras por la numerácion. lo hará Pandoc!!\n\n\n\n\nDocumentación oficial aquí"
   },
   {
-    "objectID": "slides/03_aprendiendo_Qmd.html#iii-texto-títulos",
-    "href": "slides/03_aprendiendo_Qmd.html#iii-texto-títulos",
+    "objectID": "slides/03_aprendiendo_Qmd.knit.html#iii-texto-títulos",
+    "href": "slides/03_aprendiendo_Qmd.knit.html#iii-texto-títulos",
     "title": "Aprendiendo a escribir en QMD",
     "section": "(III) Texto: Títulos",
     "text": "(III) Texto: Títulos\n\n\n\n\n\n\n\n\n\nMarkdown:\nSe verá esto:\n\n\n\n\n# Header 1\nHeader 1\n\n\n## Header 2\nHeader 2\n\n\n### Header 3\nHeader 3\n\n\n#### Header 4\nHeader 4\n\n\n##### Header 5\nHeader 5\n\n\n###### Header 6\nHeader 6"
   },
   {
-    "objectID": "slides/03_aprendiendo_Qmd.html#iii-texto-creando-listas",
-    "href": "slides/03_aprendiendo_Qmd.html#iii-texto-creando-listas",
+    "objectID": "slides/03_aprendiendo_Qmd.knit.html#iii-texto-creando-listas",
+    "href": "slides/03_aprendiendo_Qmd.knit.html#iii-texto-creando-listas",
     "title": "Aprendiendo a escribir en QMD",
     "section": "(III) Texto: Creando listas",
     "text": "(III) Texto: Creando listas\n\n\nEn las listas es crucial la indentación (2 espacios). Documentación aquí, aquí y aquí"
   },
   {
-    "objectID": "slides/03_aprendiendo_Qmd.html#iii-texto-creando-listas-1",
-    "href": "slides/03_aprendiendo_Qmd.html#iii-texto-creando-listas-1",
+    "objectID": "slides/03_aprendiendo_Qmd.knit.html#iii-texto-creando-listas-1",
+    "href": "slides/03_aprendiendo_Qmd.knit.html#iii-texto-creando-listas-1",
     "title": "Aprendiendo a escribir en QMD",
     "section": "(III) Texto: Creando listas",
     "text": "(III) Texto: Creando listas\n\n\n\nLista ordenada\n\n1. First item\n2. Second item\n3. Third item  \n    3.1. Indented item  \n    3.2. Indented item  \n4. Fourth item \n\n\nLista no ordenada\n\n- First item\n- Second item\n- Third item\n    - Indented item\n    - Indented item\n- Fourth item \n\n\n\n\nAquí puedes ver muchos más ejemplos."
   },
   {
-    "objectID": "slides/03_aprendiendo_Qmd.html#iii-texto-párrafos",
-    "href": "slides/03_aprendiendo_Qmd.html#iii-texto-párrafos",
+    "objectID": "slides/03_aprendiendo_Qmd.knit.html#iii-texto-párrafos",
+    "href": "slides/03_aprendiendo_Qmd.knit.html#iii-texto-párrafos",
     "title": "Aprendiendo a escribir en QMD",
     "section": "(III) Texto: Párrafos",
     "text": "(III) Texto: Párrafos\n\n\nPara crear un nuevo párrafo has de dejar una (o más) lineas en blanco\n\n\n\n\nPara crear más espacio entre párrafos; es decir, añadir una linea en blanco extra, podemos usar uno o varios: &lt;br&gt; o &lt;br&gt;&lt;br&gt;\n\n\n\n\nDentro de un párrafo\n\nSi dentro de un párrafo necesitas que una frase empiece en otra linea entonces, has de dejar 2 (o más) espacios al final; en inglés esto se conoce como un “hard line break”\n\n\n\n\n\nExtensión: más formas de crear “hard line breaks”\n\n\n\nEl “hard line break” también se puede hacer con &lt;br&gt;\nEl “hard line break” también se puede hacer con \"\\\" seguido de nueva linea.\nEn una tabla, \\ es la única forma de crear un salto de línea, ya que se ignoran los espacios finales en las celdas."
   },
   {
-    "objectID": "slides/03_aprendiendo_Qmd.html#iii-texto-lineas-espacios",
-    "href": "slides/03_aprendiendo_Qmd.html#iii-texto-lineas-espacios",
+    "objectID": "slides/03_aprendiendo_Qmd.knit.html#iii-texto-lineas-espacios",
+    "href": "slides/03_aprendiendo_Qmd.knit.html#iii-texto-lineas-espacios",
     "title": "Aprendiendo a escribir en QMD",
     "section": "(III) Texto: Lineas, espacios, …",
     "text": "(III) Texto: Lineas, espacios, …\n\n\nSi en una linea de texto hay 2 espacios o más, estos se reducen a un espacio.\n\n\n\n\n\n\nExtensión: ¿cómo dejar más espacio entre palabras?\n\n\n\nPor lo tanto, si quieres separar palabras con más de un espacio, tendrás que usar lo que en html se conoce como “entities”: &ensp;(2 espacios) y &emsp;(4 espacios).\nOtra forma sería con la etiqueta &lt;pre&gt;.\n\n&lt;pre&gt;\nHola             amigos   !!!!\n&lt;/pre\n\n\n\n\n\n\n\n\n\nExtensión: un detalle que a veces es útil\n\n\n\nLos espacios al principio de las lineas que empiezan con | se mantienen (🤓)\n\n\n\n\n\n\n\n\n\n\nExtensión: “non-breaking spaces”\n\n\n\nLos “non-breaking spaces” se utilizan para asegurarte de que las palabras que están a los lados del non-breaking-space no se separen en lineas diferentes.\nEn markdown, puedes insertar un “non-breaking-space” con CRTL + SPACE. Documentación oficial para Quarto aquí\nUn non-breaking space, también conocido como espacio duro, es un carácter especial utilizado en tipografía y maquetación de textos para indicar un espacio que no debe ser separado en líneas diferentes. . Son útiles en casos donde se quiere mantener unidas palabras o elementos que deben permanecer juntos visualmente, por ejemplo en números de teléfono, siglas, fechas, etc …\nEn HTML, se representa con el código &nbsp; o &#160;"
   },
   {
-    "objectID": "slides/03_aprendiendo_Qmd.html#iv-más-elementos-hyper-links",
-    "href": "slides/03_aprendiendo_Qmd.html#iv-más-elementos-hyper-links",
+    "objectID": "slides/03_aprendiendo_Qmd.knit.html#iv-más-elementos-hyper-links",
+    "href": "slides/03_aprendiendo_Qmd.knit.html#iv-más-elementos-hyper-links",
     "title": "Aprendiendo a escribir en QMD",
     "section": "(IV) Más elementos: hyper-links",
     "text": "(IV) Más elementos: hyper-links\n\n\n\n\n Si escribes esto:\nAl procesarse se verá esto:\n\n\n\n\n&lt;https://quarto.org&gt;\nhttps://quarto.org\n\n\n [Web de Quarto](https://quarto.org)\nWeb de Quarto\n\n\n\n\n\n\n\n\n\n\n\n\nExtensión: Cómo hacer que los links se abran en nueva página. Documentación oficial aquí\n\n\nSi quieres que la página enlazada se abra en otra pestaña del navegador puedes:\n\nAñadir {target=\"_blank\"}, con lo que nuestros enlaces quedarían como:\n\n[Web de Quarto](https://quarto.org){target=\"_blank\"}\n\n\nEspecificarlo en el YAML con link-external-newwindow: true\n\n\n\nA partir de la versión 1.3 de Quarto también se permite con los enlaces internos de una web; es decir, con los enlaces que figuran en el fichero _quarto.yml. Puedes leerlo aquí. Solo hay que especificar en el fichero _quarto.yml la opción target: _blank. Por ejemplo:\n\nwebsite:\nnavebar:\n  right:\n    - text: \"Materiales\"\n      href: materiales.qmd        \n    - text: \"Blog\"\n      href: blog.qmd  \n      target: _blank"
   },
   {
-    "objectID": "slides/03_aprendiendo_Qmd.html#iv-más-elementos-links-internos",
-    "href": "slides/03_aprendiendo_Qmd.html#iv-más-elementos-links-internos",
+    "objectID": "slides/03_aprendiendo_Qmd.knit.html#iv-más-elementos-links-internos",
+    "href": "slides/03_aprendiendo_Qmd.knit.html#iv-más-elementos-links-internos",
     "title": "Aprendiendo a escribir en QMD",
     "section": "(IV) Más elementos: links-internos",
     "text": "(IV) Más elementos: links-internos\n\nEn un documento .qmd puede haber links a secciones del propio documento. Por ejemplo, podemos poner un “internal link” a una sección creada con ## Mis conclusiones con: [Link a Mis conclusiones](#mis-conclusiones)\n\nDocumentación oficial para las anchor-sections aquí y documentación de Pandoc aquí\n\n\n\n\nSi lo que queremos es poner un link a otra página (de la propia web o blog) tendremos que hacerlo por ejemplo con:\n\n[link a una página en la misma carpeta](otra-pagina.qmd)\n\n[link a una página que está en una subcarpeta](sub-carpeta/otra-pagina.qmd)\n\n[página en una subcarpeta si mi página está en otra subcarpeta](../otra-sub-carpeta/otra-pagina.qmd)\n\n\nSi además quieres que el link se abra en otra pestaña, ya sabes que puedes añadir {target=\"_blank\"}"
   },
   {
-    "objectID": "slides/03_aprendiendo_Qmd.html#iv-más-elementos-imágenes",
-    "href": "slides/03_aprendiendo_Qmd.html#iv-más-elementos-imágenes",
+    "objectID": "slides/03_aprendiendo_Qmd.knit.html#iv-más-elementos-imágenes",
+    "href": "slides/03_aprendiendo_Qmd.knit.html#iv-más-elementos-imágenes",
     "title": "Aprendiendo a escribir en QMD",
     "section": "(IV) Más elementos: Imágenes",
     "text": "(IV) Más elementos: Imágenes\n\nDocumentación oficial aquí\n\n![](imagenes/imagen_ababol.jpg){fig-align=\"left\" width=\"12%\"}\n\n\n\n\n\n![](./imagenes/imagen_ababol.jpg){ fig-align=\"right\" width=\"20%\"}\n\n\n\n\n\n\nPuedes ver como hacer composiciones de imágenes en el blog, concretamente aquí, además de cuestiones como el tamaño y aspecto de las imágenes."
   },
   {
-    "objectID": "slides/03_aprendiendo_Qmd.html#iv-más-elementos-imágenes-generadas-con-código",
-    "href": "slides/03_aprendiendo_Qmd.html#iv-más-elementos-imágenes-generadas-con-código",
+    "objectID": "slides/03_aprendiendo_Qmd.knit.html#iv-más-elementos-imágenes-generadas-con-código",
+    "href": "slides/03_aprendiendo_Qmd.knit.html#iv-más-elementos-imágenes-generadas-con-código",
     "title": "Aprendiendo a escribir en QMD",
     "section": "(IV) Más elementos: Imágenes generadas con código",
     "text": "(IV) Más elementos: Imágenes generadas con código\n\nDocumentación para fijar el tamaño aquí\n\n\n\n```{r}\n#| label: fig-penguins-01\n#| fig-cap: Gráfico con datos de pingüinos\n#| fig-width: 7\n#| fig-asp: 0.618\n#| output-location: column-fragment\n#| code-line-numbers: \"2|3|4-5|6|7\"\nlibrary(tidyverse)\nlibrary(palmerpenguins)\npp &lt;- ggplot(penguins,aes(\n    x = bill_length_mm, y = bill_depth_mm,\n    color = species, shape = species)) +  \n  geom_point() +\n  theme_minimal() +\n  labs(x = \"Bill length (mm)\", y = \"Bill depth (mm)\")\n\npp\n```\n\n\n\n\n\n\n\n\nFigura 1: Gráfico con datos de pingüinos"
   },
   {
-    "objectID": "slides/03_aprendiendo_Qmd.html#iv-más-elementos-tablas-con-markdown",
-    "href": "slides/03_aprendiendo_Qmd.html#iv-más-elementos-tablas-con-markdown",
+    "objectID": "slides/03_aprendiendo_Qmd.knit.html#iv-más-elementos-tablas-con-markdown",
+    "href": "slides/03_aprendiendo_Qmd.knit.html#iv-más-elementos-tablas-con-markdown",
     "title": "Aprendiendo a escribir en QMD",
     "section": "(IV) Más elementos: Tablas con Markdown",
     "text": "(IV) Más elementos: Tablas con Markdown\n\nDocumentación oficial de Quarto para tablas (creadas con sintaxis Markdown) aquí\n\n\n\n\n\nSi escribes esto:\n\n| Default | Left | Right | Center |\n|---------|:-----|------:|:------:|\n| 12      | 12   |    12 |   12   |\n| 123     | 123  |   123 |  123   |\n| 1       | 1    |     1 |   1    |\n\n: Título de la tabla\n\n\n\nGenerará lo siguiente:\n\nTítulo de la tabla\n\n\nDefault\nLeft\nRight\nCenter\n\n\n\n\n12\n12\n12\n12\n\n\n123\n123\n123\n123\n\n\n1\n1\n1\n1\n\n\n\n\n\n\n\n\n\nComo ves no es fácil-fácil generar tablas con Mardown pero, puedes usar un generador de tablas, por ejemplo este o este. También se puede usar el editor visual de Rstudio"
   },
   {
-    "objectID": "slides/03_aprendiendo_Qmd.html#iv-más-elementos-tablas-con-r",
-    "href": "slides/03_aprendiendo_Qmd.html#iv-más-elementos-tablas-con-r",
+    "objectID": "slides/03_aprendiendo_Qmd.knit.html#iv-más-elementos-tablas-con-r",
+    "href": "slides/03_aprendiendo_Qmd.knit.html#iv-más-elementos-tablas-con-r",
     "title": "Aprendiendo a escribir en QMD",
     "section": "(IV) Más elementos: Tablas con R",
     "text": "(IV) Más elementos: Tablas con R\n\nR tiene muchos paquetes para hacer tablas.\nPor ejemplo:   knitr::kable(df), o  gt::gt(df), o   DT::datatable(df) …\n\n\n\nUn ejemplo sencillo:\n\n\nhead(iris) |&gt;  gt::gt()\n\n\n\n\n\n\n\n\nSepal.Length\nSepal.Width\nPetal.Length\nPetal.Width\nSpecies\n\n\n\n\n5.1\n3.5\n1.4\n0.2\nsetosa\n\n\n4.9\n3.0\n1.4\n0.2\nsetosa\n\n\n4.7\n3.2\n1.3\n0.2\nsetosa\n\n\n4.6\n3.1\n1.5\n0.2\nsetosa\n\n\n5.0\n3.6\n1.4\n0.2\nsetosa\n\n\n5.4\n3.9\n1.7\n0.4\nsetosa\n\n\n\n\n\n\n\n\n\n\nSi te interesa el tema de las tablas puedes visitar esto o esto o esto"
   },
   {
-    "objectID": "slides/03_aprendiendo_Qmd.html#iii-más-elementos-ecuaciones",
-    "href": "slides/03_aprendiendo_Qmd.html#iii-más-elementos-ecuaciones",
+    "objectID": "slides/03_aprendiendo_Qmd.knit.html#iii-más-elementos-ecuaciones",
+    "href": "slides/03_aprendiendo_Qmd.knit.html#iii-más-elementos-ecuaciones",
     "title": "Aprendiendo a escribir en QMD",
     "section": "(III) Más elementos: Ecuaciones",
     "text": "(III) Más elementos: Ecuaciones\n\nMarkdown admite ecuaciones escritas en Latex:\n\nsi van entre un $ serán ecuaciones inline\n$$ para ecuaciones independientes.\n\n\n\n\n\n\n\n\n\n\nMarkdown Syntax\nOutput\n\n\n\n\necuación inline: $E = mc^{2}$\necuación inline: \\(E=mc^{2}\\)\n\n\necuación independiente:\n\n$$E = mc^{2}$$\necuación independiente:\n\\[E = mc^{2}\\]\n\n\n\n\n\n\nTienes editores online de ecuaciones en Latex aquí y aquí. Puedes ver algunos ejemplos de ecuaciones escritas en Latex aquí\nAdemás, podemos reusar el código Latex de ecuaciones en la web (si se ha usado MathJax). Por ejemplo aquí"
   },
   {
-    "objectID": "slides/03_aprendiendo_Qmd.html#editor-visual-en-rstudio",
-    "href": "slides/03_aprendiendo_Qmd.html#editor-visual-en-rstudio",
+    "objectID": "slides/03_aprendiendo_Qmd.knit.html#editor-visual-en-rstudio",
+    "href": "slides/03_aprendiendo_Qmd.knit.html#editor-visual-en-rstudio",
     "title": "Aprendiendo a escribir en QMD",
     "section": "Editor Visual en RStudio",
     "text": "Editor Visual en RStudio\n\nDesde 2020, concretamente desde la versión v.1.4, RStudio dispone de un editor visual\nEl editor visual facilita la inserción de los elementos que hemos ido viendo durante el curso. Documentación oficial aquí y aquí\n\n\n\n\n\nHasta ahora hemos trabajado en nuestros QMD en formato “Source”, pero podemos cambiar el modo de edición a “Visual”, solo hay que seleccionar la pestaña adecuada:"
   },
   {
-    "objectID": "slides/03_aprendiendo_Qmd.html#editor-visual-modo-de-edición",
-    "href": "slides/03_aprendiendo_Qmd.html#editor-visual-modo-de-edición",
+    "objectID": "slides/03_aprendiendo_Qmd.knit.html#editor-visual-modo-de-edición",
+    "href": "slides/03_aprendiendo_Qmd.knit.html#editor-visual-modo-de-edición",
     "title": "Aprendiendo a escribir en QMD",
     "section": "Editor Visual: Modo de edición",
     "text": "Editor Visual: Modo de edición\n\nEdición en modo Visual:En modo Source:"
   },
   {
-    "objectID": "slides/03_aprendiendo_Qmd.html#editor-visual-barra-de-herramientas",
-    "href": "slides/03_aprendiendo_Qmd.html#editor-visual-barra-de-herramientas",
+    "objectID": "slides/03_aprendiendo_Qmd.knit.html#editor-visual-barra-de-herramientas",
+    "href": "slides/03_aprendiendo_Qmd.knit.html#editor-visual-barra-de-herramientas",
     "title": "Aprendiendo a escribir en QMD",
     "section": "Editor Visual: Barra de herramientas",
     "text": "Editor Visual: Barra de herramientas\nLa barra de herramientas del editor visual facilita el acceso a la mayoría de elementos que podemos insertar en nuestros documentos QMD:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEsto facilita la entrada a los documentos QMD\nEn algunos casos como imágenes y ciertas tablas, solo hay que arrastrar (o copiar y pegar) el contenido y aparecerá en nuestro documento fuente con la sintaxis adecuada.\nAlgunas referencias: Exploring RStudio’s Visual Markdown Editor, RStudio: el Nuevo Editor Visual"
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog del curso “Escribiendo con R y Quarto”",
+    "objectID": "slides/imagenes/tt_01/ejemplo_1.html",
+    "href": "slides/imagenes/tt_01/ejemplo_1.html",
+    "title": "Mi documento",
     "section": "",
-    "text": "¿Qué son R, RStudio y Quarto?\n\n\n\n\n\n\nreproducibilidad\n\n\n\nEn el curso usaremos 3 programas: R, RStudio y Quarto, así que la primera tarea es saber qué son y para qué sirven: conviene saber diferenciar entre ellos. \n\n\n\n\n\n2 ene 2023\n\n\nPedro J. Pérez\n\n\n7 minutos\n\n\n\n\n\n\n\n\n\n\n\n\nReferencias bibliográficas\n\n\n\n\n\n\nquarto\n\n\nbibliografía\n\n\n\n¿Cómo incluir referencias bibliográficas en documentos .qmd? Una buena opción es a través de ficheros .bib creados en Zotero. \n\n\n\n\n\n20 ene 2023\n\n\nPedro J. Pérez\n\n\n10 minutos\n\n\n\n\n\n\n\n\n\n\n\n\nLayout’s\n\n\n\n\n\n\nquarto\n\n\nlayout\n\n\n\nViendo las posibilidades de Layout que tenemos en Quarto \n\n\n\n\n\n21 ene 2023\n\n\nPedro J. Pérez\n\n\n2 minutos\n\n\n\n\n\n\n\n\n\n\n\n\nUsando shortcodes\n\n\n\n\n\n\nquarto\n\n\nshortcodes\n\n\n\nCómo usar shortcodes en Quarto para, entre otras cosas, poder incluir el mismo contenido en varios documentos. \n\n\n\n\n\n22 ene 2023\n\n\nPedro J. Pérez\n\n\n6 minutos\n\n\n\n\n\n\n\n\n\n\n\n\nExtensiones\n\n\n\n\n\n\nQuarto\n\n\nextensiones\n\n\n\nIntentando entender qué son y cómo usar las extensiones de Quarto \n\n\n\n\n\n23 ene 2023\n\n\nPedro J. Pérez\n\n\n4 minutos\n\n\n\n\n\n\n\n\n\n\n\n\nImágenes\n\n\n\n\n\n\nQuarto\n\n\nimágenes\n\n\n\nRepasando algunas opciones de Quarto para insertar imágenes. \n\n\n\n\n\n24 ene 2023\n\n\nPedro J. Pérez\n\n\n2 minutos\n\n\n\n\n\n\n\n\n\n\n\n\nTuneando con CSS\n\n\n\n\n\n\nQuarto\n\n\nCSS\n\n\n\nCambiando el formato con CSS \n\n\n\n\n\n25 ene 2023\n\n\nPedro J. Pérez\n\n\n5 minutos\n\n\n\n\n\n\n\n\n\n\n\n\nTuneando con CSS (cambios bizarros!!)\n\n\n\n\n\n\nQuarto\n\n\nCSS\n\n\n\nEl contenido de este post es el mismo que el del anterior, PERO , pero ahora haciendo cambios bizarros!! con CSS. \n\n\n\n\n\n26 ene 2023\n\n\nPedro J. Pérez\n\n\n5 minutos\n\n\n\n\n\n\n\n\n\n\n\n\nObservable JS\n\n\n\n\n\n\nQuarto\n\n\nObservable\n\n\n\nIntentando entender qué es y cómo usar Observable JS en R. \n\n\n\n\n\n27 ene 2023\n\n\nPedro J. Pérez\n\n\n4 minutos\n\n\n\n\n\n\n\n\n\n\n\n\nUsing R data with phyton\n\n\n\n\n\n\nQuarto\n\n\nPython\n\n\n\nViendo cómo usar datos de R en chunks de Py con Quarto. \n\n\n\n\n\n28 ene 2023\n\n\nPedro J. Pérez\n\n\n1 minutos\n\n\n\n\n\n\n\n\n\n\n\n\nTuneado de un post con opciones de YAML\n\n\n\n\n\n\nQuarto\n\n\ntuneado yaml\n\n\n\nViendo cómo modificar la apariencia de un post con opciones de YAML. \n\n\n\n\n\n29 ene 2023\n\n\nPedro J. Pérez\n\n\n1 minutos\n\n\n\n\n\n\n\n\n\n\n\n\nInformes parametrizados\n\n\n\n\n\n\nreproducibilidad\n\n\nInformes parametrizados\n\n\n\nAutomatizando la creación de informes: generando grupos de informes utilizando conjuntos de parámetros. \n\n\n\n\n\n30 ene 2023\n\n\nPedro J. Pérez\n\n\n5 minutos\n\n\n\n\n\n\n\n\n\n\n\n\nCross references\n\n\n\n\n\n\ncross-references\n\n\n\n¿Cómo insertar referencias cruzadas en documentos Quarto? \n\n\n\n\n\n31 ene 2023\n\n\nPedro J. Pérez\n\n\n5 minutos\n\n\n\n\n\n\n\n\n\n\n\n\nMi Segundo post con Quarto\n\n\n\n\n\n\nTaller\n\n\nsoluciones practica nº 5\n\n\n\nSoluciones a la Práctica 5.1 del curso \n\n\n\n\n\n1 feb 2023\n\n\nPedro J. Pérez, Nosotros\n\n\n1 minutos\n\n\n\n\n\n\n\n\n\n\n\n\nGenerando botoncitos de descarga en mi web\n\n\n\n\n\n\nTuneando la web\n\n\n\nInsertar un link de descarga en nuestra web es muy fácil pero quedará más chulo si generamos unos botoncitos de descarga. \n\n\n\n\n\n2 feb 2023\n\n\nPedro J. Pérez\n\n\n5 minutos\n\n\n\n\n\n\n\n\n\n\n\n\nGenerando tablas con R\n\n\n\n\n\n\ntablas\n\n\n\nSe pueden hacer tablas muy chulas con R. Por ejemplo mira aquí \n\n\n\n\n\n3 feb 2023\n\n\nPedro J. Pérez\n\n\n5 minutos\n\n\n\n\n\n\n\n\n\n\n\n\nPublicando nuestra web en la UV\n\n\n\n\n\n\nQuarto\n\n\nPublicando la web\n\n\n\nSe describe el proceso para publicar nuestra web/blog en el espacio web que tenemos disponible en los servidores de la Universitat de València. \n\n\n\n\n\n4 feb 2023\n\n\nPedro J. Pérez\n\n\n3 minutos\n\n\n\n\n\n\n\n\n\n\n\n\nGenerando tablas de modelos y contrastes\n\n\n\n\n\n\ntablas estadísticas\n\n\n\nPost en proceso de elaboración \n\n\n\n\n\n5 feb 2023\n\n\nPedro J. Pérez\n\n\n1 minutos\n\n\n\n\n\n\n\n\n\n\n\n\nIconos en Quarto\n\n\n\n\n\n\niconos\n\n\nemojis\n\n\n\nUsando emojis e iconos en Quarto \n\n\n\n\n\n12 feb 2024\n\n\nPedro J. Pérez\n\n\n7 minutos\n\n\n\n\n\n\n\n\n\n\n\n\nWebr\n\n\n\n\n\n\nWebr\n\n\n\nEntender un poco qué es y como funciona Webr \n\n\n\n\n\n12 feb 2024\n\n\nPedro J. Pérez\n\n\n4 minutos\n\n\n\n\n\n\nNo hay resultados"
+    "text": "Este es un documento Rmarkdown. Para saber más sobre Rmd : http://rmarkdown.rstudio.com.\n\nCódigosummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00  \n\n\nEl trozo de arriba es un chunk de código\nAl hacer clic en el botón Knitr, se ejecutará el código y se generará un documento que incluirá tanto el texto, como el código (o chunks) y la evaluación de este.\nCon esto acabamos el informe"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Pedro J. Pérez",
+    "objectID": "slides/imagenes/tt_01/ejemplo_1.html#introducción-a-rmd",
+    "href": "slides/imagenes/tt_01/ejemplo_1.html#introducción-a-rmd",
+    "title": "Mi documento",
     "section": "",
-    "text": "Mi nombre es Pedro J. Pérez. Soy profesor del departamento de Análisis Económico de la Universitat de València. Aquí puedes ver mi página web en la UV. Me gusta aprender y trastear con R; vamos, que aún soy un entusiasta de R. Me divierto!!\nPodemos decir que tengo “bastante” experiencia con R porque lo utilizo en mi docencia e investigación; de hecho, imparto una asignatura en el grado de Economía que es una introducción a R, aquí puedes ver su web. También imparto un curso de introducción a R en el SFPIE, aquí puedes ver la web de una de sus ediciones.\n¿Y cuanta experiencia tienes sobre Quarto? Bueno, ya voy teniendo bastante experiencia: Quarto apareció en junio de 2022, y en noviembre ya estaba yo impartiendo el taller Mi primer blog con Quarto en las XII Jornadas de Usuarios de R. No es que sea muy bloguero, mas bien soy un creador y liquidador de blogs. Aquí, puedes ver un listado no exhaustivo de los blogs que he liquidado, alguno de ellos hecho con Quarto.\nEn junio de 2023 impartí la primera edición de este curso. Puedes ver su web aquí. Su web es realmente parecida a la de esta edición. 😀"
+    "text": "Este es un documento Rmarkdown. Para saber más sobre Rmd : http://rmarkdown.rstudio.com.\n\nCódigosummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00  \n\n\nEl trozo de arriba es un chunk de código\nAl hacer clic en el botón Knitr, se ejecutará el código y se generará un documento que incluirá tanto el texto, como el código (o chunks) y la evaluación de este.\nCon esto acabamos el informe"
   },
   {
-    "objectID": "blog_02/06_trucos_workflow.html",
-    "href": "blog_02/06_trucos_workflow.html",
-    "title": "Trucos: workflow",
-    "section": "",
-    "text": "Cuando haces el Render de un QMD ocurre lo siguiente: se abre un background job, donde primero, knitr ejecuta los chunks y crea un nuevo documento .md que ya incluye el código y su output; ese fichero .md es procesado por pandoc que crea el output final.\n\n\n\n\n\nSe puede hacer el render de un .qmd de varias formas:\n\n#- desde la Terminal\nquarto render document.qmd  # default is html\nquarto render document.qmd --to pdf\nquarto render document.qmd --to docx\n#- desde la Consola\nquarto::quarto_render(\"document.qmd\") # defaults to html\nquarto::quarto_render(\"document.qmd\", output_format = \"pdf\")\n\n\n\n\n\nTambién se puede hacer el render con opciones, p.ej:\n\nquarto render document.qmd --to html -M code-fold:true                  \nquarto render document.qmd --to html -M code-fold:true -P alpha:0.2 -P ratio:0.3     \n\n\n\n\n\nPara crear epub en Quarto bastaría con hacer en la Terminal:\n\nquarto render my_file.qmd --to epub\n\nAún así, Bruno Rodrigues y Sam Parmar nos cuentan algunos truquillo sobre como hacer render de un Quarto book a epub, o a pdf.\n\n\n\n\n\n\nPara hacer el render desde la Terminal con parámetros:\n quarto render annual_report.qmd -P year:2024\nEn parametrised reports, cuando haces el render, me gustaría que los archivos de salida se guardasen en otro directorio, pero se ve que esto no es fácil-fácil, al menos aún. En este toot explican que como no encontraron la solución, así que lo que hace es hacer el render en la misma carpeta donde está el script, pero luego mueve los archivos que se han generado. para moverlos usa\n\nfile.copy(full_path_source, full_path_destination)\n\n\n\n\n\nSi quieres ejecutar un R script desde la Terminal:\n\nRscript -e \"rmarkdown::render('document.Rmd')\"\n\n\n\n\n\nPara pasar un documento Word a .md utilizando Pandoc. Lo vi en este toot\n\npandoc -f docx -t markdown foo.docx -o foo.markdown\n\n\nPara pasar un documento Word a .md desde R:\n\nrmarkdown::pandoc_convert(\"input.docx\", to = \"md\")\n\n\n\n\n\nCómo hacer el render rápidamente (ptse): https://github.com/quarto-dev/quarto-cli/discussions/6173\nTruco para q se haga el render solo en partes; https://fosstodon.org/@mccarthymg/111889746218019391. De Rennie."
+    "objectID": "slides/imagenes/tt_01/ejemplo_1.html#including-plots",
+    "href": "slides/imagenes/tt_01/ejemplo_1.html#including-plots",
+    "title": "Mi documento",
+    "section": "Including Plots",
+    "text": "Including Plots\nYou can also embed plots, for example:\n\n\n\n\n\n\n\n\nNote that the echo = FALSE parameter was added to the code chunk to prevent printing of the R code that generated the plot."
   },
   {
-    "objectID": "blog_02/06_trucos_workflow.html#render",
-    "href": "blog_02/06_trucos_workflow.html#render",
-    "title": "Trucos: workflow",
-    "section": "",
-    "text": "Cuando haces el Render de un QMD ocurre lo siguiente: se abre un background job, donde primero, knitr ejecuta los chunks y crea un nuevo documento .md que ya incluye el código y su output; ese fichero .md es procesado por pandoc que crea el output final.\n\n\n\n\n\nSe puede hacer el render de un .qmd de varias formas:\n\n#- desde la Terminal\nquarto render document.qmd  # default is html\nquarto render document.qmd --to pdf\nquarto render document.qmd --to docx\n#- desde la Consola\nquarto::quarto_render(\"document.qmd\") # defaults to html\nquarto::quarto_render(\"document.qmd\", output_format = \"pdf\")\n\n\n\n\n\nTambién se puede hacer el render con opciones, p.ej:\n\nquarto render document.qmd --to html -M code-fold:true                  \nquarto render document.qmd --to html -M code-fold:true -P alpha:0.2 -P ratio:0.3     \n\n\n\n\n\nPara crear epub en Quarto bastaría con hacer en la Terminal:\n\nquarto render my_file.qmd --to epub\n\nAún así, Bruno Rodrigues y Sam Parmar nos cuentan algunos truquillo sobre como hacer render de un Quarto book a epub, o a pdf.\n\n\n\n\n\n\nPara hacer el render desde la Terminal con parámetros:\n quarto render annual_report.qmd -P year:2024\nEn parametrised reports, cuando haces el render, me gustaría que los archivos de salida se guardasen en otro directorio, pero se ve que esto no es fácil-fácil, al menos aún. En este toot explican que como no encontraron la solución, así que lo que hace es hacer el render en la misma carpeta donde está el script, pero luego mueve los archivos que se han generado. para moverlos usa\n\nfile.copy(full_path_source, full_path_destination)\n\n\n\n\n\nSi quieres ejecutar un R script desde la Terminal:\n\nRscript -e \"rmarkdown::render('document.Rmd')\"\n\n\n\n\n\nPara pasar un documento Word a .md utilizando Pandoc. Lo vi en este toot\n\npandoc -f docx -t markdown foo.docx -o foo.markdown\n\n\nPara pasar un documento Word a .md desde R:\n\nrmarkdown::pandoc_convert(\"input.docx\", to = \"md\")\n\n\n\n\n\nCómo hacer el render rápidamente (ptse): https://github.com/quarto-dev/quarto-cli/discussions/6173\nTruco para q se haga el render solo en partes; https://fosstodon.org/@mccarthymg/111889746218019391. De Rennie."
+    "objectID": "slides/07_aun_mas_cosas.html#con-quarto-se-pueden-hacer-muuuuchas-más-cosas-aún",
+    "href": "slides/07_aun_mas_cosas.html#con-quarto-se-pueden-hacer-muuuuchas-más-cosas-aún",
+    "title": "Aún más cosas con Quarto",
+    "section": "Con Quarto se pueden hacer muu🙀uuchas más cosas aún!!!",
+    "text": "Con Quarto se pueden hacer muu🙀uuchas más cosas aún!!!\n\n\nVeamos algunas de ellas"
   },
   {
-    "objectID": "blog_02/06_trucos_workflow.html#instalación",
-    "href": "blog_02/06_trucos_workflow.html#instalación",
-    "title": "Trucos: workflow",
-    "section": "2 Instalación",
-    "text": "2 Instalación\n\nprework de T. Mock: In order to create PDFs you will need to install a recent distribution of LaTeX. We recommend the use of TinyTeX (which is based on TexLive):\n\nquarto install tool tinytext\nquarto install tool chromium"
+    "objectID": "slides/07_aun_mas_cosas.html#con-quarto-aún-se-pueden-hacer-muuuuchas-más-cosas",
+    "href": "slides/07_aun_mas_cosas.html#con-quarto-aún-se-pueden-hacer-muuuuchas-más-cosas",
+    "title": "Aún más cosas con Quarto",
+    "section": "Con Quarto AÚN se pueden hacer muu🙀uuchas más cosas!!",
+    "text": "Con Quarto AÚN se pueden hacer muu🙀uuchas más cosas!!\n\n\nVeamos algunas de ellas"
   },
   {
-    "objectID": "blog_02/07_trucos_Rmarkdown.html",
-    "href": "blog_02/07_trucos_Rmarkdown.html",
-    "title": "Trucos: Rmarkdown",
-    "section": "",
-    "text": "1 Rmarkdown\n\n\n1.0.1 Ver todas las opciones de los chunks\n\nSale de este post de Danielle Navarro\n\n\nCódigo#- salen las opciones por defecto\noptions &lt;- knitr::opts_chunk$get()\n\n\n\n\n1.0.2 Ejecutar .R en chunks\nLa explicación aquí\n{r, file = \"some-file.R\"}\nEl archivo some-file.R ha de estar en la misma carpeta que el .qmd\n\n\n1.0.3 convertir Rmd chunks a qmd\n\nPara convertir Rmd chunks a qmd:\n\nknitr::convert_chunk_header(\"document.qmd\", output = identity)\n\n\n1.0.4 Compilar .tex\n\nCompilar .tex a pdf desde RStudio: tools::texi2pdf()\n\n\n\n\n1.0.5 CHILD\n\ntruco knitr::knitr_child() para generar distintas tablas y títulos en .qmd programáticamente: https://fosstodon.org/@MickaelCanouil/109919710663908424\n\n\n\n\n1.0.6 Inline code\n\nExplican bien lo de scaping back-ticks: https://www.markdownguide.org/basic-syntax/#escaping-backticks. Estos otros no lo hacen tan bien\ninline literal code: ` r 2+2` `abc` `` `abc` ``\nescribir esto: `` `abc` `` para que se muestre esto: `abc`\n\n\n\n1.0.7 Meta-Markdown\n\nAutomatizar la creación de una bullet list: aquí\nPasar un enlace à la md, a enlace en html. aquí hilo de Shanon\n\n\n\n1.0.8 Convertir Inline footnotes\nConvertir Inline footnotes to Regular footnotes in Markdown: https://yihui.org/en/2023/02/markdown-footnotes/\n\n\n\n\n2 ZZ. Biblio\n\nWriting knitr hooks, de danielle Navarro.\nGenerating dynamic contents in R Markdown and Quarto: volvio a salir al ver este toot\n\n\n\nReutilizarCC BY 4.0"
+    "objectID": "slides/01_presentacion.html#qué-haremos-en-el-curso",
+    "href": "slides/01_presentacion.html#qué-haremos-en-el-curso",
+    "title": "Presentación del curso",
+    "section": "¿Qué haremos en el curso?",
+    "text": "¿Qué haremos en el curso?\n\n\nAprender a usar “el entorno R” (❗)para escribir documentos que espero sean útiles para nuestras labores docentes, investigadoras y de gestión.\n\n\n\n\nDistintos tipos de documentos: informes, tutoriales, transparencias, páginas web, blogs, …\n\n\n\n\nEstos documentos serán reproducibles (❗)\n\n\n¿Documentos reproducibles?\n\n\n\nSí, generaremos directamente el documento final sin copiar ni pegar nada, sino usando código. 💬\n\n\nExplicar un poco q es reproducible. P.ej: habitualmente escribís en Word pero las tablas y gráficos en Excel … aquí no, aquí todo en un mismo workflow. Esto tiene ventajas que luego explicaré\n\n\n\n\nPara ello, hemos de aprender a escribir en QMD (Quarto Markdown) (❗❗)"
   },
   {
-    "objectID": "blog_02/05_trucos_html.html",
-    "href": "blog_02/05_trucos_html.html",
-    "title": "Trucos: html",
-    "section": "",
-    "text": "Para que los enlaces se abran en pestaña nueva has de poner {target=\"_blank\"}\n\n\n\n\n\nPara añadir (en un documento .qmd) un iframe que contenga una web, se puede hacer de varias formas:\n\ncon knitr::include_url()\n\n```{r}\n#| echo: true\nknitr::include_url({\"https://quarto.org/docs/guide/\"})\n```\n\n\ncon &lt;iframe&gt;: La página que se incrusta se especifica mediante el atributo src del elemento iframe. Por ejemplo, este fragmento creará un marco de 500 píxeles de ancho y 300 píxeles de alto donde se situará una página web. Dos ejemplos:\n\n&lt;iframe src=\"https://quarto.org/\" title=\"https://quarto.org/\" width=\"960\" height=\"500\" data-external=\"1\"&gt;&lt;/iframe&gt;\n\n&lt;iframe src=\"https://www.uv.es/\" loading=\"lazy\" style=\"width: 90%; height: 100px; border: 0px none;\"&gt;&lt;/iframe&gt;\n\n\n\n\n\nLógicamente se puede hacer con css\n\n&lt;style&gt; div.pink { background-color:pink; border-radius: 5px; padding: 20px; height: 100px; width: 50%;} &lt;/style&gt; &lt;div class = \"pink\"&gt;\nCuadro rápido de texto\n&lt;/div&gt;\n\n\nCuadro rápido de texto"
+    "objectID": "slides/01_presentacion.html#forma-de-trabajar-con-el-entorno-r",
+    "href": "slides/01_presentacion.html#forma-de-trabajar-con-el-entorno-r",
+    "title": "Presentación del curso",
+    "section": "Forma de trabajar con el “entorno R”",
+    "text": "Forma de trabajar con el “entorno R”\n\nR es un entorno (y un lenguaje de programación) para hacer estadística\n\n\n\nPodemos pensar que un análisis con datos tiene varias etapas.\n\n\n\n\n\n\n\n\n\nEn el curso nos centramos en la última etapa etapa: la presentación de los resultados. 💬\n\n\nExplicar que : 1) para sacarle todo el provecho a QMD hay q saber R, pero q también tiene beneficios si no sabes R. Tb que es una inversión, que QMD es una parte integral del workflow con R."
   },
   {
-    "objectID": "blog_02/05_trucos_html.html#trucos",
-    "href": "blog_02/05_trucos_html.html#trucos",
-    "title": "Trucos: html",
-    "section": "",
-    "text": "Para que los enlaces se abran en pestaña nueva has de poner {target=\"_blank\"}\n\n\n\n\n\nPara añadir (en un documento .qmd) un iframe que contenga una web, se puede hacer de varias formas:\n\ncon knitr::include_url()\n\n```{r}\n#| echo: true\nknitr::include_url({\"https://quarto.org/docs/guide/\"})\n```\n\n\ncon &lt;iframe&gt;: La página que se incrusta se especifica mediante el atributo src del elemento iframe. Por ejemplo, este fragmento creará un marco de 500 píxeles de ancho y 300 píxeles de alto donde se situará una página web. Dos ejemplos:\n\n&lt;iframe src=\"https://quarto.org/\" title=\"https://quarto.org/\" width=\"960\" height=\"500\" data-external=\"1\"&gt;&lt;/iframe&gt;\n\n&lt;iframe src=\"https://www.uv.es/\" loading=\"lazy\" style=\"width: 90%; height: 100px; border: 0px none;\"&gt;&lt;/iframe&gt;\n\n\n\n\n\nLógicamente se puede hacer con css\n\n&lt;style&gt; div.pink { background-color:pink; border-radius: 5px; padding: 20px; height: 100px; width: 50%;} &lt;/style&gt; &lt;div class = \"pink\"&gt;\nCuadro rápido de texto\n&lt;/div&gt;\n\n\nCuadro rápido de texto"
+    "objectID": "slides/01_presentacion.html#qué-tipo-de-documentos-veremos",
+    "href": "slides/01_presentacion.html#qué-tipo-de-documentos-veremos",
+    "title": "Presentación del curso",
+    "section": "¿Qué tipo de documentos veremos?",
+    "text": "¿Qué tipo de documentos veremos?\n\nPrincipalmente informes/tutoriales, transparencias, páginas web y blogs, …\n\n\n\n… pero, Con Quarto se pueden generar documentos de muchos tipos (artículos académicos, libros, tesis, cartas, cuadros de mando, etc … etc …) y formatos (html, pdf, epub, docx, beamer, pptx, etc … etc …).\n\n\n\n\nPara verlo puedes visitar la Quarto gallery\n\n\n\n\nAlgunos ejemplos:\n\n\n\nTutoriales: por ejemplo este o este\nSlides: por ejemplo estas o estas\nPáginas web: por ejemplo esta, esta o esta\nBlogs: por ejemplo este o este"
   },
   {
-    "objectID": "blog_02/02_trucos_revealjs.html",
-    "href": "blog_02/02_trucos_revealjs.html",
-    "title": "Trucos: Reveal.js",
-    "section": "",
-    "text": "Que un texto ocupe toda la slide, pero centrado verticalmente; para ello, has de combinar r-fit-text con the center class en el título de la slide.\n## {.center}\n\n::: r-fit-text\nThis fits perfectly!\n:::\n\n\n\n\n\npuedes rotarlo con : style=\"rotate: -10deg;\"\n\n[My textito]{.absolute left=\"50%\" top=\"20%\" style=\"rotate: -10deg;\"}\n\n\n\n\n\nLo vi aquí. Lo utilizan para resaltar texto que pones encima de una foto\nPuedes rotarlo poniendo rotate: -10deg; dentro de style = \" ....\"\n\n::: {.absolute left=\"15%\" top=\"5%\" style=\"font-size:1.8em; padding: 0.75em 0.7em; background-color: rgba(44, 0, 142, .4);\"}\nFirst we take Manhattan, \n\nthen we take Berlin\n:::"
+    "objectID": "slides/01_presentacion.html#calendario-1",
+    "href": "slides/01_presentacion.html#calendario-1",
+    "title": "Presentación del curso",
+    "section": "Calendario",
+    "text": "Calendario\n\n\n\n\n\n\n\n\n\nDía\nTópico\n\n\n\n\n\n9 de julio (martes)\nPresentación\nPrimeros pasos\nAprendiendo a escribir en QMD\n\n(con slides 01)\n(con slides 02)\n(con slides 03)\n\n\n\n10 de julio (miércoles)\nMi primer web/blog\n\n(con slides 05)\n\n\n\n15 de julio (lunes)\nSlides con Quarto\n\n(con slides 04)\n\n\n\n16 de julio (martes)\nMás cosas con Quarto ❗\n\n(con slides 06)"
   },
   {
-    "objectID": "blog_02/02_trucos_revealjs.html#footnotes",
-    "href": "blog_02/02_trucos_revealjs.html#footnotes",
-    "title": "Trucos: Reveal.js",
-    "section": "Notas",
-    "text": "Notas\n\n\nLo vi en este repo, concretamente en el fichero index.qmd↩︎"
-  },
-  {
-    "objectID": "info.html",
-    "href": "info.html",
-    "title": "Escribiendo con R y Quarto",
-    "section": "",
-    "text": "Forma parte de la oferta del SFPIE de la Universitat de València. La ficha oficial del curso está aquí.\nEl curso es una introducción a Quarto, un nuevo sistema para generar publicaciones (libros, transparencias, blogs, webs, etc…) científicas y técnicas. Puedes ver ejemplos en esta Gallery.\nEn el curso usaremos R, y fundamentalmente Quarto, a través del IDE RStudio.\nSe recomienda tener instaladas versiones recientes de los 3 programas. Tienes instrucciones de instalación más abajo\nEs muy-muy conveniente, acudir al curso con tu propio ordenador. Además, es conveniente que traigas un ratón: piensa que buena parte de los errores que cometeremos se deberán a la precisión en copy-paste. Evitémoslo!!\nLos materiales que usaremos están en Materiales."
-  },
-  {
-    "objectID": "info.html#información-sobre-el-curso",
-    "href": "info.html#información-sobre-el-curso",
-    "title": "Escribiendo con R y Quarto",
-    "section": "",
-    "text": "Forma parte de la oferta del SFPIE de la Universitat de València. La ficha oficial del curso está aquí.\nEl curso es una introducción a Quarto, un nuevo sistema para generar publicaciones (libros, transparencias, blogs, webs, etc…) científicas y técnicas. Puedes ver ejemplos en esta Gallery.\nEn el curso usaremos R, y fundamentalmente Quarto, a través del IDE RStudio.\nSe recomienda tener instaladas versiones recientes de los 3 programas. Tienes instrucciones de instalación más abajo\nEs muy-muy conveniente, acudir al curso con tu propio ordenador. Además, es conveniente que traigas un ratón: piensa que buena parte de los errores que cometeremos se deberán a la precisión en copy-paste. Evitémoslo!!\nLos materiales que usaremos están en Materiales."
-  },
-  {
-    "objectID": "info.html#horario-y-aula",
-    "href": "info.html#horario-y-aula",
-    "title": "Escribiendo con R y Quarto",
-    "section": "Horario y aula",
-    "text": "Horario y aula\n\n\n\n\n\n\n\n\n\n\n\n\n\nDía\nHora\nLugar\n\n\n\n9 de julio (martes)\n16:00 a 20:00\nAula 0.1 (SFPIE, Campus Tarongers)\n\n\n10 de julio (miércoles)\n16:00 a 20:00\nAula 0.1 (SFPIE, Campus Tarongers)\n\n\n15 de julio (lunes)\n16:00 a 20:00\nAula 0.1 (SFPIE, Campus Tarongers)\n\n\n16 de julio (martes)\n16:00 a 19:00\nAula 0.1 (SFPIE, Campus Tarongers)\n\n\n\n\nLas clases se desarrollarán en el Campus de Tarongers, concretamente en el aula 0.1 del SFPIE (Servicio de Formación Permanente e Innovación Educativa) de la Universitat de València.\nEl SFPIE está en el edificio “Centro de Formación y Calidad Manuel Sanchis Guarner” que está en la C/ Serpis, 29, 46022 València. Tienes un mapa de Google aquí, y aquí la web del centro."
-  },
-  {
-    "objectID": "info.html#programas-instalación",
-    "href": "info.html#programas-instalación",
-    "title": "Escribiendo con R y Quarto",
-    "section": "Programas (instalación)",
-    "text": "Programas (instalación)\n\n\n\n\n\n\nInstalación de R, RStudio y Quarto\n\n\n\n\n\n\nEn el curso usaremos 3 programas: R, RStudio y Quarto, así que tenemos que instalarlos\n\nHas de instalar los programas en este orden:\n\nR: https://cran.r-project.org/\nRStudio: https://posit.co/download/rstudio-desktop/\nQuarto: https://quarto.org/docs/download/\n\n\nSolamente has de descargar las versiones de los instaladores adecuadas para tu sistema operativo\n\n\n\n\n\n\n\n\n\n\n\nInstalación de paquetes\n\n\n\n\n\n\nEn el curso también usaremos algunos paquetes de R, así que habrá que instalarlos\nLos paquetes se han de instalar una vez hayas instalado los 3 programas (R, RStudio y Quarto)\nOs ayudaré a instalar los paquetes en clase así que no os preocupéis por ellos ahora\n\n\n\n\n\n\n\n\n\n\n¿Cómo instalar los paquetes?\n\n\n\n\n\nRecuerda que os enseñaré a instalar los paquetes en clase, pero si quieres ir adelantando trabajo, aquí tienes las instrucciones:\n\n\nAlgunos paquetes se han de compilar por lo que hay que tener las herramientas necesarias, así que:\n\nSi usas Windows instalaremos Rtools. Aquí puedes descargarte el instalador adecuado. Durante el proceso de instalación asegúrate de marcar la casilla que pone “add Rtools to the system PATH”.\nSi tienes un Mac, tendrás que instalar the Xcode Command Line Tools. Lo normal es que lo tengas ya instalado, si no fuese el caso, aquí te explican como hacerlo. Además, como nos cuentan aquí, si tienes un Mac, es conveniente instalar XQuartz, para ello sólo tienes que buscar el instalador en https://www.xquartz.org/\n\n\nFinalmente, para instalar los paquetes que usaremos durante el curso tendremos que ejecutar las siguientes instrucciones:\n\n\nCódigo para instalar los paquetes#- instalación de paquetes ---------------------------------\n\ninstall.packages(\"pak\")\n\npak::pak(c(\"tidyverse\", \"ggtext\",  \"curl\", \"irlba\", \"widyr\", \"markdown\", \"gt\", \"maps\", \"mapproj\", \"DT\", \"reactable\"))\n\npak::pak(c(\"showtext\", \"glue\",  \"plotly\", \"fs\", \"countrycode\", \"here\", \"quarto\"))\n\npak::pak(c(\"webexercises\"))\n\npak::pak(c(\"perezp44/pjpv.curso.R.2022\"))\n\n\n\n#- más cosas ---------------------------------------\n# usethis::edit_rstudio_prefs()\n# usethis::use_blank_slate() \n\n# quarto install tool tinytext\n# quarto install tinytex --update-path\n# quarto install tool chromium"
-  },
-  {
-    "objectID": "blog_02/04_trucos_css.html",
-    "href": "blog_02/04_trucos_css.html",
-    "title": "Trucos: CSS y SASS",
-    "section": "",
-    "text": "Para incorporar CSS en un documento .qmd se han de hacer dos cosas: 1) crear un documento .css , y 2) referenciarlo en el yaml del .qmd. Veámos cómo quedaría el yaml en 2 situaciones:\n\n\n\nSi el fichero .css estuviese en la misma carpeta que el .qmd, entonces el yaml del documento .qmd sería algo como:\n\n---\ntitle: \"Mi super-título\"\nformat: html\ncss: my_styles.css\n---\n\n\n\n\nSi el fichero .css estuviese en una subcarpeta llamada, por ejemplo, assets, el yaml del documento .qmd quedaría como:\n\n---\ntitle: \"Mi super-título\"\nformat: html\ncss: asets/my_styles.css\n---\n\n\n\n\n\n\nEsta perfectamente explicado aquí\n\n\n\n\nEn el .qmd tendrías que incluir lo siguiente:\n\n::: rotate-img\n![](my_imagen.jpg){.absolute height=300}\n:::\n\n\n\n\nEl fichero my_styles.css debería contener:\n\n.rotate-img img {\n  transform: rotate(40deg);\n}\n\n\n\n\nTambién se puede rotar una imagen sin utilizar .css. Se haría utilizando un div , concretamente así:\n\n\n:::{.class .absolute top=\"35%\" left=\"10%\" width=\"350px\" style=\"transform: rotate(-15deg);\"}\n\n:::"
-  },
-  {
-    "objectID": "blog_02/04_trucos_css.html#biblio",
-    "href": "blog_02/04_trucos_css.html#biblio",
-    "title": "Trucos: CSS y SASS",
-    "section": "2.1 Biblio",
-    "text": "2.1 Biblio\n\nStyling and Templating Quarto Documents son unas slides, con video y repo sobre, evidentemente, styling qmd`s. Tiene varios ejemplos sobre colores, fuentes y además, sobre como hacer una template.\nAquí tienes las variables SASS de revealjs y sus valores por defectos, y aquí las de html Bootstrap. En html theming tienes los 25 themes from the Bootswatch project.\nUna template vacia q usa Emil Hvitfeldt para sus presentaciones. Esta vacía pero tiene como meter JS en Revelajs y tiene los events de Reveals y en la web de Silvia Canelon lo usa."
-  },
-  {
-    "objectID": "blog_02/04_trucos_css.html#trucos",
-    "href": "blog_02/04_trucos_css.html#trucos",
-    "title": "Trucos: CSS y SASS",
-    "section": "2.2 Trucos",
-    "text": "2.2 Trucos\n\n\n2.2.1 Cambiar color links\n\nAquí hay un archivo .scss de Mine. Pone en el yaml: linkcolor: “#866fa3”1 y luego lo referencia en el archivo .scss para hacer que los links se hagan más tenues y se subrayen cuando estás sobre ellos2.\n\n$hover-color: lighten($link-color, 40%);\n\na{\n  color: $link-color;\n  text-decoration: none;\n  \n  &:hover{\n    color: $hover-color;\n    border-bottom: 1px solid $hover-color;\n  }\n  \n}\n\n\n\n2.2.2 Tunear los call-outs\n\nEn este video @ggnot explica cómo crear CUSTOM Callout Boxes in Quarto. Tiene un repositorio con un ejemplo. Hace falta definir un archivo .scss.\n\n\n\n\nEl documento .qmd sería así:\n\n---\ntitle: \"Custom Callouts\"\nauthor: \"Melissa Van Bussel\"\nformat:\n  html:\n    theme: custom.scss\n---\n\n:::::{.solutionbox}\n::::{.solutionbox-header}\n:::{.solutionbox-icon}\n:::\nThis is my test solution\n::::\n:::{.solutionbox-body}\nAnd some content inside of it\n:::\n:::::\n\n\nEl fichero custom.scss sería así:\n\n/*-- scss:defaults --*/\n\n// replicate the CSS for a callout box with a custom title, icon, and default appearance\n\n.solutionbox {\n  margin-top: 1em;\n  margin-bottom: 1em;  \n  border-radius: .25rem;\n  border-left: solid #acacac .3rem;\n  border-right: solid 0.5px silver;\n  border-top: solid 0.5px silver;\n  border-bottom: solid 0.5px silver;\n  border-left-color: #9834eb !important;\n}\n\n.solutionbox-icon {\n  height: 0.9rem;\n  width: 0.9rem;\n  display: inline-block;\n  content: \"\";\n  background-repeat: no-repeat;\n  background-size: 0.9rem 0.9rem;\n  margin-top: .5rem;\n  padding-right: 1.25rem;\n  background-image: url('imagenes/flor.jpg');\n}\n\n.solutionbox-header {\n  //margin-top: 0.5em;\n  margin-bottom: 0.5em;\n  border-bottom: none;\n  font-weight: 600;\n  opacity: 85%;\n  font-size: 0.9rem;\n  padding-left: 0.5em;\n  padding-right: 0.5em;\n  display: flex;\n  background-color: #f5e8ff;\n  height: 2em;\n  overflow: hidden;\n}\n\n.solutionbox-header p {\n  padding-top: 0.2em;\n}\n\n.solutionbox-body {\n  font-size: 0.9rem;\n  font-weight: 400;\n  padding-left: 0.5em;\n  padding-right: 0.5em;\n}\n\n.solutionbox-body &gt; :last-child {\n  padding-bottom: 0.5rem;\n  margin-bottom: 0;\n}\n\n\n\n\n\n2.2.3 Colores\n\nEn estas slides de Emil Hvitfeldt se explica cómo cambiar los colores de un tema. Se hace con un archivo .scss y se referencia en el yaml del .qmd. Los H1 son el mismo color que H2 pero mas oscuros. El código es:\n\n/*-- scss:defaults --*/\n$theme-black: #4c4c4c;\n$theme-white: white;\n$theme-teal: #50847B;\n$theme-blue: #76AADB;\n\n$body-bg: $theme-white;\n$body-color: $theme-black;\n$link-color: $theme-teal;\n$code-color: $theme-teal;\n\n/*-- scss:rules --*/\nh1 {\n  color: darken($theme-blue, 50%);\n}\n\nh2, h3, h4 {\n  color: $theme-blue;\n}\n\n\n\n2.2.4 Fuentes\n\nEn estas slides de Emil Hvitfeldt se explica cómo cambiar las fuentes de un tema.\n\n\n\n\n2.2.5 TOC\n\nEn la web de Silvia Canelon, concretamente en este post. El fichero scss está aquí\n\n// Table of contents\n$toc-color:                   $link-color;\n$toc-active-border:           $toc-color;\n$toc-inactive-border:         lighten($toc-color, 50%);"
-  },
-  {
-    "objectID": "blog_02/04_trucos_css.html#footnotes",
-    "href": "blog_02/04_trucos_css.html#footnotes",
-    "title": "Trucos: CSS y SASS",
-    "section": "Notas",
-    "text": "Notas\n\n\nEs el color “Glossy Grape”↩︎\nPara mi gusto se atenúan demasiado, igual en lugar de un 40% hay que poner otro %↩︎"
-  },
-  {
-    "objectID": "blog_02/08_extras_de_Quarto.html",
-    "href": "blog_02/08_extras_de_Quarto.html",
-    "title": "EXTRAS de Quarto",
-    "section": "",
-    "text": "Quarto manuscript projects provide a framework for writing and publishing scholarly articles.\n\nDocumentación oficial aquí. Un ejemplo\nUnas slides de Mine. Permite usar Binder\nUnas slides de JJ Allaire hablando sobre el proyecto aquí\nCharla de Mine aquí, y el post aquí\n\n\n\n\n\n\n\nEn Making Pretty PDFs with Quarto Nicola Rennie explica cómo crear una extensión de Quarto para una plantilla de un pretty-pdf\n\n\n\n\n\n\ncomo storytelling: https://mastodon.social/@benschneider/111354305395601257\ncomo un storyteller: https://github.com/andrewpbray/gg-close-read\n\n\n\n\n\nYo usaba Flipbook en Xaringan slides. Aquí hay un port de flipbook a Revealjs. Ya no es tan-tan necesario pero igual lo uso para teach ggplot2\n\n\n\n\n\nUn post de 2024 sobre creación de word’s\n\n\n\n\n\nPara convertir un Google Doc en un Quarto book puedes usar el pkg quartificate"
-  },
-  {
-    "objectID": "blog_02/08_extras_de_Quarto.html#quarto-manuscripts",
-    "href": "blog_02/08_extras_de_Quarto.html#quarto-manuscripts",
-    "title": "EXTRAS de Quarto",
-    "section": "",
-    "text": "Quarto manuscript projects provide a framework for writing and publishing scholarly articles.\n\nDocumentación oficial aquí. Un ejemplo\nUnas slides de Mine. Permite usar Binder\nUnas slides de JJ Allaire hablando sobre el proyecto aquí\nCharla de Mine aquí, y el post aquí"
-  },
-  {
-    "objectID": "blog_02/08_extras_de_Quarto.html#pdfs",
-    "href": "blog_02/08_extras_de_Quarto.html#pdfs",
-    "title": "EXTRAS de Quarto",
-    "section": "",
-    "text": "En Making Pretty PDFs with Quarto Nicola Rennie explica cómo crear una extensión de Quarto para una plantilla de un pretty-pdf"
-  },
-  {
-    "objectID": "blog_02/08_extras_de_Quarto.html#like-storyteller",
-    "href": "blog_02/08_extras_de_Quarto.html#like-storyteller",
-    "title": "EXTRAS de Quarto",
-    "section": "",
-    "text": "como storytelling: https://mastodon.social/@benschneider/111354305395601257\ncomo un storyteller: https://github.com/andrewpbray/gg-close-read"
-  },
-  {
-    "objectID": "blog_02/08_extras_de_Quarto.html#flipbook",
-    "href": "blog_02/08_extras_de_Quarto.html#flipbook",
-    "title": "EXTRAS de Quarto",
-    "section": "",
-    "text": "Yo usaba Flipbook en Xaringan slides. Aquí hay un port de flipbook a Revealjs. Ya no es tan-tan necesario pero igual lo uso para teach ggplot2"
-  },
-  {
-    "objectID": "blog_02/08_extras_de_Quarto.html#word",
-    "href": "blog_02/08_extras_de_Quarto.html#word",
-    "title": "EXTRAS de Quarto",
-    "section": "",
-    "text": "Un post de 2024 sobre creación de word’s"
-  },
-  {
-    "objectID": "blog_02/08_extras_de_Quarto.html#google-docs",
-    "href": "blog_02/08_extras_de_Quarto.html#google-docs",
-    "title": "EXTRAS de Quarto",
-    "section": "",
-    "text": "Para convertir un Google Doc en un Quarto book puedes usar el pkg quartificate"
-  },
-  {
-    "objectID": "blog_02/08_extras_de_Quarto.html#quarto-assign",
-    "href": "blog_02/08_extras_de_Quarto.html#quarto-assign",
-    "title": "EXTRAS de Quarto",
-    "section": "2.1 quarto-assign",
-    "text": "2.1 quarto-assign\n\nEs una extensión de Quarto que permite generar problemas y sus soluciones en un único .qmd. Está aquí"
-  },
-  {
-    "objectID": "blog_02/08_extras_de_Quarto.html#chatgpt",
-    "href": "blog_02/08_extras_de_Quarto.html#chatgpt",
-    "title": "EXTRAS de Quarto",
-    "section": "3.1 ChatGPT",
-    "text": "3.1 ChatGPT\n\nchatgpt-from-r: https://www.sumsar.net/blog/call-chatgpt-from-r/"
-  },
-  {
-    "objectID": "blog_02/08_extras_de_Quarto.html#publicaciones",
-    "href": "blog_02/08_extras_de_Quarto.html#publicaciones",
-    "title": "EXTRAS de Quarto",
-    "section": "3.2 Publicaciones",
-    "text": "3.2 Publicaciones\n\nEl paquete Rcademy permite buscar y pasar a df tus publicaciones y hace bastantes más cosas\n\ndevtools::install_github(\"ropenscilabs/Rcademy\")\nlibrary(Rcademy)\nmypubs_bib &lt;- read_bib(\"mypubs.bib\")\nmypubs_pubmed &lt;- read_pubmed(\"Rob Hyndman\")\nmypubs_scholar &lt;- read_scholar(\"PXaWcW4AAAAJ\")     #- ok\nmypubs_orcid &lt;- read_orcid(\"0000-0001-9375-6330\")  #- ok\n\nEl paquete pubmedr busca en PubMed\n\nmed_cannabis &lt;- pubmedr::pmed_search_pubmed(search_term = \n\"medical marijuana\", fields = c('TIAB','MH'))\n\nScholia: is a service that creates visual scholarly profiles for topics, people, organizations, species, chemicals, etc using bibliographic and other information in Wikidata https://scholia.toolforge.org/\nZenodo: un repositorio de acceso abierto donde quienes investigan depositan artículos, datos, software, informes, etc. Puede venir bien al buscar info para trabajos universitarios 😉 https://zenodo.org/ desarrollado bajo el programa europeo OpenAIRE y operado por CERN . Permite a cualquier artefacto digital relacionado con la investigación. Para cada envío, se acuña un identificador de objeto digital persistente (DOI), lo que hace que los elementos almacenados se puedan citar fácilmente."
-  },
-  {
-    "objectID": "blog_02/08_extras_de_Quarto.html#truletes",
-    "href": "blog_02/08_extras_de_Quarto.html#truletes",
-    "title": "EXTRAS de Quarto",
-    "section": "3.3 TRULETES",
-    "text": "3.3 TRULETES\nSon trucos q no los voy a utilizar nunca pero quiero guardarlos\n\n@andrewheiss: Regular reminder that @tjmahr’s trick of storing model results as tab-completable lists (by feeding data frames to split()) is ingenious and will forever change how you use inline chunks with https://www.tjmahr.com/lists-knitr-secret-weapon/\nbuscar archivos que tengan draft: true : grep -rl \"draft: true\": https://isaac-flath.tech/til/quartodrafts\nHmisc::rendHTML(): https://fosstodon.org/@smach/110006219843294743\nMostrar las rows de una tabla poco a poco: https://fosstodon.org/@yabellini/110097048443787861\nel ejemplo redefinitivo: https://rd.thecoatlessprofessor.com/webR-quarto-demos/webr-quarto-html-demo.html"
-  },
-  {
-    "objectID": "blog_02/08_extras_de_Quarto.html#biblio",
-    "href": "blog_02/08_extras_de_Quarto.html#biblio",
-    "title": "EXTRAS de Quarto",
-    "section": "3.4 “Biblio”",
-    "text": "3.4 “Biblio”\n\nMás trucos (complicaetes y algunos rarunos para mi) de .Rmd de Elio Campitelli: https://mastodon.social/@eliocamp/110209569783331181"
-  },
-  {
-    "objectID": "blog_02/01_trucos_quarto.html",
-    "href": "blog_02/01_trucos_quarto.html",
-    "title": "Trucos: Quarto",
-    "section": "",
-    "text": "En este post voy recopilando Trucos de Quarto en general. Hay una página especifica para trucos de Revealjs slides y otra para webs/blogs"
-  },
-  {
-    "objectID": "blog_02/01_trucos_quarto.html#quarto-1.4-enero-2024",
-    "href": "blog_02/01_trucos_quarto.html#quarto-1.4-enero-2024",
-    "title": "Trucos: Quarto",
-    "section": "1.1 Quarto 1.4 (enero 2024)",
-    "text": "1.1 Quarto 1.4 (enero 2024)\nAlgunos enlaces interesantes sobre Quarto 1.4:\n\nQuarto 1.4 release. Algunas novedades son: Dashboards, Typst, cross-references, manuscripts, Binder with Quarto, Lightbox Figures\nQuarto 1.4 complete release notes\nQuarto 1.4 pre-procesa las tablas, si no quieres que lo haga entonces aquí explican que hay que poner html-table-processing: none en el YAML"
-  },
-  {
-    "objectID": "blog_02/01_trucos_quarto.html#yaml",
-    "href": "blog_02/01_trucos_quarto.html#yaml",
-    "title": "Trucos: Quarto",
-    "section": "2.1 Yaml",
-    "text": "2.1 Yaml\n\n\n2.1.1 Varios autores\n\n¿Cómo añadir múltiples autores y afiliaciones con Quarto? Pues la verdad es que Quarto 1.4 lo hace super-fácil. Puedes verlo aquí\nAquí tienes un ejemplo con multiples autores y que se exporta a MS word\n\n\n\n\n2.1.2 Varios themes\n\nPuedes tener varios themes en el _quarto.yml. Por ejemplo puedes poner un theme light y otro dark. También se puede usar un theme para HTML y otro para Revealjs. Por ejemplo:\n\nformat:\n  revealjs:\n    theme:  theme.scss\n  html:\n     theme:\n        light: theme\n        dark: [default, cosmos,darl-theme.scss]\n\n\n\n2.1.3 Varios formatos\n\nSe puede hacer que un mismo source document genere varios outputs\n\n---\ntitle: \"My Report\"         \nformat: \n  html: default\n  epub: default\n  docx: default                                                         \n---\n\nHay que hacer el render desde la Terminal con:\n\nquarto render my-report.qmd\n\n\n\n2.1.4 Code in the yaml\n\nPuedes correr código R en el YAML: https://twitter.com/sharon000/status/1557060949613445120, también en las opciones de los chunks.\nPor ejemplo: #| fig-cap: !expr glue::glue(\"The mean was {mean(airquality$Temp) |&gt; round()}\").\nOtro ejemplo: #| fig-cap: !expr 'paste(\"Air\", \"Quality\") aquí"
-  },
-  {
-    "objectID": "blog_02/01_trucos_quarto.html#texto",
-    "href": "blog_02/01_trucos_quarto.html#texto",
-    "title": "Trucos: Quarto",
-    "section": "2.2 Texto",
-    "text": "2.2 Texto\n\n2.2.1 Tamaño texto con :::\n\n\nSi escribes esto:\n::: {style=\"font-size: 2.5em\"}\nFirst we take ...\n:::\n\n\n\nVeras esto:\n\nFirst we take …"
-  },
-  {
-    "objectID": "blog_02/01_trucos_quarto.html#body",
-    "href": "blog_02/01_trucos_quarto.html#body",
-    "title": "Trucos: Quarto",
-    "section": "2.3 Body",
-    "text": "2.3 Body\n\n\n2.3.1 Color en un trozo del documento\n\n\nSi escribes esto:\n:::{style=\"color:#9A4665;\"}\nEsto se verá en rojito\n:::\n\n\n\nVerás esto:\n\nEsto se verá en rojito\n\n\n\n\n\n\n2.3.2 Alinear texto de una columna\n\nFunciona tanto en html como en revealjs.\nHay que poner: style=\"text-align:left;\" . Para alinear imágenes es: fig-align=\"center\"\nEsto de abajo no me acaba de funcionar la alineación del texto, no acabo de descubrir porque. Puede que sea porque aplico css o porque para que se pueda ver el código y el resultado, he de anidar y “hackear” las marcas :::; pero no lo tengo claro, ya lo descubriré; pero a ti, si pegas el código en tus documentos, sí te funcionará.\n\n\nSi escribes esto:Verás esto\n\n\n:::: {.columns}\n::: {.column width=\"50%\" style=\"text-align:left;\"}\nPrimera columna (**left aligned**)\n:::\n\n::: {.column width=\"50%\" style=\"text-align:right;\"}\nSegunda columna (**right aligned**)\n:::\n::::\n\n\n\n\nPrimera columna (left aligned)\n\nSegunda columna (right aligned)\n\n\n\n\n\n\n\n\n2.3.3 Conditional content\n\nEs posible que quieras que algúna parte de un documento sólo se vea en un formato concreto. Por ejemplo, que una imagen sólo se vea en HTML y no en PDF.\nDocumentación oficial aquí.\nSe hace uso de .content-visible and .content-hidden classes. Por ejemplo:\n\n::: {.content-visible when-format=\"html\"}\n![](my_image.gif)\n:::\n\nTambién se puede aplicar a contenido in-line:\n\nPara contenido inline has de: [Will only appear in pdf. (inline)]{.content-visible when-format=\"pdf\"}\n\n\n\n2.3.4 Incluir toots, etc… en callouts\n\nSe pueden incluir: toots, gists, tweets, videos etc… Es fácil con la extensión collapse-social-embeds. En realidad es una “mejora” de la extensión social-embeds\nPor ejemplo, para incluir en un callout el siguiente gist https://gist.github.com/tarleb/852f6ae98764bea56aeeac979f3c17be hay que:\n\n\n\n\n::: {.gist user=tarleb gist_id=852f6ae98764bea56aeeac979f3c17be }\n:::\n\n\n\n\n\n\n\n\n\n\nGithub gist by tarleb"
-  },
-  {
-    "objectID": "blog_02/01_trucos_quarto.html#chunks",
-    "href": "blog_02/01_trucos_quarto.html#chunks",
-    "title": "Trucos: Quarto",
-    "section": "2.4 Chunks",
-    "text": "2.4 Chunks\n\n2.4.1 Folding chunks no ejecutables\n\nPuedes hacerlo con &lt;details&gt;\n\n\n\n\nSi escribes esto:\n\n&lt;details&gt;\n&lt;summary&gt;Mi (foldable) chunk no-ejecutable&lt;/summary&gt;\n``r\nprint(2 +2)\n``\n&lt;/details&gt;\n\n\n\n\nVerás esto:\n\n\n\nMi (foldable) chunk no-ejecutable\n\nprint(2 +2)"
-  },
-  {
-    "objectID": "blog_02/01_trucos_quarto.html#captions",
-    "href": "blog_02/01_trucos_quarto.html#captions",
-    "title": "Trucos: Quarto",
-    "section": "2.5 Captions",
-    "text": "2.5 Captions\n\n2.5.1 Code en captions\n\nPuedes correr código R en el YAML: https://twitter.com/sharon000/status/1557060949613445120, pero también en las opciones de los chunks.\nPor ejemplo: #| fig-cap: !expr glue::glue(\"The mean was {mean(airquality$Temp) |&gt; round()}\").\nOtro ejemplo: #| fig-cap: !expr 'paste(\"Air\", \"Quality\") aquí\n\n\n\n\n2.5.2 Latex en captions\nPara poner ecuaciones Latex en las captions de las figures, tablas etc … Aquí lo explican. Se pone así:\n#| fig-cap: \"This is a caption at $\\\\alpha =$ .05.\""
-  },
-  {
-    "objectID": "blog_02/01_trucos_quarto.html#extensiones-1",
-    "href": "blog_02/01_trucos_quarto.html#extensiones-1",
-    "title": "Trucos: Quarto",
-    "section": "3.1 Extensiones",
-    "text": "3.1 Extensiones\n\nnow: extensión de Garrick Aden-Buie que permite insertar (y formatear) la fecha de creación y de actualización de los .qmd’s. En este post explica su uso\n\n\n\nembedio: permite insertar different file types into Quarto HTML documents. Los archivos pueden ser: archivos de audio, pdf’s y revealjs slides."
-  },
-  {
-    "objectID": "blog_02/01_trucos_quarto.html#paquetes",
-    "href": "blog_02/01_trucos_quarto.html#paquetes",
-    "title": "Trucos: Quarto",
-    "section": "3.2 Paquetes",
-    "text": "3.2 Paquetes\n\nquartostamp: no es una extensión, es un paquete que contiene RStudio addings para insertar divs, callouts etc… Para mi es un poco ptse, PERO en este post les encanta.\nquartools: es un paquete de que permite la creación de “quarto-compliant markdown” vía R function calls. As quartools generates quarto-compliant markdown, and not HTML tags, the content will work on any quarto output format. Sí, pero para mi también ptse."
-  },
-  {
-    "objectID": "blog_02/03_trucos_webs.html",
-    "href": "blog_02/03_trucos_webs.html",
-    "title": "Trucos: Webs (blogs y books) con Quarto",
-    "section": "",
-    "text": "A beginner’s guide to building a simple website with Quarto & Netlify de Jade Ryan.\nVideo de @ggnot sobre cómo publicar una web en Github aquí. Hace el render en Github con Github Actions\n\n\n\n\n\n\nUn listado de web’s confeccionado por QMDclub\nWeb muy chula de Jade Ryan aquí. Tiene un post sobre crear una web\nUn post sobre cómo crear una web para un portfolio. Lo que hace es tunear un poco más una listing page. Pero es que además, su web es muy chula y él es un psicólogo con cursos etc… por ejemplo este de DS\nOtra web. La landing page tiene varias secciones donde muestra los 3 últimos post etc…\nLuke Pembleton web. El repo [https://github.com/lpembleton/lpembleton.blog]\nJim Gadner web. El repo\nElya Kaye web template para hacer una web para publicar Advent of Code solutions. Essentially, each year is a listing page, and each day is a post. El toot. El repo\nWeb super-chula de una revista,Real World DS. El repo. Una charla en post::config(2023) donde explican la creación\nWeb super-chula, pero no está el repo en Github: hace cosas de Wikidata y bibliometría y CC en ggplot2."
-  },
-  {
-    "objectID": "blog_02/03_trucos_webs.html#biblio",
-    "href": "blog_02/03_trucos_webs.html#biblio",
-    "title": "Trucos: Webs (blogs y books) con Quarto",
-    "section": "",
-    "text": "A beginner’s guide to building a simple website with Quarto & Netlify de Jade Ryan.\nVideo de @ggnot sobre cómo publicar una web en Github aquí. Hace el render en Github con Github Actions"
-  },
-  {
-    "objectID": "blog_02/03_trucos_webs.html#ejemplos-de-webs",
-    "href": "blog_02/03_trucos_webs.html#ejemplos-de-webs",
-    "title": "Trucos: Webs (blogs y books) con Quarto",
-    "section": "",
-    "text": "Un listado de web’s confeccionado por QMDclub\nWeb muy chula de Jade Ryan aquí. Tiene un post sobre crear una web\nUn post sobre cómo crear una web para un portfolio. Lo que hace es tunear un poco más una listing page. Pero es que además, su web es muy chula y él es un psicólogo con cursos etc… por ejemplo este de DS\nOtra web. La landing page tiene varias secciones donde muestra los 3 últimos post etc…\nLuke Pembleton web. El repo [https://github.com/lpembleton/lpembleton.blog]\nJim Gadner web. El repo\nElya Kaye web template para hacer una web para publicar Advent of Code solutions. Essentially, each year is a listing page, and each day is a post. El toot. El repo\nWeb super-chula de una revista,Real World DS. El repo. Una charla en post::config(2023) donde explican la creación\nWeb super-chula, pero no está el repo en Github: hace cosas de Wikidata y bibliometría y CC en ggplot2."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Bienvenidos al curso!!!",
-    "section": "",
-    "text": "Bienvenidos a la web del curso “Creación de documentos reproducibles y webs con R y Quarto” del SFPIE, Universitat de València, edición de 2024. Un título más amable del curso podría ser “Escribiendo con R y Quarto”.\n\nEn el curso usaremos Quarto y R a través de RStudio. En Info tienes las instrucciones de instalación de los 3 programas.\n\n\nLos detalles sobre el curso (horario, aula, …) están en Info.\nLos materiales que usaremos en clase están en Materiales.\nPuedes encontrar recursos adicionales en Blog y Truquillos\n\n\nNos vemos pronto en el Aula 0.1 del SFPIE (Centro de Formación y Calidad Manuel Sanchis Guarner, Campus de Tarongers)"
+    "objectID": "slides/01_presentacion.html#sobre-mi-pedro-j.-pérez",
+    "href": "slides/01_presentacion.html#sobre-mi-pedro-j.-pérez",
+    "title": "Presentación del curso",
+    "section": "Sobre mi (Pedro J. Pérez)",
+    "text": "Sobre mi (Pedro J. Pérez)\n\nProfesor en la UV (departamento de Análisis Económico) y entusiasta de R. En mi web en la UV puedes ver algunos de mis cursos y blogs\n\n\n\nPor ejemplo, estos cursos:\n\nEconometría\nIntro a la Ciencia de datos con R (tenéis que ver los trabajos de los estudiantes)\nCurso de Introducción a R (en el SFPIE).\n\n\n\n\n\nNo soy bloguero, pero he impartido el taller Mi primer blog con Quarto y he creado y cerrado algunos blogs:\n\n2015, R & flowers , con Jekyll\n2018, R & flowers V, con Hugo y blogdown\n2020, R & flowers (o casi), con radix\n2021, pedro.j.perez blog’s, con Distill\n2022, R & flowers, con Quarto\n\n\n\n\nMi blog actual: 2024, R & flowers, con Quarto"
   },
   {
     "objectID": "slides/05_primer_web.html#estructura-del-taller",
@@ -1512,74 +1253,592 @@
     "text": "3. Utilizando SASS\n\n\nLa documentación oficial aquí\nAquí la documentación oficial de Quarto sobre los Bootswatch Sass Theme Files.\nBootstrap define unas 1.400 variables con las que controlar fuentes, colores, etc … . Puedes verlas aquí\nAquí están los ficheros .scss de los 25 built-in Bootswatch themes.\n\n\n\nOtras referencias, por ejemplo: Customizing Quarto Websites: Make your website stand out using SASS o este video\nUna pequeña práctica en el tutorial nº6 del taller “Mi primer blog con Quarto”."
   },
   {
-    "objectID": "slides/01_presentacion.html#qué-haremos-en-el-curso",
-    "href": "slides/01_presentacion.html#qué-haremos-en-el-curso",
-    "title": "Presentación del curso",
-    "section": "¿Qué haremos en el curso?",
-    "text": "¿Qué haremos en el curso?\n\n\nAprender a usar “el entorno R” (❗)para escribir documentos que espero sean útiles para nuestras labores docentes, investigadoras y de gestión.\n\n\n\n\nDistintos tipos de documentos: informes, tutoriales, transparencias, páginas web, blogs, …\n\n\n\n\nEstos documentos serán reproducibles (❗)\n\n\n¿Documentos reproducibles?\n\n\n\nSí, generaremos directamente el documento final sin copiar ni pegar nada, sino usando código. 💬\n\n\nExplicar un poco q es reproducible. P.ej: habitualmente escribís en Word pero las tablas y gráficos en Excel … aquí no, aquí todo en un mismo workflow. Esto tiene ventajas que luego explicaré\n\n\n\n\nPara ello, hemos de aprender a escribir en QMD (Quarto Markdown) (❗❗)"
-  },
-  {
-    "objectID": "slides/01_presentacion.html#forma-de-trabajar-con-el-entorno-r",
-    "href": "slides/01_presentacion.html#forma-de-trabajar-con-el-entorno-r",
-    "title": "Presentación del curso",
-    "section": "Forma de trabajar con el “entorno R”",
-    "text": "Forma de trabajar con el “entorno R”\n\nR es un entorno (y un lenguaje de programación) para hacer estadística\n\n\n\nPodemos pensar que un análisis con datos tiene varias etapas.\n\n\n\n\n\n\n\n\n\nEn el curso nos centramos en la última etapa etapa: la presentación de los resultados. 💬\n\n\nExplicar que : 1) para sacarle todo el provecho a QMD hay q saber R, pero q también tiene beneficios si no sabes R. Tb que es una inversión, que QMD es una parte integral del workflow con R."
-  },
-  {
-    "objectID": "slides/01_presentacion.html#qué-tipo-de-documentos-veremos",
-    "href": "slides/01_presentacion.html#qué-tipo-de-documentos-veremos",
-    "title": "Presentación del curso",
-    "section": "¿Qué tipo de documentos veremos?",
-    "text": "¿Qué tipo de documentos veremos?\n\nPrincipalmente informes/tutoriales, transparencias, páginas web y blogs, …\n\n\n\n… pero, Con Quarto se pueden generar documentos de muchos tipos (artículos académicos, libros, tesis, cartas, cuadros de mando, etc … etc …) y formatos (html, pdf, epub, docx, beamer, pptx, etc … etc …).\n\n\n\n\nPara verlo puedes visitar la Quarto gallery\n\n\n\n\nAlgunos ejemplos:\n\n\n\nTutoriales: por ejemplo este o este\nSlides: por ejemplo estas o estas\nPáginas web: por ejemplo esta, esta o esta\nBlogs: por ejemplo este o este"
-  },
-  {
-    "objectID": "slides/01_presentacion.html#calendario-1",
-    "href": "slides/01_presentacion.html#calendario-1",
-    "title": "Presentación del curso",
-    "section": "Calendario",
-    "text": "Calendario\n\n\n\n\n\n\n\n\n\nDía\nTópico\n\n\n\n\n\n9 de julio (martes)\nPresentación\nPrimeros pasos\nAprendiendo a escribir en QMD\n\n(con slides 01)\n(con slides 02)\n(con slides 03)\n\n\n\n10 de julio (miércoles)\nMi primer web/blog\n\n(con slides 05)\n\n\n\n15 de julio (lunes)\nSlides con Quarto\n\n(con slides 04)\n\n\n\n16 de julio (martes)\nMás cosas con Quarto ❗\n\n(con slides 06)"
-  },
-  {
-    "objectID": "slides/01_presentacion.html#sobre-mi-pedro-j.-pérez",
-    "href": "slides/01_presentacion.html#sobre-mi-pedro-j.-pérez",
-    "title": "Presentación del curso",
-    "section": "Sobre mi (Pedro J. Pérez)",
-    "text": "Sobre mi (Pedro J. Pérez)\n\nProfesor en la UV (departamento de Análisis Económico) y entusiasta de R. En mi web en la UV puedes ver algunos de mis cursos y blogs\n\n\n\nPor ejemplo, estos cursos:\n\nEconometría\nIntro a la Ciencia de datos con R (tenéis que ver los trabajos de los estudiantes)\nCurso de Introducción a R (en el SFPIE).\n\n\n\n\n\nNo soy bloguero, pero he impartido el taller Mi primer blog con Quarto y he creado y cerrado algunos blogs:\n\n2015, R & flowers , con Jekyll\n2018, R & flowers V, con Hugo y blogdown\n2020, R & flowers (o casi), con radix\n2021, pedro.j.perez blog’s, con Distill\n2022, R & flowers, con Quarto\n\n\n\n\nMi blog actual: 2024, R & flowers, con Quarto"
-  },
-  {
-    "objectID": "slides/07_aun_mas_cosas.html#con-quarto-se-pueden-hacer-muuuuchas-más-cosas-aún",
-    "href": "slides/07_aun_mas_cosas.html#con-quarto-se-pueden-hacer-muuuuchas-más-cosas-aún",
-    "title": "Aún más cosas con Quarto",
-    "section": "Con Quarto se pueden hacer muu🙀uuchas más cosas aún!!!",
-    "text": "Con Quarto se pueden hacer muu🙀uuchas más cosas aún!!!\n\n\nVeamos algunas de ellas"
-  },
-  {
-    "objectID": "slides/07_aun_mas_cosas.html#con-quarto-aún-se-pueden-hacer-muuuuchas-más-cosas",
-    "href": "slides/07_aun_mas_cosas.html#con-quarto-aún-se-pueden-hacer-muuuuchas-más-cosas",
-    "title": "Aún más cosas con Quarto",
-    "section": "Con Quarto AÚN se pueden hacer muu🙀uuchas más cosas!!",
-    "text": "Con Quarto AÚN se pueden hacer muu🙀uuchas más cosas!!\n\n\nVeamos algunas de ellas"
-  },
-  {
-    "objectID": "slides/imagenes/tt_01/ejemplo_1.html",
-    "href": "slides/imagenes/tt_01/ejemplo_1.html",
-    "title": "Mi documento",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bienvenidos al curso!!!",
     "section": "",
-    "text": "Este es un documento Rmarkdown. Para saber más sobre Rmd : http://rmarkdown.rstudio.com.\n\nCódigosummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00  \n\n\nEl trozo de arriba es un chunk de código\nAl hacer clic en el botón Knitr, se ejecutará el código y se generará un documento que incluirá tanto el texto, como el código (o chunks) y la evaluación de este.\nCon esto acabamos el informe"
+    "text": "Bienvenidos a la web del curso “Creación de documentos reproducibles y webs con R y Quarto” del SFPIE, Universitat de València, edición de 2024. Un título más amable del curso podría ser “Escribiendo con R y Quarto”.\n\nEn el curso usaremos Quarto y R a través de RStudio. En Info tienes las instrucciones de instalación de los 3 programas.\n\n\nLos detalles sobre el curso (horario, aula, …) están en Info.\nLos materiales que usaremos en clase están en Materiales.\nPuedes encontrar recursos adicionales en Blog y Truquillos\n\n\nNos vemos pronto en el Aula 0.1 del SFPIE (Centro de Formación y Calidad Manuel Sanchis Guarner, Campus de Tarongers)"
   },
   {
-    "objectID": "slides/imagenes/tt_01/ejemplo_1.html#introducción-a-rmd",
-    "href": "slides/imagenes/tt_01/ejemplo_1.html#introducción-a-rmd",
-    "title": "Mi documento",
+    "objectID": "blog_02/03_trucos_webs.html",
+    "href": "blog_02/03_trucos_webs.html",
+    "title": "Trucos: Webs (blogs y books) con Quarto",
     "section": "",
-    "text": "Este es un documento Rmarkdown. Para saber más sobre Rmd : http://rmarkdown.rstudio.com.\n\nCódigosummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00  \n\n\nEl trozo de arriba es un chunk de código\nAl hacer clic en el botón Knitr, se ejecutará el código y se generará un documento que incluirá tanto el texto, como el código (o chunks) y la evaluación de este.\nCon esto acabamos el informe"
+    "text": "A beginner’s guide to building a simple website with Quarto & Netlify de Jade Ryan.\nVideo de @ggnot sobre cómo publicar una web en Github aquí. Hace el render en Github con Github Actions\n\n\n\n\n\n\nUn listado de web’s confeccionado por QMDclub\nWeb muy chula de Jade Ryan aquí. Tiene un post sobre crear una web\nUn post sobre cómo crear una web para un portfolio. Lo que hace es tunear un poco más una listing page. Pero es que además, su web es muy chula y él es un psicólogo con cursos etc… por ejemplo este de DS\nOtra web. La landing page tiene varias secciones donde muestra los 3 últimos post etc…\nLuke Pembleton web. El repo [https://github.com/lpembleton/lpembleton.blog]\nJim Gadner web. El repo\nElya Kaye web template para hacer una web para publicar Advent of Code solutions. Essentially, each year is a listing page, and each day is a post. El toot. El repo\nWeb super-chula de una revista,Real World DS. El repo. Una charla en post::config(2023) donde explican la creación\nWeb super-chula, pero no está el repo en Github: hace cosas de Wikidata y bibliometría y CC en ggplot2."
   },
   {
-    "objectID": "slides/imagenes/tt_01/ejemplo_1.html#including-plots",
-    "href": "slides/imagenes/tt_01/ejemplo_1.html#including-plots",
-    "title": "Mi documento",
-    "section": "Including Plots",
-    "text": "Including Plots\nYou can also embed plots, for example:\n\n\n\n\n\n\n\n\nNote that the echo = FALSE parameter was added to the code chunk to prevent printing of the R code that generated the plot."
+    "objectID": "blog_02/03_trucos_webs.html#biblio",
+    "href": "blog_02/03_trucos_webs.html#biblio",
+    "title": "Trucos: Webs (blogs y books) con Quarto",
+    "section": "",
+    "text": "A beginner’s guide to building a simple website with Quarto & Netlify de Jade Ryan.\nVideo de @ggnot sobre cómo publicar una web en Github aquí. Hace el render en Github con Github Actions"
+  },
+  {
+    "objectID": "blog_02/03_trucos_webs.html#ejemplos-de-webs",
+    "href": "blog_02/03_trucos_webs.html#ejemplos-de-webs",
+    "title": "Trucos: Webs (blogs y books) con Quarto",
+    "section": "",
+    "text": "Un listado de web’s confeccionado por QMDclub\nWeb muy chula de Jade Ryan aquí. Tiene un post sobre crear una web\nUn post sobre cómo crear una web para un portfolio. Lo que hace es tunear un poco más una listing page. Pero es que además, su web es muy chula y él es un psicólogo con cursos etc… por ejemplo este de DS\nOtra web. La landing page tiene varias secciones donde muestra los 3 últimos post etc…\nLuke Pembleton web. El repo [https://github.com/lpembleton/lpembleton.blog]\nJim Gadner web. El repo\nElya Kaye web template para hacer una web para publicar Advent of Code solutions. Essentially, each year is a listing page, and each day is a post. El toot. El repo\nWeb super-chula de una revista,Real World DS. El repo. Una charla en post::config(2023) donde explican la creación\nWeb super-chula, pero no está el repo en Github: hace cosas de Wikidata y bibliometría y CC en ggplot2."
+  },
+  {
+    "objectID": "blog_02/01_trucos_quarto.html",
+    "href": "blog_02/01_trucos_quarto.html",
+    "title": "Trucos: Quarto",
+    "section": "",
+    "text": "En este post voy recopilando Trucos de Quarto en general. Hay una página especifica para trucos de Revealjs slides y otra para webs/blogs"
+  },
+  {
+    "objectID": "blog_02/01_trucos_quarto.html#quarto-1.4-enero-2024",
+    "href": "blog_02/01_trucos_quarto.html#quarto-1.4-enero-2024",
+    "title": "Trucos: Quarto",
+    "section": "1.1 Quarto 1.4 (enero 2024)",
+    "text": "1.1 Quarto 1.4 (enero 2024)\nAlgunos enlaces interesantes sobre Quarto 1.4:\n\nQuarto 1.4 release. Algunas novedades son: Dashboards, Typst, cross-references, manuscripts, Binder with Quarto, Lightbox Figures\nQuarto 1.4 complete release notes\nQuarto 1.4 pre-procesa las tablas, si no quieres que lo haga entonces aquí explican que hay que poner html-table-processing: none en el YAML"
+  },
+  {
+    "objectID": "blog_02/01_trucos_quarto.html#yaml",
+    "href": "blog_02/01_trucos_quarto.html#yaml",
+    "title": "Trucos: Quarto",
+    "section": "2.1 Yaml",
+    "text": "2.1 Yaml\n\n\n2.1.1 Varios autores\n\n¿Cómo añadir múltiples autores y afiliaciones con Quarto? Pues la verdad es que Quarto 1.4 lo hace super-fácil. Puedes verlo aquí\nAquí tienes un ejemplo con multiples autores y que se exporta a MS word\n\n\n\n\n2.1.2 Varios themes\n\nPuedes tener varios themes en el _quarto.yml. Por ejemplo puedes poner un theme light y otro dark. También se puede usar un theme para HTML y otro para Revealjs. Por ejemplo:\n\nformat:\n  revealjs:\n    theme:  theme.scss\n  html:\n     theme:\n        light: theme\n        dark: [default, cosmos,darl-theme.scss]\n\n\n\n2.1.3 Varios formatos\n\nSe puede hacer que un mismo source document genere varios outputs\n\n---\ntitle: \"My Report\"         \nformat: \n  html: default\n  epub: default\n  docx: default                                                         \n---\n\nHay que hacer el render desde la Terminal con:\n\nquarto render my-report.qmd\n\n\n\n2.1.4 Code in the yaml\n\nPuedes correr código R en el YAML: https://twitter.com/sharon000/status/1557060949613445120, también en las opciones de los chunks.\nPor ejemplo: #| fig-cap: !expr glue::glue(\"The mean was {mean(airquality$Temp) |&gt; round()}\").\nOtro ejemplo: #| fig-cap: !expr 'paste(\"Air\", \"Quality\") aquí"
+  },
+  {
+    "objectID": "blog_02/01_trucos_quarto.html#texto",
+    "href": "blog_02/01_trucos_quarto.html#texto",
+    "title": "Trucos: Quarto",
+    "section": "2.2 Texto",
+    "text": "2.2 Texto\n\n2.2.1 Tamaño texto con :::\n\n\nSi escribes esto:\n::: {style=\"font-size: 2.5em\"}\nFirst we take ...\n:::\n\n\n\nVeras esto:\n\nFirst we take …"
+  },
+  {
+    "objectID": "blog_02/01_trucos_quarto.html#body",
+    "href": "blog_02/01_trucos_quarto.html#body",
+    "title": "Trucos: Quarto",
+    "section": "2.3 Body",
+    "text": "2.3 Body\n\n\n2.3.1 Color en un trozo del documento\n\n\nSi escribes esto:\n:::{style=\"color:#9A4665;\"}\nEsto se verá en rojito\n:::\n\n\n\nVerás esto:\n\nEsto se verá en rojito\n\n\n\n\n\n\n2.3.2 Alinear texto de una columna\n\nFunciona tanto en html como en revealjs.\nHay que poner: style=\"text-align:left;\" . Para alinear imágenes es: fig-align=\"center\"\nEsto de abajo no me acaba de funcionar la alineación del texto, no acabo de descubrir porque. Puede que sea porque aplico css o porque para que se pueda ver el código y el resultado, he de anidar y “hackear” las marcas :::; pero no lo tengo claro, ya lo descubriré; pero a ti, si pegas el código en tus documentos, sí te funcionará.\n\n\nSi escribes esto:Verás esto\n\n\n:::: {.columns}\n::: {.column width=\"50%\" style=\"text-align:left;\"}\nPrimera columna (**left aligned**)\n:::\n\n::: {.column width=\"50%\" style=\"text-align:right;\"}\nSegunda columna (**right aligned**)\n:::\n::::\n\n\n\n\nPrimera columna (left aligned)\n\nSegunda columna (right aligned)\n\n\n\n\n\n\n\n\n2.3.3 Conditional content\n\nEs posible que quieras que algúna parte de un documento sólo se vea en un formato concreto. Por ejemplo, que una imagen sólo se vea en HTML y no en PDF.\nDocumentación oficial aquí.\nSe hace uso de .content-visible and .content-hidden classes. Por ejemplo:\n\n::: {.content-visible when-format=\"html\"}\n![](my_image.gif)\n:::\n\nTambién se puede aplicar a contenido in-line:\n\nPara contenido inline has de: [Will only appear in pdf. (inline)]{.content-visible when-format=\"pdf\"}\n\n\n\n2.3.4 Incluir toots, etc… en callouts\n\nSe pueden incluir: toots, gists, tweets, videos etc… Es fácil con la extensión collapse-social-embeds. En realidad es una “mejora” de la extensión social-embeds\nPor ejemplo, para incluir en un callout el siguiente gist https://gist.github.com/tarleb/852f6ae98764bea56aeeac979f3c17be hay que:\n\n\n\n\n::: {.gist user=tarleb gist_id=852f6ae98764bea56aeeac979f3c17be }\n:::\n\n\n\n\n\n\n\n\n\n\nGithub gist by tarleb"
+  },
+  {
+    "objectID": "blog_02/01_trucos_quarto.html#chunks",
+    "href": "blog_02/01_trucos_quarto.html#chunks",
+    "title": "Trucos: Quarto",
+    "section": "2.4 Chunks",
+    "text": "2.4 Chunks\n\n2.4.1 Folding chunks no ejecutables\n\nPuedes hacerlo con &lt;details&gt;\n\n\n\n\nSi escribes esto:\n\n&lt;details&gt;\n&lt;summary&gt;Mi (foldable) chunk no-ejecutable&lt;/summary&gt;\n``r\nprint(2 +2)\n``\n&lt;/details&gt;\n\n\n\n\nVerás esto:\n\n\n\nMi (foldable) chunk no-ejecutable\n\nprint(2 +2)"
+  },
+  {
+    "objectID": "blog_02/01_trucos_quarto.html#captions",
+    "href": "blog_02/01_trucos_quarto.html#captions",
+    "title": "Trucos: Quarto",
+    "section": "2.5 Captions",
+    "text": "2.5 Captions\n\n2.5.1 Code en captions\n\nPuedes correr código R en el YAML: https://twitter.com/sharon000/status/1557060949613445120, pero también en las opciones de los chunks.\nPor ejemplo: #| fig-cap: !expr glue::glue(\"The mean was {mean(airquality$Temp) |&gt; round()}\").\nOtro ejemplo: #| fig-cap: !expr 'paste(\"Air\", \"Quality\") aquí\n\n\n\n\n2.5.2 Latex en captions\nPara poner ecuaciones Latex en las captions de las figures, tablas etc … Aquí lo explican. Se pone así:\n#| fig-cap: \"This is a caption at $\\\\alpha =$ .05.\""
+  },
+  {
+    "objectID": "blog_02/01_trucos_quarto.html#extensiones-1",
+    "href": "blog_02/01_trucos_quarto.html#extensiones-1",
+    "title": "Trucos: Quarto",
+    "section": "3.1 Extensiones",
+    "text": "3.1 Extensiones\n\nnow: extensión de Garrick Aden-Buie que permite insertar (y formatear) la fecha de creación y de actualización de los .qmd’s. En este post explica su uso\n\n\n\nembedio: permite insertar different file types into Quarto HTML documents. Los archivos pueden ser: archivos de audio, pdf’s y revealjs slides."
+  },
+  {
+    "objectID": "blog_02/01_trucos_quarto.html#paquetes",
+    "href": "blog_02/01_trucos_quarto.html#paquetes",
+    "title": "Trucos: Quarto",
+    "section": "3.2 Paquetes",
+    "text": "3.2 Paquetes\n\nquartostamp: no es una extensión, es un paquete que contiene RStudio addings para insertar divs, callouts etc… Para mi es un poco ptse, PERO en este post les encanta.\nquartools: es un paquete de que permite la creación de “quarto-compliant markdown” vía R function calls. As quartools generates quarto-compliant markdown, and not HTML tags, the content will work on any quarto output format. Sí, pero para mi también ptse."
+  },
+  {
+    "objectID": "blog_02/08_extras_de_Quarto.html",
+    "href": "blog_02/08_extras_de_Quarto.html",
+    "title": "EXTRAS de Quarto",
+    "section": "",
+    "text": "Quarto manuscript projects provide a framework for writing and publishing scholarly articles.\n\nDocumentación oficial aquí. Un ejemplo\nUnas slides de Mine. Permite usar Binder\nUnas slides de JJ Allaire hablando sobre el proyecto aquí\nCharla de Mine aquí, y el post aquí\n\n\n\n\n\n\n\nEn Making Pretty PDFs with Quarto Nicola Rennie explica cómo crear una extensión de Quarto para una plantilla de un pretty-pdf\n\n\n\n\n\n\ncomo storytelling: https://mastodon.social/@benschneider/111354305395601257\ncomo un storyteller: https://github.com/andrewpbray/gg-close-read\n\n\n\n\n\nYo usaba Flipbook en Xaringan slides. Aquí hay un port de flipbook a Revealjs. Ya no es tan-tan necesario pero igual lo uso para teach ggplot2\n\n\n\n\n\nUn post de 2024 sobre creación de word’s\n\n\n\n\n\nPara convertir un Google Doc en un Quarto book puedes usar el pkg quartificate"
+  },
+  {
+    "objectID": "blog_02/08_extras_de_Quarto.html#quarto-manuscripts",
+    "href": "blog_02/08_extras_de_Quarto.html#quarto-manuscripts",
+    "title": "EXTRAS de Quarto",
+    "section": "",
+    "text": "Quarto manuscript projects provide a framework for writing and publishing scholarly articles.\n\nDocumentación oficial aquí. Un ejemplo\nUnas slides de Mine. Permite usar Binder\nUnas slides de JJ Allaire hablando sobre el proyecto aquí\nCharla de Mine aquí, y el post aquí"
+  },
+  {
+    "objectID": "blog_02/08_extras_de_Quarto.html#pdfs",
+    "href": "blog_02/08_extras_de_Quarto.html#pdfs",
+    "title": "EXTRAS de Quarto",
+    "section": "",
+    "text": "En Making Pretty PDFs with Quarto Nicola Rennie explica cómo crear una extensión de Quarto para una plantilla de un pretty-pdf"
+  },
+  {
+    "objectID": "blog_02/08_extras_de_Quarto.html#like-storyteller",
+    "href": "blog_02/08_extras_de_Quarto.html#like-storyteller",
+    "title": "EXTRAS de Quarto",
+    "section": "",
+    "text": "como storytelling: https://mastodon.social/@benschneider/111354305395601257\ncomo un storyteller: https://github.com/andrewpbray/gg-close-read"
+  },
+  {
+    "objectID": "blog_02/08_extras_de_Quarto.html#flipbook",
+    "href": "blog_02/08_extras_de_Quarto.html#flipbook",
+    "title": "EXTRAS de Quarto",
+    "section": "",
+    "text": "Yo usaba Flipbook en Xaringan slides. Aquí hay un port de flipbook a Revealjs. Ya no es tan-tan necesario pero igual lo uso para teach ggplot2"
+  },
+  {
+    "objectID": "blog_02/08_extras_de_Quarto.html#word",
+    "href": "blog_02/08_extras_de_Quarto.html#word",
+    "title": "EXTRAS de Quarto",
+    "section": "",
+    "text": "Un post de 2024 sobre creación de word’s"
+  },
+  {
+    "objectID": "blog_02/08_extras_de_Quarto.html#google-docs",
+    "href": "blog_02/08_extras_de_Quarto.html#google-docs",
+    "title": "EXTRAS de Quarto",
+    "section": "",
+    "text": "Para convertir un Google Doc en un Quarto book puedes usar el pkg quartificate"
+  },
+  {
+    "objectID": "blog_02/08_extras_de_Quarto.html#quarto-assign",
+    "href": "blog_02/08_extras_de_Quarto.html#quarto-assign",
+    "title": "EXTRAS de Quarto",
+    "section": "2.1 quarto-assign",
+    "text": "2.1 quarto-assign\n\nEs una extensión de Quarto que permite generar problemas y sus soluciones en un único .qmd. Está aquí"
+  },
+  {
+    "objectID": "blog_02/08_extras_de_Quarto.html#chatgpt",
+    "href": "blog_02/08_extras_de_Quarto.html#chatgpt",
+    "title": "EXTRAS de Quarto",
+    "section": "3.1 ChatGPT",
+    "text": "3.1 ChatGPT\n\nchatgpt-from-r: https://www.sumsar.net/blog/call-chatgpt-from-r/"
+  },
+  {
+    "objectID": "blog_02/08_extras_de_Quarto.html#publicaciones",
+    "href": "blog_02/08_extras_de_Quarto.html#publicaciones",
+    "title": "EXTRAS de Quarto",
+    "section": "3.2 Publicaciones",
+    "text": "3.2 Publicaciones\n\nEl paquete Rcademy permite buscar y pasar a df tus publicaciones y hace bastantes más cosas\n\ndevtools::install_github(\"ropenscilabs/Rcademy\")\nlibrary(Rcademy)\nmypubs_bib &lt;- read_bib(\"mypubs.bib\")\nmypubs_pubmed &lt;- read_pubmed(\"Rob Hyndman\")\nmypubs_scholar &lt;- read_scholar(\"PXaWcW4AAAAJ\")     #- ok\nmypubs_orcid &lt;- read_orcid(\"0000-0001-9375-6330\")  #- ok\n\nEl paquete pubmedr busca en PubMed\n\nmed_cannabis &lt;- pubmedr::pmed_search_pubmed(search_term = \n\"medical marijuana\", fields = c('TIAB','MH'))\n\nScholia: is a service that creates visual scholarly profiles for topics, people, organizations, species, chemicals, etc using bibliographic and other information in Wikidata https://scholia.toolforge.org/\nZenodo: un repositorio de acceso abierto donde quienes investigan depositan artículos, datos, software, informes, etc. Puede venir bien al buscar info para trabajos universitarios 😉 https://zenodo.org/ desarrollado bajo el programa europeo OpenAIRE y operado por CERN . Permite a cualquier artefacto digital relacionado con la investigación. Para cada envío, se acuña un identificador de objeto digital persistente (DOI), lo que hace que los elementos almacenados se puedan citar fácilmente."
+  },
+  {
+    "objectID": "blog_02/08_extras_de_Quarto.html#truletes",
+    "href": "blog_02/08_extras_de_Quarto.html#truletes",
+    "title": "EXTRAS de Quarto",
+    "section": "3.3 TRULETES",
+    "text": "3.3 TRULETES\nSon trucos q no los voy a utilizar nunca pero quiero guardarlos\n\n@andrewheiss: Regular reminder that @tjmahr’s trick of storing model results as tab-completable lists (by feeding data frames to split()) is ingenious and will forever change how you use inline chunks with https://www.tjmahr.com/lists-knitr-secret-weapon/\nbuscar archivos que tengan draft: true : grep -rl \"draft: true\": https://isaac-flath.tech/til/quartodrafts\nHmisc::rendHTML(): https://fosstodon.org/@smach/110006219843294743\nMostrar las rows de una tabla poco a poco: https://fosstodon.org/@yabellini/110097048443787861\nel ejemplo redefinitivo: https://rd.thecoatlessprofessor.com/webR-quarto-demos/webr-quarto-html-demo.html"
+  },
+  {
+    "objectID": "blog_02/08_extras_de_Quarto.html#biblio",
+    "href": "blog_02/08_extras_de_Quarto.html#biblio",
+    "title": "EXTRAS de Quarto",
+    "section": "3.4 “Biblio”",
+    "text": "3.4 “Biblio”\n\nMás trucos (complicaetes y algunos rarunos para mi) de .Rmd de Elio Campitelli: https://mastodon.social/@eliocamp/110209569783331181"
+  },
+  {
+    "objectID": "blog_02/04_trucos_css.html",
+    "href": "blog_02/04_trucos_css.html",
+    "title": "Trucos: CSS y SASS",
+    "section": "",
+    "text": "Para incorporar CSS en un documento .qmd se han de hacer dos cosas: 1) crear un documento .css , y 2) referenciarlo en el yaml del .qmd. Veámos cómo quedaría el yaml en 2 situaciones:\n\n\n\nSi el fichero .css estuviese en la misma carpeta que el .qmd, entonces el yaml del documento .qmd sería algo como:\n\n---\ntitle: \"Mi super-título\"\nformat: html\ncss: my_styles.css\n---\n\n\n\n\nSi el fichero .css estuviese en una subcarpeta llamada, por ejemplo, assets, el yaml del documento .qmd quedaría como:\n\n---\ntitle: \"Mi super-título\"\nformat: html\ncss: asets/my_styles.css\n---\n\n\n\n\n\n\nEsta perfectamente explicado aquí\n\n\n\n\nEn el .qmd tendrías que incluir lo siguiente:\n\n::: rotate-img\n![](my_imagen.jpg){.absolute height=300}\n:::\n\n\n\n\nEl fichero my_styles.css debería contener:\n\n.rotate-img img {\n  transform: rotate(40deg);\n}\n\n\n\n\nTambién se puede rotar una imagen sin utilizar .css. Se haría utilizando un div , concretamente así:\n\n\n:::{.class .absolute top=\"35%\" left=\"10%\" width=\"350px\" style=\"transform: rotate(-15deg);\"}\n\n:::"
+  },
+  {
+    "objectID": "blog_02/04_trucos_css.html#biblio",
+    "href": "blog_02/04_trucos_css.html#biblio",
+    "title": "Trucos: CSS y SASS",
+    "section": "2.1 Biblio",
+    "text": "2.1 Biblio\n\nStyling and Templating Quarto Documents son unas slides, con video y repo sobre, evidentemente, styling qmd`s. Tiene varios ejemplos sobre colores, fuentes y además, sobre como hacer una template.\nAquí tienes las variables SASS de revealjs y sus valores por defectos, y aquí las de html Bootstrap. En html theming tienes los 25 themes from the Bootswatch project.\nUna template vacia q usa Emil Hvitfeldt para sus presentaciones. Esta vacía pero tiene como meter JS en Revelajs y tiene los events de Reveals y en la web de Silvia Canelon lo usa."
+  },
+  {
+    "objectID": "blog_02/04_trucos_css.html#trucos",
+    "href": "blog_02/04_trucos_css.html#trucos",
+    "title": "Trucos: CSS y SASS",
+    "section": "2.2 Trucos",
+    "text": "2.2 Trucos\n\n\n2.2.1 Cambiar color links\n\nAquí hay un archivo .scss de Mine. Pone en el yaml: linkcolor: “#866fa3”1 y luego lo referencia en el archivo .scss para hacer que los links se hagan más tenues y se subrayen cuando estás sobre ellos2.\n\n$hover-color: lighten($link-color, 40%);\n\na{\n  color: $link-color;\n  text-decoration: none;\n  \n  &:hover{\n    color: $hover-color;\n    border-bottom: 1px solid $hover-color;\n  }\n  \n}\n\n\n\n2.2.2 Tunear los call-outs\n\nEn este video @ggnot explica cómo crear CUSTOM Callout Boxes in Quarto. Tiene un repositorio con un ejemplo. Hace falta definir un archivo .scss.\n\n\n\n\nEl documento .qmd sería así:\n\n---\ntitle: \"Custom Callouts\"\nauthor: \"Melissa Van Bussel\"\nformat:\n  html:\n    theme: custom.scss\n---\n\n:::::{.solutionbox}\n::::{.solutionbox-header}\n:::{.solutionbox-icon}\n:::\nThis is my test solution\n::::\n:::{.solutionbox-body}\nAnd some content inside of it\n:::\n:::::\n\n\nEl fichero custom.scss sería así:\n\n/*-- scss:defaults --*/\n\n// replicate the CSS for a callout box with a custom title, icon, and default appearance\n\n.solutionbox {\n  margin-top: 1em;\n  margin-bottom: 1em;  \n  border-radius: .25rem;\n  border-left: solid #acacac .3rem;\n  border-right: solid 0.5px silver;\n  border-top: solid 0.5px silver;\n  border-bottom: solid 0.5px silver;\n  border-left-color: #9834eb !important;\n}\n\n.solutionbox-icon {\n  height: 0.9rem;\n  width: 0.9rem;\n  display: inline-block;\n  content: \"\";\n  background-repeat: no-repeat;\n  background-size: 0.9rem 0.9rem;\n  margin-top: .5rem;\n  padding-right: 1.25rem;\n  background-image: url('imagenes/flor.jpg');\n}\n\n.solutionbox-header {\n  //margin-top: 0.5em;\n  margin-bottom: 0.5em;\n  border-bottom: none;\n  font-weight: 600;\n  opacity: 85%;\n  font-size: 0.9rem;\n  padding-left: 0.5em;\n  padding-right: 0.5em;\n  display: flex;\n  background-color: #f5e8ff;\n  height: 2em;\n  overflow: hidden;\n}\n\n.solutionbox-header p {\n  padding-top: 0.2em;\n}\n\n.solutionbox-body {\n  font-size: 0.9rem;\n  font-weight: 400;\n  padding-left: 0.5em;\n  padding-right: 0.5em;\n}\n\n.solutionbox-body &gt; :last-child {\n  padding-bottom: 0.5rem;\n  margin-bottom: 0;\n}\n\n\n\n\n\n2.2.3 Colores\n\nEn estas slides de Emil Hvitfeldt se explica cómo cambiar los colores de un tema. Se hace con un archivo .scss y se referencia en el yaml del .qmd. Los H1 son el mismo color que H2 pero mas oscuros. El código es:\n\n/*-- scss:defaults --*/\n$theme-black: #4c4c4c;\n$theme-white: white;\n$theme-teal: #50847B;\n$theme-blue: #76AADB;\n\n$body-bg: $theme-white;\n$body-color: $theme-black;\n$link-color: $theme-teal;\n$code-color: $theme-teal;\n\n/*-- scss:rules --*/\nh1 {\n  color: darken($theme-blue, 50%);\n}\n\nh2, h3, h4 {\n  color: $theme-blue;\n}\n\n\n\n2.2.4 Fuentes\n\nEn estas slides de Emil Hvitfeldt se explica cómo cambiar las fuentes de un tema.\n\n\n\n\n2.2.5 TOC\n\nEn la web de Silvia Canelon, concretamente en este post. El fichero scss está aquí\n\n// Table of contents\n$toc-color:                   $link-color;\n$toc-active-border:           $toc-color;\n$toc-inactive-border:         lighten($toc-color, 50%);"
+  },
+  {
+    "objectID": "blog_02/04_trucos_css.html#footnotes",
+    "href": "blog_02/04_trucos_css.html#footnotes",
+    "title": "Trucos: CSS y SASS",
+    "section": "Notas",
+    "text": "Notas\n\n\nEs el color “Glossy Grape”↩︎\nPara mi gusto se atenúan demasiado, igual en lugar de un 40% hay que poner otro %↩︎"
+  },
+  {
+    "objectID": "info.html",
+    "href": "info.html",
+    "title": "Escribiendo con R y Quarto",
+    "section": "",
+    "text": "Forma parte de la oferta del SFPIE de la Universitat de València. La ficha oficial del curso está aquí.\nEl curso es una introducción a Quarto, un nuevo sistema para generar publicaciones (libros, transparencias, blogs, webs, etc…) científicas y técnicas. Puedes ver ejemplos en esta Gallery.\nEn el curso usaremos R, y fundamentalmente Quarto, a través del IDE RStudio.\nSe recomienda tener instaladas versiones recientes de los 3 programas. Tienes instrucciones de instalación más abajo\nEs muy-muy conveniente, acudir al curso con tu propio ordenador. Además, es conveniente que traigas un ratón: piensa que buena parte de los errores que cometeremos se deberán a la precisión en copy-paste. Evitémoslo!!\nLos materiales que usaremos están en Materiales."
+  },
+  {
+    "objectID": "info.html#información-sobre-el-curso",
+    "href": "info.html#información-sobre-el-curso",
+    "title": "Escribiendo con R y Quarto",
+    "section": "",
+    "text": "Forma parte de la oferta del SFPIE de la Universitat de València. La ficha oficial del curso está aquí.\nEl curso es una introducción a Quarto, un nuevo sistema para generar publicaciones (libros, transparencias, blogs, webs, etc…) científicas y técnicas. Puedes ver ejemplos en esta Gallery.\nEn el curso usaremos R, y fundamentalmente Quarto, a través del IDE RStudio.\nSe recomienda tener instaladas versiones recientes de los 3 programas. Tienes instrucciones de instalación más abajo\nEs muy-muy conveniente, acudir al curso con tu propio ordenador. Además, es conveniente que traigas un ratón: piensa que buena parte de los errores que cometeremos se deberán a la precisión en copy-paste. Evitémoslo!!\nLos materiales que usaremos están en Materiales."
+  },
+  {
+    "objectID": "info.html#horario-y-aula",
+    "href": "info.html#horario-y-aula",
+    "title": "Escribiendo con R y Quarto",
+    "section": "Horario y aula",
+    "text": "Horario y aula\n\n\n\n\n\n\n\n\n\n\n\n\n\nDía\nHora\nLugar\n\n\n\n9 de julio (martes)\n16:00 a 20:00\nAula 0.1 (SFPIE, Campus Tarongers)\n\n\n10 de julio (miércoles)\n16:00 a 20:00\nAula 0.1 (SFPIE, Campus Tarongers)\n\n\n15 de julio (lunes)\n16:00 a 20:00\nAula 0.1 (SFPIE, Campus Tarongers)\n\n\n16 de julio (martes)\n16:00 a 19:00\nAula 0.1 (SFPIE, Campus Tarongers)\n\n\n\n\nLas clases se desarrollarán en el Campus de Tarongers, concretamente en el aula 0.1 del SFPIE (Servicio de Formación Permanente e Innovación Educativa) de la Universitat de València.\nEl SFPIE está en el edificio “Centro de Formación y Calidad Manuel Sanchis Guarner” que está en la C/ Serpis, 29, 46022 València. Tienes un mapa de Google aquí, y aquí la web del centro."
+  },
+  {
+    "objectID": "info.html#programas-instalación",
+    "href": "info.html#programas-instalación",
+    "title": "Escribiendo con R y Quarto",
+    "section": "Programas (instalación)",
+    "text": "Programas (instalación)\n\n\n\n\n\n\nInstalación de R, RStudio y Quarto\n\n\n\n\n\n\nEn el curso usaremos 3 programas: R, RStudio y Quarto, así que tenemos que instalarlos\n\nHas de instalar los programas en este orden:\n\nR: https://cran.r-project.org/\nRStudio: https://posit.co/download/rstudio-desktop/\nQuarto: https://quarto.org/docs/download/\n\n\nSolamente has de descargar las versiones de los instaladores adecuadas para tu sistema operativo\n\n\n\n\n\n\n\n\n\n\n\nInstalación de paquetes\n\n\n\n\n\n\nEn el curso también usaremos algunos paquetes de R, así que habrá que instalarlos\nLos paquetes se han de instalar una vez hayas instalado los 3 programas (R, RStudio y Quarto)\nOs ayudaré a instalar los paquetes en clase así que no os preocupéis por ellos ahora\n\n\n\n\n\n\n\n\n\n\n¿Cómo instalar los paquetes?\n\n\n\n\n\nRecuerda que os enseñaré a instalar los paquetes en clase, pero si quieres ir adelantando trabajo, aquí tienes las instrucciones:\n\n\nAlgunos paquetes se han de compilar por lo que hay que tener las herramientas necesarias, así que:\n\nSi usas Windows instalaremos Rtools. Aquí puedes descargarte el instalador adecuado. Durante el proceso de instalación asegúrate de marcar la casilla que pone “add Rtools to the system PATH”.\nSi tienes un Mac, tendrás que instalar the Xcode Command Line Tools. Lo normal es que lo tengas ya instalado, si no fuese el caso, aquí te explican como hacerlo. Además, como nos cuentan aquí, si tienes un Mac, es conveniente instalar XQuartz, para ello sólo tienes que buscar el instalador en https://www.xquartz.org/\n\n\nFinalmente, para instalar los paquetes que usaremos durante el curso tendremos que ejecutar las siguientes instrucciones:\n\n\nCódigo para instalar los paquetes#- instalación de paquetes ---------------------------------\n\ninstall.packages(\"pak\")\n\npak::pak(c(\"tidyverse\", \"ggtext\",  \"curl\", \"irlba\", \"widyr\", \"markdown\", \"gt\", \"maps\", \"mapproj\", \"DT\", \"reactable\"))\n\npak::pak(c(\"showtext\", \"glue\",  \"plotly\", \"fs\", \"countrycode\", \"here\", \"quarto\"))\n\npak::pak(c(\"webexercises\"))\n\npak::pak(c(\"perezp44/pjpv.curso.R.2022\"))\n\n\n\n#- más cosas ---------------------------------------\n# usethis::edit_rstudio_prefs()\n# usethis::use_blank_slate() \n\n# quarto install tool tinytext\n# quarto install tinytex --update-path\n# quarto install tool chromium"
+  },
+  {
+    "objectID": "blog_02/02_trucos_revealjs.html",
+    "href": "blog_02/02_trucos_revealjs.html",
+    "title": "Trucos: Reveal.js",
+    "section": "",
+    "text": "Que un texto ocupe toda la slide, pero centrado verticalmente; para ello, has de combinar r-fit-text con the center class en el título de la slide.\n## {.center}\n\n::: r-fit-text\nThis fits perfectly!\n:::\n\n\n\n\n\npuedes rotarlo con : style=\"rotate: -10deg;\"\n\n[My textito]{.absolute left=\"50%\" top=\"20%\" style=\"rotate: -10deg;\"}\n\n\n\n\n\nLo vi aquí. Lo utilizan para resaltar texto que pones encima de una foto\nPuedes rotarlo poniendo rotate: -10deg; dentro de style = \" ....\"\n\n::: {.absolute left=\"15%\" top=\"5%\" style=\"font-size:1.8em; padding: 0.75em 0.7em; background-color: rgba(44, 0, 142, .4);\"}\nFirst we take Manhattan, \n\nthen we take Berlin\n:::"
+  },
+  {
+    "objectID": "blog_02/02_trucos_revealjs.html#footnotes",
+    "href": "blog_02/02_trucos_revealjs.html#footnotes",
+    "title": "Trucos: Reveal.js",
+    "section": "Notas",
+    "text": "Notas\n\n\nLo vi en este repo, concretamente en el fichero index.qmd↩︎"
+  },
+  {
+    "objectID": "blog_02/05_trucos_html.html",
+    "href": "blog_02/05_trucos_html.html",
+    "title": "Trucos: html",
+    "section": "",
+    "text": "Para que los enlaces se abran en pestaña nueva has de poner {target=\"_blank\"}\n\n\n\n\n\nPara añadir (en un documento .qmd) un iframe que contenga una web, se puede hacer de varias formas:\n\ncon knitr::include_url()\n\n```{r}\n#| echo: true\nknitr::include_url({\"https://quarto.org/docs/guide/\"})\n```\n\n\ncon &lt;iframe&gt;: La página que se incrusta se especifica mediante el atributo src del elemento iframe. Por ejemplo, este fragmento creará un marco de 500 píxeles de ancho y 300 píxeles de alto donde se situará una página web. Dos ejemplos:\n\n&lt;iframe src=\"https://quarto.org/\" title=\"https://quarto.org/\" width=\"960\" height=\"500\" data-external=\"1\"&gt;&lt;/iframe&gt;\n\n&lt;iframe src=\"https://www.uv.es/\" loading=\"lazy\" style=\"width: 90%; height: 100px; border: 0px none;\"&gt;&lt;/iframe&gt;\n\n\n\n\n\nLógicamente se puede hacer con css\n\n&lt;style&gt; div.pink { background-color:pink; border-radius: 5px; padding: 20px; height: 100px; width: 50%;} &lt;/style&gt; &lt;div class = \"pink\"&gt;\nCuadro rápido de texto\n&lt;/div&gt;\n\n\nCuadro rápido de texto"
+  },
+  {
+    "objectID": "blog_02/05_trucos_html.html#trucos",
+    "href": "blog_02/05_trucos_html.html#trucos",
+    "title": "Trucos: html",
+    "section": "",
+    "text": "Para que los enlaces se abran en pestaña nueva has de poner {target=\"_blank\"}\n\n\n\n\n\nPara añadir (en un documento .qmd) un iframe que contenga una web, se puede hacer de varias formas:\n\ncon knitr::include_url()\n\n```{r}\n#| echo: true\nknitr::include_url({\"https://quarto.org/docs/guide/\"})\n```\n\n\ncon &lt;iframe&gt;: La página que se incrusta se especifica mediante el atributo src del elemento iframe. Por ejemplo, este fragmento creará un marco de 500 píxeles de ancho y 300 píxeles de alto donde se situará una página web. Dos ejemplos:\n\n&lt;iframe src=\"https://quarto.org/\" title=\"https://quarto.org/\" width=\"960\" height=\"500\" data-external=\"1\"&gt;&lt;/iframe&gt;\n\n&lt;iframe src=\"https://www.uv.es/\" loading=\"lazy\" style=\"width: 90%; height: 100px; border: 0px none;\"&gt;&lt;/iframe&gt;\n\n\n\n\n\nLógicamente se puede hacer con css\n\n&lt;style&gt; div.pink { background-color:pink; border-radius: 5px; padding: 20px; height: 100px; width: 50%;} &lt;/style&gt; &lt;div class = \"pink\"&gt;\nCuadro rápido de texto\n&lt;/div&gt;\n\n\nCuadro rápido de texto"
+  },
+  {
+    "objectID": "blog_02/07_trucos_Rmarkdown.html",
+    "href": "blog_02/07_trucos_Rmarkdown.html",
+    "title": "Trucos: Rmarkdown",
+    "section": "",
+    "text": "1 Rmarkdown\n\n\n1.0.1 Ver todas las opciones de los chunks\n\nSale de este post de Danielle Navarro\n\n\nCódigo#- salen las opciones por defecto\noptions &lt;- knitr::opts_chunk$get()\n\n\n\n\n1.0.2 Ejecutar .R en chunks\nLa explicación aquí\n{r, file = \"some-file.R\"}\nEl archivo some-file.R ha de estar en la misma carpeta que el .qmd\n\n\n1.0.3 convertir Rmd chunks a qmd\n\nPara convertir Rmd chunks a qmd:\n\nknitr::convert_chunk_header(\"document.qmd\", output = identity)\n\n\n1.0.4 Compilar .tex\n\nCompilar .tex a pdf desde RStudio: tools::texi2pdf()\n\n\n\n\n1.0.5 CHILD\n\ntruco knitr::knitr_child() para generar distintas tablas y títulos en .qmd programáticamente: https://fosstodon.org/@MickaelCanouil/109919710663908424\n\n\n\n\n1.0.6 Inline code\n\nExplican bien lo de scaping back-ticks: https://www.markdownguide.org/basic-syntax/#escaping-backticks. Estos otros no lo hacen tan bien\ninline literal code: ` r 2+2` `abc` `` `abc` ``\nescribir esto: `` `abc` `` para que se muestre esto: `abc`\n\n\n\n1.0.7 Meta-Markdown\n\nAutomatizar la creación de una bullet list: aquí\nPasar un enlace à la md, a enlace en html. aquí hilo de Shanon\n\n\n\n1.0.8 Convertir Inline footnotes\nConvertir Inline footnotes to Regular footnotes in Markdown: https://yihui.org/en/2023/02/markdown-footnotes/\n\n\n\n\n2 ZZ. Biblio\n\nWriting knitr hooks, de danielle Navarro.\nGenerating dynamic contents in R Markdown and Quarto: volvio a salir al ver este toot\n\n\n\nReutilizarCC BY 4.0"
+  },
+  {
+    "objectID": "blog_02/06_trucos_workflow.html",
+    "href": "blog_02/06_trucos_workflow.html",
+    "title": "Trucos: workflow",
+    "section": "",
+    "text": "Cuando haces el Render de un QMD ocurre lo siguiente: se abre un background job, donde primero, knitr ejecuta los chunks y crea un nuevo documento .md que ya incluye el código y su output; ese fichero .md es procesado por pandoc que crea el output final.\n\n\n\n\n\nSe puede hacer el render de un .qmd de varias formas:\n\n#- desde la Terminal\nquarto render document.qmd  # default is html\nquarto render document.qmd --to pdf\nquarto render document.qmd --to docx\n#- desde la Consola\nquarto::quarto_render(\"document.qmd\") # defaults to html\nquarto::quarto_render(\"document.qmd\", output_format = \"pdf\")\n\n\n\n\n\nTambién se puede hacer el render con opciones, p.ej:\n\nquarto render document.qmd --to html -M code-fold:true                  \nquarto render document.qmd --to html -M code-fold:true -P alpha:0.2 -P ratio:0.3     \n\n\n\n\n\nPara crear epub en Quarto bastaría con hacer en la Terminal:\n\nquarto render my_file.qmd --to epub\n\nAún así, Bruno Rodrigues y Sam Parmar nos cuentan algunos truquillo sobre como hacer render de un Quarto book a epub, o a pdf.\n\n\n\n\n\n\nPara hacer el render desde la Terminal con parámetros:\n quarto render annual_report.qmd -P year:2024\nEn parametrised reports, cuando haces el render, me gustaría que los archivos de salida se guardasen en otro directorio, pero se ve que esto no es fácil-fácil, al menos aún. En este toot explican que como no encontraron la solución, así que lo que hace es hacer el render en la misma carpeta donde está el script, pero luego mueve los archivos que se han generado. para moverlos usa\n\nfile.copy(full_path_source, full_path_destination)\n\n\n\n\n\nSi quieres ejecutar un R script desde la Terminal:\n\nRscript -e \"rmarkdown::render('document.Rmd')\"\n\n\n\n\n\nPara pasar un documento Word a .md utilizando Pandoc. Lo vi en este toot\n\npandoc -f docx -t markdown foo.docx -o foo.markdown\n\n\nPara pasar un documento Word a .md desde R:\n\nrmarkdown::pandoc_convert(\"input.docx\", to = \"md\")\n\n\n\n\n\nCómo hacer el render rápidamente (ptse): https://github.com/quarto-dev/quarto-cli/discussions/6173\nTruco para q se haga el render solo en partes; https://fosstodon.org/@mccarthymg/111889746218019391. De Rennie."
+  },
+  {
+    "objectID": "blog_02/06_trucos_workflow.html#render",
+    "href": "blog_02/06_trucos_workflow.html#render",
+    "title": "Trucos: workflow",
+    "section": "",
+    "text": "Cuando haces el Render de un QMD ocurre lo siguiente: se abre un background job, donde primero, knitr ejecuta los chunks y crea un nuevo documento .md que ya incluye el código y su output; ese fichero .md es procesado por pandoc que crea el output final.\n\n\n\n\n\nSe puede hacer el render de un .qmd de varias formas:\n\n#- desde la Terminal\nquarto render document.qmd  # default is html\nquarto render document.qmd --to pdf\nquarto render document.qmd --to docx\n#- desde la Consola\nquarto::quarto_render(\"document.qmd\") # defaults to html\nquarto::quarto_render(\"document.qmd\", output_format = \"pdf\")\n\n\n\n\n\nTambién se puede hacer el render con opciones, p.ej:\n\nquarto render document.qmd --to html -M code-fold:true                  \nquarto render document.qmd --to html -M code-fold:true -P alpha:0.2 -P ratio:0.3     \n\n\n\n\n\nPara crear epub en Quarto bastaría con hacer en la Terminal:\n\nquarto render my_file.qmd --to epub\n\nAún así, Bruno Rodrigues y Sam Parmar nos cuentan algunos truquillo sobre como hacer render de un Quarto book a epub, o a pdf.\n\n\n\n\n\n\nPara hacer el render desde la Terminal con parámetros:\n quarto render annual_report.qmd -P year:2024\nEn parametrised reports, cuando haces el render, me gustaría que los archivos de salida se guardasen en otro directorio, pero se ve que esto no es fácil-fácil, al menos aún. En este toot explican que como no encontraron la solución, así que lo que hace es hacer el render en la misma carpeta donde está el script, pero luego mueve los archivos que se han generado. para moverlos usa\n\nfile.copy(full_path_source, full_path_destination)\n\n\n\n\n\nSi quieres ejecutar un R script desde la Terminal:\n\nRscript -e \"rmarkdown::render('document.Rmd')\"\n\n\n\n\n\nPara pasar un documento Word a .md utilizando Pandoc. Lo vi en este toot\n\npandoc -f docx -t markdown foo.docx -o foo.markdown\n\n\nPara pasar un documento Word a .md desde R:\n\nrmarkdown::pandoc_convert(\"input.docx\", to = \"md\")\n\n\n\n\n\nCómo hacer el render rápidamente (ptse): https://github.com/quarto-dev/quarto-cli/discussions/6173\nTruco para q se haga el render solo en partes; https://fosstodon.org/@mccarthymg/111889746218019391. De Rennie."
+  },
+  {
+    "objectID": "blog_02/06_trucos_workflow.html#instalación",
+    "href": "blog_02/06_trucos_workflow.html#instalación",
+    "title": "Trucos: workflow",
+    "section": "2 Instalación",
+    "text": "2 Instalación\n\nprework de T. Mock: In order to create PDFs you will need to install a recent distribution of LaTeX. We recommend the use of TinyTeX (which is based on TexLive):\n\nquarto install tool tinytext\nquarto install tool chromium"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Pedro J. Pérez",
+    "section": "",
+    "text": "Mi nombre es Pedro J. Pérez. Soy profesor del departamento de Análisis Económico de la Universitat de València. Aquí puedes ver mi página web en la UV. Me gusta aprender y trastear con R; vamos, que aún soy un entusiasta de R. Me divierto!!\nPodemos decir que tengo “bastante” experiencia con R porque lo utilizo en mi docencia e investigación; de hecho, imparto una asignatura en el grado de Economía que es una introducción a R, aquí puedes ver su web. También imparto un curso de introducción a R en el SFPIE, aquí puedes ver la web de una de sus ediciones.\n¿Y cuanta experiencia tienes sobre Quarto? Bueno, ya voy teniendo bastante experiencia: Quarto apareció en junio de 2022, y en noviembre ya estaba yo impartiendo el taller Mi primer blog con Quarto en las XII Jornadas de Usuarios de R. No es que sea muy bloguero, mas bien soy un creador y liquidador de blogs. Aquí, puedes ver un listado no exhaustivo de los blogs que he liquidado, alguno de ellos hecho con Quarto.\nEn junio de 2023 impartí la primera edición de este curso. Puedes ver su web aquí. Su web es realmente parecida a la de esta edición. 😀"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog del curso “Escribiendo con R y Quarto”",
+    "section": "",
+    "text": "¿Qué son R, RStudio y Quarto?\n\n\n\n\n\n\nreproducibilidad\n\n\n\nEn el curso usaremos 3 programas: R, RStudio y Quarto, así que la primera tarea es saber qué son y para qué sirven: conviene saber diferenciar entre ellos. \n\n\n\n\n\n2 ene 2023\n\n\nPedro J. Pérez\n\n\n7 minutos\n\n\n\n\n\n\n\n\n\n\n\n\nReferencias bibliográficas\n\n\n\n\n\n\nquarto\n\n\nbibliografía\n\n\n\n¿Cómo incluir referencias bibliográficas en documentos .qmd? Una buena opción es a través de ficheros .bib creados en Zotero. \n\n\n\n\n\n20 ene 2023\n\n\nPedro J. Pérez\n\n\n10 minutos\n\n\n\n\n\n\n\n\n\n\n\n\nLayout’s\n\n\n\n\n\n\nquarto\n\n\nlayout\n\n\n\nViendo las posibilidades de Layout que tenemos en Quarto \n\n\n\n\n\n21 ene 2023\n\n\nPedro J. Pérez\n\n\n2 minutos\n\n\n\n\n\n\n\n\n\n\n\n\nUsando shortcodes\n\n\n\n\n\n\nquarto\n\n\nshortcodes\n\n\n\nCómo usar shortcodes en Quarto para, entre otras cosas, poder incluir el mismo contenido en varios documentos. \n\n\n\n\n\n22 ene 2023\n\n\nPedro J. Pérez\n\n\n6 minutos\n\n\n\n\n\n\n\n\n\n\n\n\nExtensiones\n\n\n\n\n\n\nQuarto\n\n\nextensiones\n\n\n\nIntentando entender qué son y cómo usar las extensiones de Quarto \n\n\n\n\n\n23 ene 2023\n\n\nPedro J. Pérez\n\n\n4 minutos\n\n\n\n\n\n\n\n\n\n\n\n\nImágenes\n\n\n\n\n\n\nQuarto\n\n\nimágenes\n\n\n\nRepasando algunas opciones de Quarto para insertar imágenes. \n\n\n\n\n\n24 ene 2023\n\n\nPedro J. Pérez\n\n\n2 minutos\n\n\n\n\n\n\n\n\n\n\n\n\nTuneando con CSS\n\n\n\n\n\n\nQuarto\n\n\nCSS\n\n\n\nCambiando el formato con CSS \n\n\n\n\n\n25 ene 2023\n\n\nPedro J. Pérez\n\n\n5 minutos\n\n\n\n\n\n\n\n\n\n\n\n\nTuneando con CSS (cambios bizarros!!)\n\n\n\n\n\n\nQuarto\n\n\nCSS\n\n\n\nEl contenido de este post es el mismo que el del anterior, PERO , pero ahora haciendo cambios bizarros!! con CSS. \n\n\n\n\n\n26 ene 2023\n\n\nPedro J. Pérez\n\n\n5 minutos\n\n\n\n\n\n\n\n\n\n\n\n\nObservable JS\n\n\n\n\n\n\nQuarto\n\n\nObservable\n\n\n\nIntentando entender qué es y cómo usar Observable JS en R. \n\n\n\n\n\n27 ene 2023\n\n\nPedro J. Pérez\n\n\n4 minutos\n\n\n\n\n\n\n\n\n\n\n\n\nUsing R data with phyton\n\n\n\n\n\n\nQuarto\n\n\nPython\n\n\n\nViendo cómo usar datos de R en chunks de Py con Quarto. \n\n\n\n\n\n28 ene 2023\n\n\nPedro J. Pérez\n\n\n1 minutos\n\n\n\n\n\n\n\n\n\n\n\n\nTuneado de un post con opciones de YAML\n\n\n\n\n\n\nQuarto\n\n\ntuneado yaml\n\n\n\nViendo cómo modificar la apariencia de un post con opciones de YAML. \n\n\n\n\n\n29 ene 2023\n\n\nPedro J. Pérez\n\n\n1 minutos\n\n\n\n\n\n\n\n\n\n\n\n\nInformes parametrizados\n\n\n\n\n\n\nreproducibilidad\n\n\nInformes parametrizados\n\n\n\nAutomatizando la creación de informes: generando grupos de informes utilizando conjuntos de parámetros. \n\n\n\n\n\n30 ene 2023\n\n\nPedro J. Pérez\n\n\n5 minutos\n\n\n\n\n\n\n\n\n\n\n\n\nCross references\n\n\n\n\n\n\ncross-references\n\n\n\n¿Cómo insertar referencias cruzadas en documentos Quarto? \n\n\n\n\n\n31 ene 2023\n\n\nPedro J. Pérez\n\n\n5 minutos\n\n\n\n\n\n\n\n\n\n\n\n\nMi Segundo post con Quarto\n\n\n\n\n\n\nTaller\n\n\nsoluciones practica nº 5\n\n\n\nSoluciones a la Práctica 5.1 del curso \n\n\n\n\n\n1 feb 2023\n\n\nPedro J. Pérez, Nosotros\n\n\n1 minutos\n\n\n\n\n\n\n\n\n\n\n\n\nGenerando botoncitos de descarga en mi web\n\n\n\n\n\n\nTuneando la web\n\n\n\nInsertar un link de descarga en nuestra web es muy fácil pero quedará más chulo si generamos unos botoncitos de descarga. \n\n\n\n\n\n2 feb 2023\n\n\nPedro J. Pérez\n\n\n5 minutos\n\n\n\n\n\n\n\n\n\n\n\n\nGenerando tablas con R\n\n\n\n\n\n\ntablas\n\n\n\nSe pueden hacer tablas muy chulas con R. Por ejemplo mira aquí \n\n\n\n\n\n3 feb 2023\n\n\nPedro J. Pérez\n\n\n5 minutos\n\n\n\n\n\n\n\n\n\n\n\n\nPublicando nuestra web en la UV\n\n\n\n\n\n\nQuarto\n\n\nPublicando la web\n\n\n\nSe describe el proceso para publicar nuestra web/blog en el espacio web que tenemos disponible en los servidores de la Universitat de València. \n\n\n\n\n\n4 feb 2023\n\n\nPedro J. Pérez\n\n\n3 minutos\n\n\n\n\n\n\n\n\n\n\n\n\nGenerando tablas de modelos y contrastes\n\n\n\n\n\n\ntablas estadísticas\n\n\n\nPost en proceso de elaboración \n\n\n\n\n\n5 feb 2023\n\n\nPedro J. Pérez\n\n\n1 minutos\n\n\n\n\n\n\n\n\n\n\n\n\nIconos en Quarto\n\n\n\n\n\n\niconos\n\n\nemojis\n\n\n\nUsando emojis e iconos en Quarto \n\n\n\n\n\n12 feb 2024\n\n\nPedro J. Pérez\n\n\n7 minutos\n\n\n\n\n\n\n\n\n\n\n\n\nWebr\n\n\n\n\n\n\nWebr\n\n\n\nEntender un poco qué es y como funciona Webr \n\n\n\n\n\n12 feb 2024\n\n\nPedro J. Pérez\n\n\n4 minutos\n\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "slides/03_aprendiendo_Qmd.html#qué-es-quarto-1",
+    "href": "slides/03_aprendiendo_Qmd.html#qué-es-quarto-1",
+    "title": "Aprendiendo a escribir en QMD",
+    "section": "¿Qué es Quarto?",
+    "text": "¿Qué es Quarto?\n\n\nUn nuevo sistema de publicación científica y técnica de código abierto basado en Pandoc\n\n\n\n\nQuarto no es un paquete, es un programa independiente, un CLI\n\n\n\n\nPermite incorporar texto y código para producir documentos (reproducibles) en múltiples formatos\n\n\n\n\nEs … la “segunda generación de Rmarkdown”\n\n\n\n\nMuy parecido a Rmarkdown, pero … no requiere R. Soporta lenguajes como Phyton, Julia y Observable.\nQuarto utiliza Knitr para ejecutar el código R; así que es capaz de procesar también los ficheros .Rmd sin modificarlos"
+  },
+  {
+    "objectID": "slides/03_aprendiendo_Qmd.html#section",
+    "href": "slides/03_aprendiendo_Qmd.html#section",
+    "title": "Aprendiendo a escribir en QMD",
+    "section": "",
+    "text": "Extensión: Ventajas de Quarto sobre RMD\n\n\n\nProyecto en desarrollo activo … mientras que Rmarkdown it’s not going away pero …\nQuarto unifica funcionalidades de varios paquetes del entorno Rmd como xaringan, bookdown, blogdown , …\nPor ejemplo: Cross references, Call-outs, Advanced Layout (tb para imágenes), Extensiones, Interactividad, YAML inteligence, Quarto Pub, Divs, Spans\nPara ver si estas ventajas merecen la pena para ti puedes leer a Occasional Divergences, Nick Tierney, Alison Hill, Danielle Navarro, Jumping Rivers o esta pregunta de Stack Overflow."
+  },
+  {
+    "objectID": "slides/03_aprendiendo_Qmd.html#section-1",
+    "href": "slides/03_aprendiendo_Qmd.html#section-1",
+    "title": "Aprendiendo a escribir en QMD",
+    "section": "",
+    "text": "Extensión: ¿Qué es Rmarkdown? ¿Para qué sirve?\n\n\n\nEl predecesor de Quarto\nUn “entorno” para hacer informes/publicaciones/transparencias REPRODUCIBLES con R.\n\n\nIs an authoring framework for data science, combining your code, its results, and your prose. R Markdown documents are fully reproducible and support dozens of output formats, like PDFs, Word files, slideshows, and more.\n\n\nCon Rmd se pueden generar multitud de outputs. Por ejemplo, visita está galería o este listado\n\n\nUna oda a Rmarkdown\n\nHow Rmarkdown changed my life: charla de Rob Hyndman sobre su proceso hasta llegar a usar Rmarkdown para hacer sus documentos científicos y webs."
+  },
+  {
+    "objectID": "slides/03_aprendiendo_Qmd.html#para-poder-practicar-lo-que-vayamos-aprendiendo",
+    "href": "slides/03_aprendiendo_Qmd.html#para-poder-practicar-lo-que-vayamos-aprendiendo",
+    "title": "Aprendiendo a escribir en QMD",
+    "section": "Para poder practicar lo que vayamos aprendiendo …",
+    "text": "Para poder practicar lo que vayamos aprendiendo …\n\n\n\n\nTarea 3.0: Vamos a crear un nuevo Qproject\n\n\n\nCierra RStudio\nCrea un nuevo Qproject llamado “my_qproject”\nInspecciona los documentos que hay dentro de “my_qproject”\nBorra el archivo my_qproject.qmd\nCrea un archivo .qmd\nProcésalo y llámalo prueba_01.qmd"
+  },
+  {
+    "objectID": "slides/03_aprendiendo_Qmd.html#los-documentos-.qmd-tienen-3-4-partes",
+    "href": "slides/03_aprendiendo_Qmd.html#los-documentos-.qmd-tienen-3-4-partes",
+    "title": "Aprendiendo a escribir en QMD",
+    "section": "Los documentos .qmd tienen 3-4 partes",
+    "text": "Los documentos .qmd tienen 3-4 partes\n\nEncabezamiento (yaml header)\n\nTrozos de código R (R chunks)\n\nTexto (escrito en Markdown) …\n… y todo lo demás: imágenes, links, ecuaciones, etc …\n\n\n\nUn ejemplo\n\n\nsource code (escrito en QMD)\n\n\n\n\n\n\n\n\n\n\n\noutput"
+  },
+  {
+    "objectID": "slides/03_aprendiendo_Qmd.html#ii-chunks-los-chunks-pueden-tener-opciones.",
+    "href": "slides/03_aprendiendo_Qmd.html#ii-chunks-los-chunks-pueden-tener-opciones.",
+    "title": "Aprendiendo a escribir en QMD",
+    "section": "(II) Chunks: los chunks pueden tener opciones.",
+    "text": "(II) Chunks: los chunks pueden tener opciones.\n\nPor ejemplo:\n\n\n\n\n\nLas principales opciones son:\n\n\n\n\nOpción\n(valor por defecto)\n¿Que hace?\n\n\n\n\necho\ntrue\nIncluye el código en el documento final\n\n\neval\ntrue\nEvalúa el código\n\n\nwarning\ntrue\nIncluye los avisos en el documento final\n\n\nmessage\ntrue\nIncluye los mensajes"
+  },
+  {
+    "objectID": "slides/03_aprendiendo_Qmd.html#ii-chunks-los-chunks-pueden-tener-opciones.-1",
+    "href": "slides/03_aprendiendo_Qmd.html#ii-chunks-los-chunks-pueden-tener-opciones.-1",
+    "title": "Aprendiendo a escribir en QMD",
+    "section": "(II) Chunks: los chunks pueden tener opciones.",
+    "text": "(II) Chunks: los chunks pueden tener opciones.\n\n\n\nExtensión: hay más opciones para los chunks\n\n\n\n\n\n\n\n\n\n\nOpción\n(valor por defecto)\n¿Que hace?\n\n\n\n\noutput\ntrue\nIncluye el resultado de la evaluación del código\n\n\nerror\nfalse\nSi pones true, se mostrarán los errores (!!!!)\n\n\ninclude\ntrue\n\n\n\nlabel\n\nSi quieres poner label al chunk\n\n\n\n\n\nPuedes ver todas las opciones aquí 🙀"
+  },
+  {
+    "objectID": "slides/03_aprendiendo_Qmd.html#section-2",
+    "href": "slides/03_aprendiendo_Qmd.html#section-2",
+    "title": "Aprendiendo a escribir en QMD",
+    "section": "",
+    "text": "Extensión: más detalles sobre las opciones de los chunks\n\n\n\n\ninclude: si en un chunk pones  #| include: false , el código de ese chunk se ejecutará pero no se mostrará nada, ni el código, ni el resultado, ni mensajes, ni errores. Esta opción es útil, por ejemplo, para cargar los paquetes de R.\n\n\n\n #| label: setup : si un chunk se llama setup, este chunk se ejecutará siempre que ejecutes otro chunk del mismo documento. Esta opción suele usarse para cargar los paquetes necesarios para un análisis, de formas que estos siempre estén disponibles cuando ejecutes otro chunk. Esto puede ser una buena práctica."
+  },
+  {
+    "objectID": "slides/03_aprendiendo_Qmd.html#section-3",
+    "href": "slides/03_aprendiendo_Qmd.html#section-3",
+    "title": "Aprendiendo a escribir en QMD",
+    "section": "",
+    "text": "Extensión: dos detalles más sobre opciones de los chunks\n\n\n\n\n #| output: asis : permite generar raw-markdown. Un ejemplo aquí\n\n\n\necho: además de los típicos true y false, ahora incorpora nuevos valores, como  #| echo: fenced , que facilita mostrar las marcas de los chunks en el documento final, o la opción  #| echo: […]  que permite mostrar sólo algunas de las lineas de código del chunk. Documentación aquí y aquí."
+  },
+  {
+    "objectID": "slides/03_aprendiendo_Qmd.html#ii-chunks-opciones-de-los-chunks-en-el-yaml",
+    "href": "slides/03_aprendiendo_Qmd.html#ii-chunks-opciones-de-los-chunks-en-el-yaml",
+    "title": "Aprendiendo a escribir en QMD",
+    "section": "(II) Chunks: opciones de los chunks en el YAML",
+    "text": "(II) Chunks: opciones de los chunks en el YAML\n\nEn el YAML, podemos fijar los valores por defecto de las opciones de los chunks\n\n\n\nSe han de poner anidadas dentro de execute:\n\n\n\n\nPor ejemplo:\n\n\n.Qmd (chunk options en el chunk)\n\n\n\n\n\n\n\n.Qmd (chunk options en el yaml)"
+  },
+  {
+    "objectID": "slides/03_aprendiendo_Qmd.html#ii-chunks-más-opciones-de-knitr",
+    "href": "slides/03_aprendiendo_Qmd.html#ii-chunks-más-opciones-de-knitr",
+    "title": "Aprendiendo a escribir en QMD",
+    "section": "(II) Chunks: Más opciones de knitr",
+    "text": "(II) Chunks: Más opciones de knitr\n\nSi usamos knitr para ejecutar los chunks, entonces podemos usar todas las opciones nativas de knitr, como: collapse, fig.width, comment, etc … Más información aquí. Un ejemplo:\n\n\n\nSi quieres ver todas las opciones disponibles para los chunks en knitr tendrás que ir a la página web de knitr, a la cheat sheet sobre Rmarkdown, o a la Reference Guide"
+  },
+  {
+    "objectID": "slides/03_aprendiendo_Qmd.html#section-4",
+    "href": "slides/03_aprendiendo_Qmd.html#section-4",
+    "title": "Aprendiendo a escribir en QMD",
+    "section": "",
+    "text": "Extensión: Mi chunk de setup en RMD\n\n\n```{r chunk-setup, include = FALSE}\nknitr::opts_chunk$set(echo = TRUE, eval = TRUE, message = FALSE, warning = FALSE,\n                      #results = \"hold\",\n                      cache = FALSE, cache.path = \"/caches/\", comment = \"#&gt;\",\n                      #fig.width = 7, #fig.height= 7,\n                      #out.width = 7, out.height = 7,\n                      collapse = TRUE,  fig.show = \"hold\",\n                      fig.asp = 7/9, out.width = \"60%\", fig.align = \"center\")\n\noptions(scipen = 999) #- para quitar la notación científica\n```\n\n\n\n\n\nLas opciones del chunk de setup, en el YAML quedarían como:\n\n---\ntitle: \"My Document\"\nexecute:\n  echo: true\nknitr:\n  opts_chunk: \n    results: \"hold\"\n    collapse: true\n    comment: \"#&gt;\" \n    fig.asp: 7/9, \n    out.width: \"60%\"\n    fig.align: \"center\"\n    fig.show: \"hold\"\n    R.options:\n      scipen: 999  #- para quitar la notación científica\n---"
+  },
+  {
+    "objectID": "slides/03_aprendiendo_Qmd.html#ii-chunks-otras-opciones-de-quarto-para-los-chunks",
+    "href": "slides/03_aprendiendo_Qmd.html#ii-chunks-otras-opciones-de-quarto-para-los-chunks",
+    "title": "Aprendiendo a escribir en QMD",
+    "section": "(II) Chunks: otras opciones de Quarto para los chunks",
+    "text": "(II) Chunks: otras opciones de Quarto para los chunks\nAhora, en Quarto, hay más opciones para los chunks. Documentación oficial aquí. Por ejemplo:\n\n\n\nHacer folding code con #| code-fold: true\n\nPuedes combinarlo con #| code-summary: \"Para ver el código, pincha\"\n\n\n\n\n\n\nSi el código es muy largo, puedes usar #| code-overflow: wrap (o scroll)\n\n\n\n\n\nPuedes hacer que se muestren los números de linea con #| code-line-numbers: true\n\n\n\nTodas estas opciones también pueden ir en el YAML."
+  },
+  {
+    "objectID": "slides/03_aprendiendo_Qmd.html#ii-chunks-code-annotation",
+    "href": "slides/03_aprendiendo_Qmd.html#ii-chunks-code-annotation",
+    "title": "Aprendiendo a escribir en QMD",
+    "section": "(II) Chunks: Code annotation",
+    "text": "(II) Chunks: Code annotation\n\nDesde Quarto 1.3 podemos incluir en los chunks line-based annotations. Documentación aquí. Por ejemplo:\n\n\n\n\nEl código:\n\n```r\nlibrary(tidyverse)\nlibrary(palmerpenguins)\npenguins |&gt;                                      # &lt;1&gt;\n  mutate(                                        # &lt;2&gt;\n    bill_ratio = bill_depth_mm / bill_length_mm, # &lt;2&gt;\n    bill_area  = bill_depth_mm * bill_length_mm  # &lt;2&gt;\n  )                                              # &lt;2&gt;\n```\n1. Take `penguins`, and then,\n2. add new columns for the bill ratio and bill area.\n (*) (faltan las {} en el chunk)\n\n\nEl resultado:\n\n\nlibrary(tidyverse)\nlibrary(palmerpenguins)\n1penguins |&gt;\n2  mutate(\n    bill_ratio = bill_depth_mm / bill_length_mm,\n    bill_area  = bill_depth_mm * bill_length_mm\n  )\n\n\n1\n\nTake penguins, and then,\n\n2\n\nadd new columns for the bill ratio and bill area."
+  },
+  {
+    "objectID": "slides/03_aprendiendo_Qmd.html#ii-código-inline-code",
+    "href": "slides/03_aprendiendo_Qmd.html#ii-código-inline-code",
+    "title": "Aprendiendo a escribir en QMD",
+    "section": "(II) Código: inline code",
+    "text": "(II) Código: inline code\n\nLa mayoría del código suele ir en los chunks, pero a veces necesitamos inline code ; es decir, código R dentro de nuestro texto.\n\n\n\nPor ejemplo\n\n\nSi quiero describir un conjunto de datos puedo hacerlo escribiendo: “El data.frame iris tiene 150 filas y 5 variables”\nPero es mejor hacerlo con inline code. Para ello tienes que poner el código R dentro de estas marcas: `r `\nHabría que escribirlo así:\n\nEl data.frame iris tiene  `r nrow(iris)` filas y  `r ncol(iris)` variables.\n\n\n\n\nDocumentación oficial de Quarto aquí. (No hay mucho más)"
+  },
+  {
+    "objectID": "slides/03_aprendiendo_Qmd.html#ii-chunks-bloques-de-código-no-ejecutables",
+    "href": "slides/03_aprendiendo_Qmd.html#ii-chunks-bloques-de-código-no-ejecutables",
+    "title": "Aprendiendo a escribir en QMD",
+    "section": "(II) Chunks: bloques de código no ejecutables",
+    "text": "(II) Chunks: bloques de código no ejecutables\n\nHemos visto que podemos incluir código R en nuestro .qmd.\nEl código R normalmente es ejecutado por el paquete knitr. Para ello hay que usar estas marcas:\n\n```{r}\n2 + 2\n```\n\n\n\nPero, además, como estamos usando Markdown, podemos incorporar en nuestro .qmd bloques de código no ejecutables.\nSe usan las mismas marcas  ``` , pero sin las llaves:\n\n```r\n2 + 2\n```\n\n\nPandoc soporta syntax highlighting para cerca de 140 different languages. si no estuviese el lenguaje que necesitas, usa el default language.\nDocumentación oficial aquí.\n\n\n\n\n\nTarea 3.6: bloques de código no ejecutable\n\n\n\nUtiliza el archivo prueba_01.qmd para incorporar:\n\nun bloque de código R no ejecutable\nun bloque de código Phyton no ejecutable"
+  },
+  {
+    "objectID": "slides/03_aprendiendo_Qmd.html#section-5",
+    "href": "slides/03_aprendiendo_Qmd.html#section-5",
+    "title": "Aprendiendo a escribir en QMD",
+    "section": "",
+    "text": "Extensión: diferencias entre Quarto y Rmd\n\n\n\nNo hace falta chunk inicial: con Quarto se pueden poner las opciones de los chunks en el YAML\nEn ficheros .qmd, las opciones de los chunks se pueden especificar globalmente en el YAML y a nivel individual en cada uno de los chunks.\nEn los chunks individuales ahora se se utiliza la sintaxis YAML (key: value) en lineas dentro del chunk que empiezan con #|. Por ejemplo:\n\n\n\n\n\n\n\nUn ejemplo (diferencias .qmd vs. .Rmd):\n\n\n\n.qmd\n\n\n\n\n\n\n\n.Rmd"
+  },
+  {
+    "objectID": "slides/03_aprendiendo_Qmd.html#section-6",
+    "href": "slides/03_aprendiendo_Qmd.html#section-6",
+    "title": "Aprendiendo a escribir en QMD",
+    "section": "",
+    "text": "Extensión: convertir de Rmarkdown a Quarto\n\n\nEsta perfectamente bien explicado por Thomas Mock aquí y aquí pero, por si alguna vez desaparecen sus slides, lo replicaré aquí.\n\n\nLa mayoría de las veces, Quarto puede procesar los ficheros .Rmd, pero si quieres convertirlos a .qmd\n\nCambia la extensión del fichero de .Rmd a .qmd\nCambia la sintaxis del yaml:\n\nen lugar de output: html_document ahora es format: html\n\nPuedes convertir los chunks de código a la sintáxis actual con:\n\nknitr::convert_chunk_header(\"doc.qmd\", output = identity)"
+  },
+  {
+    "objectID": "slides/03_aprendiendo_Qmd.html#iii-texto-qué-narices-es-esto-de-markdown",
+    "href": "slides/03_aprendiendo_Qmd.html#iii-texto-qué-narices-es-esto-de-markdown",
+    "title": "Aprendiendo a escribir en QMD",
+    "section": "(III) Texto: ¿qué narices es esto de Markdown?",
+    "text": "(III) Texto: ¿qué narices es esto de Markdown?\n\n\nEs un lenguaje de marcas diseñado para escribir fácilmente para la web y que también sea fácilmente legible.\n\n\n\n\nMarkdown es un lenguaje estoico para escribir (para la web)\n\n\n\n\nMarkdown fue creado por John Grueber y Aaron Swartz en 2004. Para saber más sobre Aaron Swartz puedes ver este documental.\nSe creó con el objetivo de crear un formato de texto fácil de escribir y leer y que se convirtiera fácilmente en .html\n\nMarkdown is a text-to-HTML conversion tool for web writers.\n\n\n\n\n\nLa ventaja de escribir en Markdown es que es un lenguaje muy fácil de aprender y que, como está basado en un formato de texto plano, es y será compatible con la mayoría de plataformas.\n\n\n\n\nEn este otro tutorial de Markdown, se puede leer lo siguiente:\n\n\nMarkdown is a way to write for the web. It’s written in what nerds like to call “plaintext”. Plaintext is just the regular alphabet, with a few familiar symbols. Unlike cumbersome word processing applications, text written in Markdown can be easily shared between computers, mobile phones, and people. It’s quickly becoming the writing standard for academics, scientists, writers, and many more. Websites like GitHub and reddit use Markdown to style their comments."
+  },
+  {
+    "objectID": "slides/03_aprendiendo_Qmd.html#iii-texto-ideas-básicas-otra-vez",
+    "href": "slides/03_aprendiendo_Qmd.html#iii-texto-ideas-básicas-otra-vez",
+    "title": "Aprendiendo a escribir en QMD",
+    "section": "(III) Texto: ideas básicas (otra vez)",
+    "text": "(III) Texto: ideas básicas (otra vez)\n\nEn los documentos .qmd, “todo” lo que no es el yaml o un chunk, es texto.\nEn Quarto el texto se escribe en Markdown\nComo Quarto se basa en pandoc, se usa “Pandoc`s markdown”, una versión revisada y extendida de la propuesta original de Grueber\n\n\n\nTienes una fantástica guía de Markdown aquí, y aquí una cheatsheet."
+  },
+  {
+    "objectID": "slides/03_aprendiendo_Qmd.html#iii-texto-dando-formato-al-texto",
+    "href": "slides/03_aprendiendo_Qmd.html#iii-texto-dando-formato-al-texto",
+    "title": "Aprendiendo a escribir en QMD",
+    "section": "(III) Texto: Dando formato al texto",
+    "text": "(III) Texto: Dando formato al texto\n\n\nSintaxis básica de markdown\n\n\n\n\n\n\n\n\nSi escribes esto:\nSe verá esto:\n\n\n\n\ntexto normal\ntexto normal\n\n\ntexto en **negrita**\ntexto en negrita\n\n\ntexto en *cursiva*\ntexto en cursiva\n\n\nun superíndice^2^\nun superíndice2\n\n\nun subíndice~2~\nun subíndice2\n\n\npalabras ~~tachadas~~\npalabras tachadas\n\n\n`verbatim code`\nverbatim code\n\n\n&gt; un blockquote\n\nun blockquote"
+  },
+  {
+    "objectID": "slides/03_aprendiendo_Qmd.html#iii-texto-dando-formato-al-texto-1",
+    "href": "slides/03_aprendiendo_Qmd.html#iii-texto-dando-formato-al-texto-1",
+    "title": "Aprendiendo a escribir en QMD",
+    "section": "(III) Texto: Dando formato al texto",
+    "text": "(III) Texto: Dando formato al texto\n\nMás posibilidades:\n\n\n\n\n\n\n\n\nSi escribes esto:\nSe verá esto:\n\n\n\n\n[texto subrayado]{.underline}\ntexto subrayado\n\n\n&lt;mark&gt;texto destacado&lt;/mark&gt;\ntexto destacado\n\n\n[En versalita]{.smallcaps}\nEn versalita\n\n\nel emoji :joy:\nel emoji 😂\n\n\n&gt; :warning: **Cuidado!!** no\n\n⚠️ Cuidado!! no\n\n\n\n\n\n\n\n\n\n(**) Los emojis mejor desde el editor visual o copiándolos, por ejemplo, desde aquí o desde la Emojipedia"
+  },
+  {
+    "objectID": "slides/03_aprendiendo_Qmd.html#iii-texto-notas-al-píe",
+    "href": "slides/03_aprendiendo_Qmd.html#iii-texto-notas-al-píe",
+    "title": "Aprendiendo a escribir en QMD",
+    "section": "(III) Texto: Notas al píe",
+    "text": "(III) Texto: Notas al píe\nHay 2 sintaxis: inline y no-inline. En las 2 se usa la marca ^[]\n\n\n\nIn-line: se llama in-line porque el contenido de la nota al pie se entremezcla con el contenido principal del texto. El contenido de la nota al pie se pone dentro de los corchetes. Esta es la sintaxis que yo uso. Abajo tienes un ejemplo:\n\nQuiero incluir una nota al pie en esta frase, concretamente aquí^[Este es el contenido de la nota al pie, \nComo ves el contenido de la nota al pie va dentro de los corchetes], para poder explicar algo con más detalle.\n\n\n\n\nNo-inline: el contenido de la nota al pie no va dentro del corchete sino en una linea aparte. Abajo tienes un ejemplo:\n\nAquí voy a poner otra nota al píe [^1] , y otra más aquí[^b]\n\n[^1]: Esta otra sintaxis me gusta menos. Pero igual es más clara\n\n[^b]: No sufras por la numerácion. lo hará Pandoc!!\n\n\n\n\nDocumentación oficial aquí"
+  },
+  {
+    "objectID": "slides/03_aprendiendo_Qmd.html#iii-texto-títulos",
+    "href": "slides/03_aprendiendo_Qmd.html#iii-texto-títulos",
+    "title": "Aprendiendo a escribir en QMD",
+    "section": "(III) Texto: Títulos",
+    "text": "(III) Texto: Títulos\n\n\n\n\n\n\n\n\n\nMarkdown:\nSe verá esto:\n\n\n\n\n# Header 1\nHeader 1\n\n\n## Header 2\nHeader 2\n\n\n### Header 3\nHeader 3\n\n\n#### Header 4\nHeader 4\n\n\n##### Header 5\nHeader 5\n\n\n###### Header 6\nHeader 6"
+  },
+  {
+    "objectID": "slides/03_aprendiendo_Qmd.html#iii-texto-creando-listas",
+    "href": "slides/03_aprendiendo_Qmd.html#iii-texto-creando-listas",
+    "title": "Aprendiendo a escribir en QMD",
+    "section": "(III) Texto: Creando listas",
+    "text": "(III) Texto: Creando listas\n\n\nEn las listas es crucial la indentación (2 espacios). Documentación aquí, aquí y aquí"
+  },
+  {
+    "objectID": "slides/03_aprendiendo_Qmd.html#iii-texto-creando-listas-1",
+    "href": "slides/03_aprendiendo_Qmd.html#iii-texto-creando-listas-1",
+    "title": "Aprendiendo a escribir en QMD",
+    "section": "(III) Texto: Creando listas",
+    "text": "(III) Texto: Creando listas\n\n\n\nLista ordenada\n\n1. First item\n2. Second item\n3. Third item  \n    3.1. Indented item  \n    3.2. Indented item  \n4. Fourth item \n\n\nLista no ordenada\n\n- First item\n- Second item\n- Third item\n    - Indented item\n    - Indented item\n- Fourth item \n\n\n\n\nAquí puedes ver muchos más ejemplos."
+  },
+  {
+    "objectID": "slides/03_aprendiendo_Qmd.html#iii-texto-párrafos",
+    "href": "slides/03_aprendiendo_Qmd.html#iii-texto-párrafos",
+    "title": "Aprendiendo a escribir en QMD",
+    "section": "(III) Texto: Párrafos",
+    "text": "(III) Texto: Párrafos\n\n\nPara crear un nuevo párrafo has de dejar una (o más) lineas en blanco\n\n\n\n\nPara crear más espacio entre párrafos; es decir, añadir una linea en blanco extra, podemos usar uno o varios: &lt;br&gt; o &lt;br&gt;&lt;br&gt;\n\n\n\n\nDentro de un párrafo\n\nSi dentro de un párrafo necesitas que una frase empiece en otra linea entonces, has de dejar 2 (o más) espacios al final; en inglés esto se conoce como un “hard line break”\n\n\n\n\n\nExtensión: más formas de crear “hard line breaks”\n\n\n\nEl “hard line break” también se puede hacer con &lt;br&gt;\nEl “hard line break” también se puede hacer con \"\\\" seguido de nueva linea.\nEn una tabla, \\ es la única forma de crear un salto de línea, ya que se ignoran los espacios finales en las celdas."
+  },
+  {
+    "objectID": "slides/03_aprendiendo_Qmd.html#iii-texto-lineas-espacios",
+    "href": "slides/03_aprendiendo_Qmd.html#iii-texto-lineas-espacios",
+    "title": "Aprendiendo a escribir en QMD",
+    "section": "(III) Texto: Lineas, espacios, …",
+    "text": "(III) Texto: Lineas, espacios, …\n\n\nSi en una linea de texto hay 2 espacios o más, estos se reducen a un espacio.\n\n\n\n\n\n\nExtensión: ¿cómo dejar más espacio entre palabras?\n\n\n\nPor lo tanto, si quieres separar palabras con más de un espacio, tendrás que usar lo que en html se conoce como “entities”: &ensp;(2 espacios) y &emsp;(4 espacios).\nOtra forma sería con la etiqueta &lt;pre&gt;.\n\n&lt;pre&gt;\nHola             amigos   !!!!\n&lt;/pre\n\n\n\n\n\n\n\n\n\nExtensión: un detalle que a veces es útil\n\n\n\nLos espacios al principio de las lineas que empiezan con | se mantienen (🤓)\n\n\n\n\n\n\n\n\n\n\nExtensión: “non-breaking spaces”\n\n\n\nLos “non-breaking spaces” se utilizan para asegurarte de que las palabras que están a los lados del non-breaking-space no se separen en lineas diferentes.\nEn markdown, puedes insertar un “non-breaking-space” con CRTL + SPACE. Documentación oficial para Quarto aquí\nUn non-breaking space, también conocido como espacio duro, es un carácter especial utilizado en tipografía y maquetación de textos para indicar un espacio que no debe ser separado en líneas diferentes. . Son útiles en casos donde se quiere mantener unidas palabras o elementos que deben permanecer juntos visualmente, por ejemplo en números de teléfono, siglas, fechas, etc …\nEn HTML, se representa con el código &nbsp; o &#160;"
+  },
+  {
+    "objectID": "slides/03_aprendiendo_Qmd.html#iv-más-elementos-hyper-links",
+    "href": "slides/03_aprendiendo_Qmd.html#iv-más-elementos-hyper-links",
+    "title": "Aprendiendo a escribir en QMD",
+    "section": "(IV) Más elementos: hyper-links",
+    "text": "(IV) Más elementos: hyper-links\n\n\n\n\n Si escribes esto:\nAl procesarse se verá esto:\n\n\n\n\n&lt;https://quarto.org&gt;\nhttps://quarto.org\n\n\n [Web de Quarto](https://quarto.org)\nWeb de Quarto\n\n\n\n\n\n\n\n\n\n\n\n\nExtensión: Cómo hacer que los links se abran en nueva página. Documentación oficial aquí\n\n\nSi quieres que la página enlazada se abra en otra pestaña del navegador puedes:\n\nAñadir {target=\"_blank\"}, con lo que nuestros enlaces quedarían como:\n\n[Web de Quarto](https://quarto.org){target=\"_blank\"}\n\n\nEspecificarlo en el YAML con link-external-newwindow: true\n\n\n\nA partir de la versión 1.3 de Quarto también se permite con los enlaces internos de una web; es decir, con los enlaces que figuran en el fichero _quarto.yml. Puedes leerlo aquí. Solo hay que especificar en el fichero _quarto.yml la opción target: _blank. Por ejemplo:\n\nwebsite:\nnavebar:\n  right:\n    - text: \"Materiales\"\n      href: materiales.qmd        \n    - text: \"Blog\"\n      href: blog.qmd  \n      target: _blank"
+  },
+  {
+    "objectID": "slides/03_aprendiendo_Qmd.html#iv-más-elementos-links-internos",
+    "href": "slides/03_aprendiendo_Qmd.html#iv-más-elementos-links-internos",
+    "title": "Aprendiendo a escribir en QMD",
+    "section": "(IV) Más elementos: links-internos",
+    "text": "(IV) Más elementos: links-internos\n\nEn un documento .qmd puede haber links a secciones del propio documento. Por ejemplo, podemos poner un “internal link” a una sección creada con ## Mis conclusiones con: [Link a Mis conclusiones](#mis-conclusiones)\n\nDocumentación oficial para las anchor-sections aquí y documentación de Pandoc aquí\n\n\n\n\nSi lo que queremos es poner un link a otra página (de la propia web o blog) tendremos que hacerlo por ejemplo con:\n\n[link a una página en la misma carpeta](otra-pagina.qmd)\n\n[link a una página que está en una subcarpeta](sub-carpeta/otra-pagina.qmd)\n\n[página en una subcarpeta si mi página está en otra subcarpeta](../otra-sub-carpeta/otra-pagina.qmd)\n\n\nSi además quieres que el link se abra en otra pestaña, ya sabes que puedes añadir {target=\"_blank\"}"
+  },
+  {
+    "objectID": "slides/03_aprendiendo_Qmd.html#iv-más-elementos-imágenes",
+    "href": "slides/03_aprendiendo_Qmd.html#iv-más-elementos-imágenes",
+    "title": "Aprendiendo a escribir en QMD",
+    "section": "(IV) Más elementos: Imágenes",
+    "text": "(IV) Más elementos: Imágenes\n\nDocumentación oficial aquí\n\n![](imagenes/imagen_ababol.jpg){fig-align=\"left\" width=\"12%\"}\n\n\n\n\n\n![](./imagenes/imagen_ababol.jpg){ fig-align=\"right\" width=\"20%\"}\n\n\n\n\n\n\nPuedes ver como hacer composiciones de imágenes en el blog, concretamente aquí, además de cuestiones como el tamaño y aspecto de las imágenes."
+  },
+  {
+    "objectID": "slides/03_aprendiendo_Qmd.html#iv-más-elementos-imágenes-generadas-con-código",
+    "href": "slides/03_aprendiendo_Qmd.html#iv-más-elementos-imágenes-generadas-con-código",
+    "title": "Aprendiendo a escribir en QMD",
+    "section": "(IV) Más elementos: Imágenes generadas con código",
+    "text": "(IV) Más elementos: Imágenes generadas con código\n\nDocumentación para fijar el tamaño aquí\n\n\n\n```{r}\n#| label: fig-penguins-01\n#| fig-cap: Gráfico con datos de pingüinos\n#| fig-width: 7\n#| fig-asp: 0.618\n#| output-location: column-fragment\n#| code-line-numbers: \"2|3|4-5|6|7\"\nlibrary(tidyverse)\nlibrary(palmerpenguins)\npp &lt;- ggplot(penguins,aes(\n    x = bill_length_mm, y = bill_depth_mm,\n    color = species, shape = species)) +  \n  geom_point() +\n  theme_minimal() +\n  labs(x = \"Bill length (mm)\", y = \"Bill depth (mm)\")\n\npp\n```\n\n\n\n\n\n\n\n\nFigura 1: Gráfico con datos de pingüinos"
+  },
+  {
+    "objectID": "slides/03_aprendiendo_Qmd.html#iv-más-elementos-tablas-con-markdown",
+    "href": "slides/03_aprendiendo_Qmd.html#iv-más-elementos-tablas-con-markdown",
+    "title": "Aprendiendo a escribir en QMD",
+    "section": "(IV) Más elementos: Tablas con Markdown",
+    "text": "(IV) Más elementos: Tablas con Markdown\n\nDocumentación oficial de Quarto para tablas (creadas con sintaxis Markdown) aquí\n\n\n\n\n\nSi escribes esto:\n\n| Default | Left | Right | Center |\n|---------|:-----|------:|:------:|\n| 12      | 12   |    12 |   12   |\n| 123     | 123  |   123 |  123   |\n| 1       | 1    |     1 |   1    |\n\n: Título de la tabla\n\n\n\nGenerará lo siguiente:\n\nTítulo de la tabla\n\n\nDefault\nLeft\nRight\nCenter\n\n\n\n\n12\n12\n12\n12\n\n\n123\n123\n123\n123\n\n\n1\n1\n1\n1\n\n\n\n\n\n\n\n\n\nComo ves no es fácil-fácil generar tablas con Mardown pero, puedes usar un generador de tablas, por ejemplo este o este. También se puede usar el editor visual de Rstudio"
+  },
+  {
+    "objectID": "slides/03_aprendiendo_Qmd.html#iv-más-elementos-tablas-con-r",
+    "href": "slides/03_aprendiendo_Qmd.html#iv-más-elementos-tablas-con-r",
+    "title": "Aprendiendo a escribir en QMD",
+    "section": "(IV) Más elementos: Tablas con R",
+    "text": "(IV) Más elementos: Tablas con R\n\nR tiene muchos paquetes para hacer tablas.\nPor ejemplo:   knitr::kable(df), o  gt::gt(df), o   DT::datatable(df) …\n\n\n\nUn ejemplo sencillo:\n\n\nhead(iris) |&gt;  gt::gt()\n\n\n\n\n\n\n\n\nSepal.Length\nSepal.Width\nPetal.Length\nPetal.Width\nSpecies\n\n\n\n\n5.1\n3.5\n1.4\n0.2\nsetosa\n\n\n4.9\n3.0\n1.4\n0.2\nsetosa\n\n\n4.7\n3.2\n1.3\n0.2\nsetosa\n\n\n4.6\n3.1\n1.5\n0.2\nsetosa\n\n\n5.0\n3.6\n1.4\n0.2\nsetosa\n\n\n5.4\n3.9\n1.7\n0.4\nsetosa\n\n\n\n\n\n\n\n\n\n\nSi te interesa el tema de las tablas puedes visitar esto o esto o esto"
+  },
+  {
+    "objectID": "slides/03_aprendiendo_Qmd.html#iii-más-elementos-ecuaciones",
+    "href": "slides/03_aprendiendo_Qmd.html#iii-más-elementos-ecuaciones",
+    "title": "Aprendiendo a escribir en QMD",
+    "section": "(III) Más elementos: Ecuaciones",
+    "text": "(III) Más elementos: Ecuaciones\n\nMarkdown admite ecuaciones escritas en Latex:\n\nsi van entre un $ serán ecuaciones inline\n$$ para ecuaciones independientes.\n\n\n\n\n\n\n\n\n\n\nMarkdown Syntax\nOutput\n\n\n\n\necuación inline: $E = mc^{2}$\necuación inline: \\(E=mc^{2}\\)\n\n\necuación independiente:\n\n$$E = mc^{2}$$\necuación independiente:\n\\[E = mc^{2}\\]\n\n\n\n\n\n\nTienes editores online de ecuaciones en Latex aquí y aquí. Puedes ver algunos ejemplos de ecuaciones escritas en Latex aquí\nAdemás, podemos reusar el código Latex de ecuaciones en la web (si se ha usado MathJax). Por ejemplo aquí"
+  },
+  {
+    "objectID": "slides/03_aprendiendo_Qmd.html#editor-visual-en-rstudio",
+    "href": "slides/03_aprendiendo_Qmd.html#editor-visual-en-rstudio",
+    "title": "Aprendiendo a escribir en QMD",
+    "section": "Editor Visual en RStudio",
+    "text": "Editor Visual en RStudio\n\nDesde 2020, concretamente desde la versión v.1.4, RStudio dispone de un editor visual\nEl editor visual facilita la inserción de los elementos que hemos ido viendo durante el curso. Documentación oficial aquí y aquí\n\n\n\n\n\nHasta ahora hemos trabajado en nuestros QMD en formato “Source”, pero podemos cambiar el modo de edición a “Visual”, solo hay que seleccionar la pestaña adecuada:"
+  },
+  {
+    "objectID": "slides/03_aprendiendo_Qmd.html#editor-visual-modo-de-edición",
+    "href": "slides/03_aprendiendo_Qmd.html#editor-visual-modo-de-edición",
+    "title": "Aprendiendo a escribir en QMD",
+    "section": "Editor Visual: Modo de edición",
+    "text": "Editor Visual: Modo de edición\n\nEdición en modo Visual:En modo Source:"
+  },
+  {
+    "objectID": "slides/03_aprendiendo_Qmd.html#editor-visual-barra-de-herramientas",
+    "href": "slides/03_aprendiendo_Qmd.html#editor-visual-barra-de-herramientas",
+    "title": "Aprendiendo a escribir en QMD",
+    "section": "Editor Visual: Barra de herramientas",
+    "text": "Editor Visual: Barra de herramientas\nLa barra de herramientas del editor visual facilita el acceso a la mayoría de elementos que podemos insertar en nuestros documentos QMD:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEsto facilita la entrada a los documentos QMD\nEn algunos casos como imágenes y ciertas tablas, solo hay que arrastrar (o copiar y pegar) el contenido y aparecerá en nuestro documento fuente con la sintaxis adecuada.\nAlgunas referencias: Exploring RStudio’s Visual Markdown Editor, RStudio: el Nuevo Editor Visual"
+  },
+  {
+    "objectID": "slides/zz_sobre-mi.html#sobre-mi",
+    "href": "slides/zz_sobre-mi.html#sobre-mi",
+    "title": "Escribiendo con R y Quarto",
+    "section": "Sobre mi",
+    "text": "Sobre mi\n\n\nProfesor en la UV: Econometría e Intro a la Ciencia de datos con R\nEntusiasta de R\n\n\n\nNo soy “bloguero”, más bien soy creador y liquidador de blogs:\n\n2015, R & flowers , con Jekyll\n2018, R & flowers V, con Hugo y blogdown\n2020, R & flowers (o casi), con radix\n2021, pedro.j.perez blog’s, con Distill\n2022, R & flowers, con Quarto\n\n\n\n\n\nSlides hechas con Quarto para las XII Jornadas de Usuarios de R"
+  },
+  {
+    "objectID": "slides/imagenes/tt_01/ejemplo_2.html",
+    "href": "slides/imagenes/tt_01/ejemplo_2.html",
+    "title": "Documentos Rmarkdown (.Rmd)",
+    "section": "",
+    "text": "Código# se pueden poner comentarios\n# de la forma habitual\naa &lt;- c(1, 4, 9, 16, 25)\nsqrt(aa)\n\n[1] 1 2 3 4 5\n\n\n\nCódigo2 + 2\n\n\n\nCódigo2 + 2"
+  },
+  {
+    "objectID": "slides/06_mas_cosas.html#con-quarto-se-pueden-hacer-muuuuchas-más-cosas",
+    "href": "slides/06_mas_cosas.html#con-quarto-se-pueden-hacer-muuuuchas-más-cosas",
+    "title": "Más cosas con Quarto",
+    "section": "Con Quarto se pueden hacer muu🙀uuchas más cosas!!!",
+    "text": "Con Quarto se pueden hacer muu🙀uuchas más cosas!!!\n\n\nVeamos algunas de ellas"
   },
   {
     "objectID": "slides/02_primeros_pasos.html#documentos-reproducibles",

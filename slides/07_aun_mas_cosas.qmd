@@ -76,7 +76,7 @@ Veamos algunas de ellas
 
 . . . 
 
-- Puedes ver el **listado de Journals** [aquí](https://quarto.org/docs/journals/) y [aquí](https://github.com/mcanouil/awesome-quarto#journals). La documentación oficial la tienes [aquí](https://quarto.org/docs/journals/formats.html)
+- Puedes ver el **listado de Journals** [aquí](https://quarto.org/docs/journals/), [aquí](https://quarto.org/docs/extensions/listing-journals.html) y [aquí](https://github.com/mcanouil/awesome-quarto#journals). La documentación oficial la tienes [aquí](https://quarto.org/docs/journals/formats.html)
 
 . . . 
 
