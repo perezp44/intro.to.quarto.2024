@@ -396,15 +396,87 @@ Kazuharu lo explica muy bien, pero:
 
 ###  7.5 Trabajando con documentos WORD
 
+- A veces necesitamos trabajar con documentos Word 😿 [... pero wait, **Quarto** nos puede ayudar con eso también 😎]{.fragment .fade-up}
+
+. . .
+
+- La documentación oficial de Quarto sobre cómo trabajar con **documentos Word** la tienes [aquí](https://quarto.org/docs/output-formats/ms-word.html)
+
+- Si no nos gusta el formato predeterminado de salida del `.docx` en Quarto, **podemos usar una plantilla/template**. Se explica [aquí](https://quarto.org/docs/output-formats/ms-word-templates.html)
+
+
+. . . 
+
+::: {.callout-warning collapse="true" appearance="default" icon="false"}
+#### Extensión: Más sobre `.docx` en Quarto
+
+Si queremos hacer otro tipo de cosas con documentos `.docx` podemos usar las extensiones: 
+
 -   [officedown](https://davidgohel.github.io/officedown/): facilita el formateo de informe de Word desde R. [Aquí](https://ardata-fr.github.io/officeverse/) un libro y dos posts: [aquí](https://www.business-science.io/code-tools/2024/02/24/make-microsoft-word-reports-officedown.html), otro [aquí](https://www.apreshill.com/blog/2021-07-officedown/)
 
-<br>
 
 -   [officer](https://davidgohel.github.io/officer/): The officer package lets R users manipulate Word (.docx) and PowerPoint (\*.pptx) documents. In short, one can add images, tables and text into documents from R.
 
+-   [docxtractr](https://gitlab.com/hrbrmstr/docxtractr): Extract Data Tables and Comments from Microsoft Word Documents. [Aquí](https://www.brodrigues.co/blog/2023-03-18-docxtractr/) un post sobre su uso.
+:::
+
+
+###  7.5 Trabajando con documentos WORD
+
 <br>
 
--   [docxtractr](https://gitlab.com/hrbrmstr/docxtractr): Extract Data Tables and Comments from Microsoft Word Documents. [Aquí](https://www.brodrigues.co/blog/2023-03-18-docxtractr/) un post sobre su uso.
+::: {.callout-important icon="false"}
+#### Tarea: Creando `.docx` desde Quarto
+
+::: panel-tabset
+## Tarea 7.5.a
+
+- Genera un `.docx` desde Quarto
+
+## Solución 7.5.a
+
+Por ejemplo:
+
+
+```yaml
+---
+title: "My Document"
+format:
+  docx:
+    toc: true
+    number-sections: true
+    highlight-style: github
+---
+```
+ 
+## Tarea  7.5.b
+
+- Genera un `.docx` desde Quarto, pero usando una plantilla
+
+## Solución 7.5.b
+
+Por ejemplo:
+
+```yaml
+format:
+  docx:
+    reference-doc: custom-reference-doc.docx
+```
+
+<br>
+
+- Sí, pero ¿cómo se hace una plantilla? En la terminal hay que:
+
+```bash
+quarto pandoc -o custom-reference-doc.docx \
+   --print-default-data-file reference.docx
+
+```
+
+:::
+:::
+
+
 
 
 
@@ -419,7 +491,7 @@ Veamos algunas de ellas
 
 
 
-### Diagramas (con Mermaid y Graphviz)
+### 7.6 Diagramas (con Mermaid y Graphviz)
 
 -   Quarto permite hacer **diagramas** con [Mermaid](https://mermaid.js.org/#/) y [Graphviz](https://graphviz.org/). Lo que, según la [documentación oficial](https://quarto.org/docs/authoring/diagrams.html#mermaid-theming), posibilita la creación de flowcharts, sequence diagrams, state diagrams, Gantt charts, and more **usando una sintaxis** (de texto) **similar a Markdown**.
 
@@ -468,7 +540,7 @@ flowchart LR
 
 ---
 
-##### Diagramas (con Mermaid y Graphviz)
+##### 7.6 Diagramas (con Mermaid y Graphviz)
 
 
 -   Otro ejemplo
@@ -501,7 +573,7 @@ Future task2              :         des4, after des3, 5d
 <br>
 
 
-### Countdown
+### 7.7 Countdown
 
 -   Incluir un **reloj para hacer cuentas atrás** cuando pones un ejercicio a resolver en clase. Documentación [aquí](https://pkg.garrickadenbuie.com/countdown/#1)
 
@@ -523,7 +595,7 @@ countdown::countdown(minutes = 0, seconds = 44)
 - [Aquí](https://github.com/produnis/quarto-timer) otra extensión con otro formato de timer
 
 
-### Crear un glosario de términos
+### 7.8 Crear un glosario de términos
 
 -   El paquete [glossary](https://debruine.github.io/glossary/) permite crear un glosario de términos al final de un documento `.html` y referenciar términos del glosario en el texto.
 
@@ -563,7 +635,7 @@ glossary::glossary_style("purple", "underline")
 
 <br>
 
-### Crear botones de descarga
+### 7.9 Crear botones de descarga
 
 -   Se trata de crear unos botoncitos (chulos!!) en nuestra web que sirvan para descargarse los documentos (o recursos) que queramos
 
@@ -577,7 +649,7 @@ glossary::glossary_style("purple", "underline")
 
 -   Para ello vamos a usar la documentación de la extensión y [este post](../blog/70_botoncitos-web.qmd){target="_blank"} del blog del curso.
 
-### Extensiones
+### 7.10 Extensiones
 
 -   En el curso se habla de las extensiones. En las slides nº 5, concretamente [aquí](https://perezp44.github.io/intro.to.quarto/slides/05_primer_web.html?q=extens#/extensiones) y en [este post](../blog/23_extensiones.qmd#listado-de-extensiones){target="_blank"} y en [este otro](/blog/70_botoncitos-web.html){target="_blank"}
 
@@ -590,7 +662,7 @@ glossary::glossary_style("purple", "underline")
 
 <br>
 
-### Extensiones: algunas extensiones chulas:
+### 7.10 Extensiones: algunas extensiones chulas
 
 -   [code-fullscreen](https://github.com/shafayetShafee/code-fullscreen): permite que al pinchar en un **bloque de código**, este pase a estar **a pantalla completa**
 
@@ -611,7 +683,7 @@ glossary::glossary_style("purple", "underline")
 -   [quarto-animate](https://github.com/mcanouil/quarto-animate): permite crear unas animaciones muy "aparatosas". Puedes ver un ejemplo [aquí](https://m.canouil.dev/quarto-animate/)
 
 
-### Trucos [CSS](https://www.w3schools.com/css/) y [SASS](https://sass-lang.com/)
+### 7.11 Trucos [CSS](https://www.w3schools.com/css/) y [SASS](https://sass-lang.com/)
 
 <br>
 
@@ -629,7 +701,7 @@ glossary::glossary_style("purple", "underline")
 
 Ejemplos que se me han quedado en el tintero (quizás para otra edición)
 
-### Runing Stata in Quarto documents
+### 7.12 Runing Stata in Quarto documents
 
 Tampoco lo he probado, entre otras cosas porque no tengo Stata instalado, pero :
 
@@ -647,7 +719,7 @@ Tampoco lo he probado, entre otras cosas porque no tengo Stata instalado, pero :
 
 -   También se puede con R: [Statamarkdown](https://rpubs.com/quarcs-lab/stata-from-Rstudio) y [RStata](https://ignacioriveros1.github.io/r/2020/03/22/r_and_stata.html)
 
-### Runing SPSS in Quarto documents
+### 7.13 Runing SPSS in Quarto documents
 
 <br>
 
@@ -663,11 +735,11 @@ No he visto que sea posible correr SPSS code dentro de R, pero para que tenemos 
 
 -   [expss](https://cran.r-project.org/web/packages/expss/)
 
-### Shiny en Quarto
+### 7.14 Shiny en Quarto
 
 -   <https://appsilon.com/interactive-quarto-report-translation-tutorial/#final>
 
-### Queries to bibliographc databases
+### 7.15 Queries to bibliographc databases
 
 -   [**openalexR**](https://docs.ropensci.org/openalexR/): "helps you interface with the [OpenAlex](https://docs.ropensci.org/openalexR/) API to retrieve bibliographic infomation about publications, authors, venues, institutions and **concepts**"
 
@@ -682,16 +754,16 @@ No he visto que sea posible correr SPSS code dentro de R, pero para que tenemos 
 -   [RISmed](https://cran.r-project.org/web/packages/RISmed/index.html): A set of tools to extract bibliographic content from the National Center for Biotechnology Information (NCBI) databases, including PubMed.
 
 
-### Algunos ejemplitos
+### 7.15 Algunos ejemplitos
 
--   [Quarto sketchy html](https://github.com/schochastics/quarto-sketchy-html)
+- [Quarto sketchy html](https://github.com/schochastics/quarto-sketchy-html)
 
--   [Slides chulas](https://mine-cetinkaya-rundel.github.io/2022-repro-toronto/#/title-slide) pero sencillas de Mine. El repo [aquí](https://github.com/mine-cetinkaya-rundel/2022-repro-toronto)
+- [Slides chulas](https://mine-cetinkaya-rundel.github.io/2022-repro-toronto/#/title-slide) pero sencillas de Mine. El repo [aquí](https://github.com/mine-cetinkaya-rundel/2022-repro-toronto)
 
--   Un ejemplo de slides chulas: [Intro to Quarto](https://ivelasq.quarto.pub/intro-to-quarto/), el repo [aquí](https://github.com/ivelasq/2022-10-27_intro-to-quarto).
+- Un ejemplo de slides chulas: [Intro to Quarto](https://ivelasq.quarto.pub/intro-to-quarto/), el repo [aquí](https://github.com/ivelasq/2022-10-27_intro-to-quarto).
 
--   Un **póster** con [posterdown](https://github.com/brentthorne/posterdown) o con [pagedown::poster_relaxed](https://github.com/rstudio/pagedown#resume-pagedownhtml_resume).
+- Un **póster** con [posterdown](https://github.com/brentthorne/posterdown) o con [pagedown::poster_relaxed](https://github.com/rstudio/pagedown#resume-pagedownhtml_resume).
 
--   **Business cards** con [pagedown::business_card](https://github.com/rstudio/pagedown#business-cards-pagedownbusiness_card)
+- **Business cards** con [pagedown::business_card](https://github.com/rstudio/pagedown#business-cards-pagedownbusiness_card)
 
--   **"Cuadros de mando"** con [flexdashboard](https://pkgs.rstudio.com/flexdashboard/): tienes algunos ejemplos [aquí](https://pkgs.rstudio.com/flexdashboard/articles/examples.html). Permite [distintos layouts](https://pkgs.rstudio.com/flexdashboard/articles/layouts.html), incluidos los [storyboards](https://pkgs.rstudio.com/flexdashboard/articles/using.html#storyboards), por ejemplo [este](https://beta.rstudioconnect.com/jjallaire/htmlwidgets-showcase-storyboard/htmlwidgets-showcase-storyboard.html)
+- **"Cuadros de mando"** con [flexdashboard](https://pkgs.rstudio.com/flexdashboard/): tienes algunos ejemplos [aquí](https://pkgs.rstudio.com/flexdashboard/articles/examples.html). Permite [distintos layouts](https://pkgs.rstudio.com/flexdashboard/articles/layouts.html), incluidos los [storyboards](https://pkgs.rstudio.com/flexdashboard/articles/using.html#storyboards), por ejemplo [este](https://beta.rstudioconnect.com/jjallaire/htmlwidgets-showcase-storyboard/htmlwidgets-showcase-storyboard.html)
