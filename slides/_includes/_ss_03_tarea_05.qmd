@@ -24,13 +24,15 @@ format(Sys.Date(), "%d %B, %Y")
 ```
 :::
 
-```{r}
-#| echo: false
-
-#- https://bookdown.org/yihui/rmarkdown-cookbook/update-date.html
-```
 
 <br>
+
+- Si quieres entender cómo funciona el código, puedes consultarlo [aquí](https://campus.datacamp.com/courses/intermediate-r/chapter-5-utilities?ex=14) o [aquí](https://bookdown.org/yihui/rmarkdown-cookbook/update-date.html)
+
+
+<br>
+
+
 
 
 :::

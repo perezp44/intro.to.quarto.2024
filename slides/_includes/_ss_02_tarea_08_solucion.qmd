@@ -41,3 +41,17 @@ website:
 
 :::
 :::
+
+
+::: {.fragment}
+::: {.callout-important icon="false"}
+#### Tarea 2.8d: 
+
+- Prueba a cambiar el color de la barra de navegación. [Aquí](https://htmlcolorcodes.com/es/) o [aquí](https://www.color-hex.com/) puedes encontrar el código de los colores en hexadecimal.
+
+- Prueba a añadir un icono a la izquierda de la barra de navegación. Puedes usar los iconos de [Bootstrap](https://icons.getbootstrap.com/)
+
+- Prueba a añadir un poco de texto nuevo en index.qmd
+
+:::
+:::

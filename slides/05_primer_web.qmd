@@ -1005,7 +1005,7 @@ linestretch: 2.3          #- tamaño entre las lineas (1.6 es lo "normal")
 . . .
 
 
-|          - Un post que lo explica [aquí](){target="_blank"}
+|          - Un post que lo explica [aquí](../blog/72_publicando-en-UV.qmd){target="_blank"}
 
 
 
