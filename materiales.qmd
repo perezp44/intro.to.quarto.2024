@@ -43,7 +43,7 @@ Si quieres, puedes descargar todas las slides en formato html [aquí](./recursos
 
 En clase también usaremos dos Qproject's:
 
-- El **primer Qproject**, llamado  `Qproj_01_eurovision` podrás descargarlo en breve [aquí](./recursos/Qproj_01_eurovision.zip){target="_blank"}.
+- El **primer Qproject**, llamado  `Qproj_01_eurovision` puedes descargarlo [aquí](./recursos/Qproj_01_eurovision.zip){target="_blank"}.
 
     (Al pinchar, se te descargará una archivo comprimido llamado `Qproj_01_eurovision.zip`. Descomprime el archivo y así tendrás en tu ordenador el Qproject con los materiales (scripts, ejemplos, datos, ...) que utilizaremos en clase.)
 

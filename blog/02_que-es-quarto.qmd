@@ -47,10 +47,13 @@ R se está convirtiendo en el software estadístico de referencia en la mayoría
 Creo que en la actualidad R es el mejor programa para iniciarse y hacer análisis de datos. Si no me acabas de creer, o quieres leer algo sobre la importancia y capacidades de R puedes hacerlo [aquí](http://nadaesgratis.es/fernandez-villaverde/r) o [aquí](https://www.r-bloggers.com/why-r-is-the-best-data-science-language-to-learn-today/), o [aquí](https://shirinsplayground.netlify.com/2017/09/ode_to_r/) o más recientemente [aquí](https://www.eoda.de/en/wissen/blog/r-python-julia-data-science-2019). Elmo lo tiene super-claro: 
 
 
-```{r, echo = FALSE, fig.asp = 7/9}
+```{r, echo = FALSE, eval = FALSE, fig.asp = 7/9}
 library(tweetrmd)   #- devtools::install_github("gadenbuie/tweetrmd")
 tweetrmd::tweet_embed("https://twitter.com/minebocek/status/1174382623499661312", theme = "dark", align = "center", dnt = TRUE, plain = TRUE, maxwidth = 300)
 ```
+
+[![Elmo prefiere R](./imagenes/img_02.png)](https://twitter.com/minebocek/status/1174382623499661312)
+
 
 Si te gustan los rankings de lenguajes de programación, [aquí](https://redmonk.com/sogrady/2020/02/28/language-rankings-1-20/) tienes uno, de enero de 2020, en el Phyton está en segundo lugar mientras que R está en el puesto 13. Esto es lo que que se decía de R:
 
@@ -74,9 +77,13 @@ Para hacerte una idea de las capacidades de R puedes visitar:
 ¿Aprender R es complicado? No, bueno, ya hablaré de eso en clase. No mires el siguiente tweet: 
 
 
-```{r, echo = FALSE}
+```{r, echo = FALSE, eval = FALSE}
 tweetrmd::tweet_embed("https://twitter.com/rogierK/status/730863729420701697", theme = "light", align = "center", dnt = TRUE, plain = TRUE, maxwidth = 400)
 ```
+
+
+[![R is easy](./imagenes/img_01.png)](https://twitter.com/rogierK/status/730863729420701697)
+
 
 :::
 
